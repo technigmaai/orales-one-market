@@ -1,0 +1,128 @@
+{
+  "hash": "d1c95a287e8323bb20154a483be507fd",
+  "summaries": {
+    "4ef430dd": {
+      "id": "4ef430dd",
+      "name": "llamacppqwen35a3bone",
+      "version": "1.0.6",
+      "category": "AI",
+      "description": "Qwen3.5 35B-A3B via llama.cpp — optimized for Olares One",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35a3bone.png",
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "source": 1,
+      "updated_at": "2026-03-08T16:00:35.321Z"
+    }
+  },
+  "details": {
+    "4ef430dd": {
+      "id": "4ef430dd",
+      "name": "llamacppqwen35a3bone",
+      "cfgType": "app",
+      "chartName": "llamacppqwen35a3bone-1.0.6.tgz",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35a3bone.png",
+      "description": "Qwen3.5 35B-A3B via llama.cpp — optimized for Olares One",
+      "appID": "4ef430dd",
+      "title": "Qwen3.5 35B-A3B (Olares One)",
+      "version": "1.0.6",
+      "categories": [
+        "AI"
+      ],
+      "versionName": "1.0.6",
+      "fullDescription": "Qwen3.5 35B-A3B (MoE, 3B active) served via llama.cpp — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nUnsloth Dynamic Q4_K_XL quantization (important layers upcasted to 8/16-bit).\nMoE experts offloaded to CPU RAM, attention on GPU.\nFlash attention, CUDA graph optimization, and op-offload enabled.\nllama.cpp b8234 with GATED_DELTA_NET fused op for Qwen MoE.\nDownloads the GGUF model on first launch (~22GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
+      "upgradeDescription": "",
+      "promoteImage": null,
+      "promoteVideo": "",
+      "subCategory": "",
+      "locale": [
+        "en-US"
+      ],
+      "developer": "aamsellem",
+      "requiredMemory": "25769803776",
+      "requiredDisk": "32212254720",
+      "supportClient": {},
+      "supportArch": [
+        "amd64"
+      ],
+      "requiredGPU": "1073741824",
+      "requiredCPU": "4",
+      "rating": 0,
+      "target": "",
+      "permission": {
+        "appData": true
+      },
+      "entrances": [
+        {
+          "name": "llamacppqwen35a3bone",
+          "host": "llamacppqwen35a3bone",
+          "port": 8080,
+          "title": "Qwen 35B-A3B One",
+          "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35a3bone.png",
+          "authLevel": "internal",
+          "invisible": false,
+          "openMethod": "window",
+          "disablePreload": false
+        }
+      ],
+      "middleware": null,
+      "options": {
+        "apiTimeout": 0,
+        "dependencies": [
+          {
+            "name": "olares",
+            "version": ">=1.12.3-0",
+            "type": "system"
+          }
+        ]
+      },
+      "submitter": "aamsellem",
+      "doc": "",
+      "website": "https://github.com/aamsellem/orales-market",
+      "featuredImage": "",
+      "sourceCode": "https://github.com/aamsellem/orales-market",
+      "license": [
+        {
+          "text": "MIT",
+          "url": "https://github.com/ggerganov/llama.cpp/blob/master/LICENSE"
+        }
+      ],
+      "legal": null,
+      "i18n": {
+        "en-US": {
+          "metadata": {
+            "title": "Qwen3.5 35B-A3B (Olares One)",
+            "description": "Qwen3.5 35B-A3B via llama.cpp — optimized for Olares One"
+          },
+          "entrances": null,
+          "spec": {
+            "fullDescription": "Qwen3.5 35B-A3B (MoE, 3B active) served via llama.cpp — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nUnsloth Dynamic Q4_K_XL quantization (important layers upcasted to 8/16-bit).\nMoE experts offloaded to CPU RAM, attention on GPU.\nFlash attention, CUDA graph optimization, and op-offload enabled.\nllama.cpp b8234 with GATED_DELTA_NET fused op for Qwen MoE.\nDownloads the GGUF model on first launch (~22GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
+            "upgradeDescription": ""
+          }
+        }
+      },
+      "namespace": "",
+      "onlyAdmin": false,
+      "lastCommitHash": "",
+      "createTime": 0,
+      "updateTime": 0,
+      "count": null,
+      "versionHistory": [
+        {
+          "appName": "llamacppqwen35a3bone",
+          "version": "1.0.6",
+          "versionName": "1.0.6",
+          "mergedAt": "2026-03-08T16:00:35.322Z",
+          "upgradeDescription": ""
+        }
+      ],
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "updated_at": "2026-03-08T16:00:35.322Z"
+    }
+  },
+  "latest": [
+    "llamacppqwen35a3bone"
+  ]
+}
