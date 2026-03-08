@@ -70,18 +70,24 @@ The full `ApplicationInfoEntry` has ~50 fields parsed from `OlaresManifest.yaml`
 **App IDs** are 8-char hex strings (MD5 hash of app name, truncated).
 
 ### Chart download
-The `chartName` field (e.g. `"llamacppqwen35a3bone-1.0.2.tgz"`) tells Olares what chart to install. **How Olares resolves this to a download URL is still under investigation** — may need a Helm repo `index.yaml` or a separate chart-serving endpoint.
+The `chartName` field (e.g. `"llamacppqwen35a3bone-1.0.6.tgz"`) tells Olares what chart to install. The chart-repo-service downloads from:
+```
+{BaseURL}/api/v1/applications/{appName}/chart?fileName={chartName}&version={version}
+```
+Charts are base64-encoded in `src/charts.json` and decoded at serve time by the worker.
 
 ## Build System
 
 ```bash
-npm run build:catalog    # Parse ../orales-market/ charts → src/catalog.json
+npm run build:catalog    # Parse app charts → src/catalog.json + src/charts.json + src/icons.json
 npm run dev              # Build + wrangler dev (localhost:8787)
 npm run deploy           # Build + wrangler deploy (Cloudflare)
 ```
 
+Deployed at: `https://orales-one-market.aamsellem.workers.dev`
+
 The build script:
-- Scans `../orales-market/` for directories containing both `Chart.yaml` and `OlaresManifest.yaml`
+- Scans the repo root for directories containing both `Chart.yaml` and `OlaresManifest.yaml`
 - Strips Helm template directives (`{{if}}`, `{{else}}`, `{{end}}`) before YAML parsing — keeps the admin/if branch, drops else branch
 - Reads `i18n/` subdirectories for locale-specific manifests
 - Generates a deterministic `catalog.json` (no timestamps in content, only writes if changed to avoid wrangler rebuild loops)
@@ -89,9 +95,9 @@ The build script:
 
 ## Current Apps
 
-| ID | Name | Backend | Notes |
-|----|------|---------|-------|
-| `4ef430dd` | llamacppqwen35a3bone | llama.cpp b8234 | Unsloth Q4_K_XL, 24GB GPU, MoE CPU offload |
+| ID | Name | Version | Backend | Notes |
+|----|------|---------|---------|-------|
+| `4ef430dd` | llamacppqwen35a3bone | 1.0.6 | llama.cpp b8234 | Unsloth UD-Q4_K_XL, 128.75 t/s |
 
 Only Olares One optimized apps belong here. Generic apps stay in `orales-market`.
 
@@ -287,10 +293,11 @@ Alternative backend for models not well-suited to GGUF quantization. Uses BF16 n
 
 ## TODO
 
-- [ ] Investigate chart `.tgz` download mechanism (Helm repo index.yaml? separate endpoint?)
-- [ ] Deploy to Cloudflare (`npx wrangler login && npm run deploy`)
-- [ ] Test with actual Olares device as market source
+- [x] ~~Investigate chart `.tgz` download mechanism~~ — resolved: `{BaseURL}/api/v1/applications/{appName}/chart?fileName={chartName}`
+- [x] ~~Deploy to Cloudflare~~ — live at `https://orales-one-market.aamsellem.workers.dev`
+- [x] ~~Test with actual Olares device as market source~~ — working, all metadata displays correctly
+- [x] ~~Custom-compiled llama.cpp~~ — NOT worth it. CPU has no AVX-512/AMX (Arrow Lake-HX). Generic image already uses AVX2+FMA. No docker on Olares One (only containerd).
 - [ ] Add GitHub Action for auto-deploy on push
 - [ ] Try speculative decoding when llama.cpp adds Qwen3.5 support (PR #20075)
 - [ ] Re-evaluate when new llama.cpp builds drop (check GATED_DELTA_NET improvements)
-- [x] ~~Custom-compiled llama.cpp~~ — NOT worth it. CPU has no AVX-512/AMX (Arrow Lake-HX). Generic image already uses AVX2+FMA. No docker on Olares One (only containerd).
+- [ ] Add more Olares One optimized apps (TTS, image gen, etc.)
