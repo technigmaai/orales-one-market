@@ -1,10 +1,10 @@
 {
-  "hash": "1479c94f0b2f778c3c4c500dca706a6c",
+  "hash": "f6e26b0c0c8e6baf79b3720416c669c9",
   "summaries": {
     "4ef430dd": {
       "id": "4ef430dd",
       "name": "llamacppqwen35a3bone",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "category": "AI",
       "description": "Qwen3.5 35B-A3B via llama.cpp — optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35a3bone.png",
@@ -12,7 +12,20 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-08T16:32:39.041Z"
+      "updated_at": "2026-03-08T23:18:48.144Z"
+    },
+    "49c5b493": {
+      "id": "49c5b493",
+      "name": "qwen3ttstone",
+      "version": "1.0.7",
+      "category": "AI",
+      "description": "Qwen3-TTS 1.7B — text-to-speech with voice cloning, optimized for Olares One",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/qwen3ttstone.png",
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "source": 1,
+      "updated_at": "2026-03-08T23:18:48.146Z"
     }
   },
   "details": {
@@ -20,16 +33,16 @@
       "id": "4ef430dd",
       "name": "llamacppqwen35a3bone",
       "cfgType": "app",
-      "chartName": "llamacppqwen35a3bone-1.0.6.tgz",
+      "chartName": "llamacppqwen35a3bone-1.0.7.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35a3bone.png",
       "description": "Qwen3.5 35B-A3B via llama.cpp — optimized for Olares One",
       "appID": "4ef430dd",
       "title": "Qwen3.5 35B-A3B (Olares One)",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "categories": [
         "AI"
       ],
-      "versionName": "1.0.6",
+      "versionName": "1.0.7",
       "fullDescription": "Qwen3.5 35B-A3B (MoE, 3B active) served via llama.cpp — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nUnsloth Dynamic Q4_K_XL quantization (important layers upcasted to 8/16-bit).\nMoE experts offloaded to CPU RAM, attention on GPU.\nFlash attention, CUDA graph optimization, and op-offload enabled.\nllama.cpp b8234 with GATED_DELTA_NET fused op for Qwen MoE.\nDownloads the GGUF model on first launch (~22GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
       "upgradeDescription": "",
       "promoteImage": null,
@@ -110,19 +123,125 @@
       "versionHistory": [
         {
           "appName": "llamacppqwen35a3bone",
-          "version": "1.0.6",
-          "versionName": "1.0.6",
-          "mergedAt": "2026-03-08T16:32:39.042Z",
+          "version": "1.0.7",
+          "versionName": "1.0.7",
+          "mergedAt": "2026-03-08T23:18:48.145Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-08T16:32:39.042Z"
+      "updated_at": "2026-03-08T23:18:48.145Z"
+    },
+    "49c5b493": {
+      "id": "49c5b493",
+      "name": "qwen3ttstone",
+      "cfgType": "app",
+      "chartName": "qwen3ttstone-1.0.7.tgz",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/qwen3ttstone.png",
+      "description": "Qwen3-TTS 1.7B — text-to-speech with voice cloning, optimized for Olares One",
+      "appID": "49c5b493",
+      "title": "Qwen3-TTS 1.7B (Olares One)",
+      "version": "1.0.7",
+      "categories": [
+        "AI"
+      ],
+      "versionName": "1.0.7",
+      "fullDescription": "Qwen3-TTS 1.7B CustomVoice served via Gradio — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\n9 built-in premium voices with instruction control.\nZero-shot voice cloning from 3 seconds of reference audio.\n10 languages: French, English, Chinese, Japanese, Korean, German, Russian, Portuguese, Spanish, Italian.\nDownloads the model on first launch (~4.5GB) and caches it.\nExposes a Gradio web UI on port 8000.\n",
+      "upgradeDescription": "",
+      "promoteImage": null,
+      "promoteVideo": "",
+      "subCategory": "",
+      "locale": [
+        "en-US"
+      ],
+      "developer": "aamsellem",
+      "requiredMemory": "8589934592",
+      "requiredDisk": "16106127360",
+      "supportClient": {},
+      "supportArch": [
+        "amd64"
+      ],
+      "requiredGPU": "1073741824",
+      "requiredCPU": "4",
+      "rating": 0,
+      "target": "",
+      "permission": {
+        "appData": true
+      },
+      "entrances": [
+        {
+          "name": "qwen3ttstone",
+          "host": "qwen3ttstone",
+          "port": 8000,
+          "title": "Qwen3-TTS One",
+          "icon": "https://orales-one-market.aamsellem.workers.dev/icons/qwen3ttstone.png",
+          "authLevel": "internal",
+          "invisible": false,
+          "openMethod": "window",
+          "disablePreload": false
+        }
+      ],
+      "middleware": null,
+      "options": {
+        "apiTimeout": 0,
+        "dependencies": [
+          {
+            "name": "olares",
+            "version": ">=1.12.3-0",
+            "type": "system"
+          }
+        ]
+      },
+      "submitter": "aamsellem",
+      "doc": "",
+      "website": "https://github.com/QwenLM/Qwen3-TTS",
+      "featuredImage": "",
+      "sourceCode": "https://github.com/QwenLM/Qwen3-TTS",
+      "license": [
+        {
+          "text": "Apache-2.0",
+          "url": "https://github.com/QwenLM/Qwen3-TTS/blob/main/LICENSE"
+        }
+      ],
+      "legal": null,
+      "i18n": {
+        "en-US": {
+          "metadata": {
+            "title": "Qwen3-TTS 1.7B (Olares One)",
+            "description": "Qwen3-TTS 1.7B — text-to-speech with voice cloning, optimized for Olares One"
+          },
+          "entrances": null,
+          "spec": {
+            "fullDescription": "Qwen3-TTS 1.7B CustomVoice served via Gradio — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\n9 built-in premium voices with instruction control.\nZero-shot voice cloning from 3 seconds of reference audio.\n10 languages: French, English, Chinese, Japanese, Korean, German, Russian, Portuguese, Spanish, Italian.\nDownloads the model on first launch (~4.5GB) and caches it.\nExposes a Gradio web UI on port 8000.\n",
+            "upgradeDescription": ""
+          }
+        }
+      },
+      "namespace": "",
+      "onlyAdmin": false,
+      "lastCommitHash": "",
+      "createTime": 0,
+      "updateTime": 0,
+      "count": null,
+      "versionHistory": [
+        {
+          "appName": "qwen3ttstone",
+          "version": "1.0.7",
+          "versionName": "1.0.7",
+          "mergedAt": "2026-03-08T23:18:48.146Z",
+          "upgradeDescription": ""
+        }
+      ],
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "updated_at": "2026-03-08T23:18:48.146Z"
     }
   },
   "latest": [
-    "llamacppqwen35a3bone"
+    "llamacppqwen35a3bone",
+    "qwen3ttstone"
   ]
 }

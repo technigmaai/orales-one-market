@@ -53,13 +53,14 @@ No Helm template conditionals needed — single deployment, single service.
    - Developer: `aamsellem`
 
 5. **templates/deployment.yaml**: Contains:
-   - **ConfigMap**: model URL, file name, all tunable parameters
-   - **InitContainer**: downloads model on first run (wget/curl), caches to persistent volume
+   - **ConfigMap**: model URL, file name, all tunable parameters (if needed)
+   - **InitContainer for permissions**: ALWAYS add an initContainer that runs `chmod -R 777 <volume-mount>` for hostPath volumes. Non-root containers cannot write to hostPath dirs created by K8s. Do NOT use `chown` with hardcoded UIDs — container user UID varies by image.
+   - **InitContainer for model download** (if needed): downloads model on first run (wget/curl), caches to persistent volume
    - **Main container**: the inference server with all optimized args
-   - **Probes**: startup (long timeout for model loading), liveness
+   - **Probes**: startup (long timeout for model loading + download), liveness
    - **Resources**: CPU/memory limits matching OlaresManifest
    - **GPU annotation**: `applications.app.bytetrade.io/gpu-inject: "true"`
-   - **Volume**: hostPath to `{{ .Values.userspace.appData }}/models`
+   - **Volume**: hostPath to `{{ .Values.userspace.appData }}/<subdir>`
 
 6. **values.yaml**: Minimal (Olares injects `userspace`, `domain`, etc.)
 
