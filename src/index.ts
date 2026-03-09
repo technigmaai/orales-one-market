@@ -41,7 +41,16 @@ function handleInfo(url: URL): Response {
       topic_lists: {},
       tops: [],
       latest: catalog.latest,
-      tags: {},
+      tags: {
+        AI: {
+          name: 'AI',
+          title: { 'en-US': 'AI', 'zh-CN': 'AI' },
+          icon: 'https://app.cdn.olares.com/icons/market/sidebar/neurology.svg',
+          sort: 7,
+          source: 0,
+          updated_at: now,
+        },
+      },
     },
     stats: {
       appstore_data: {
