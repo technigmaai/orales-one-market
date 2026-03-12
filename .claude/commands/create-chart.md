@@ -51,16 +51,20 @@ No Helm template conditionals needed — single deployment, single service.
    - Icon URL: `https://orales-one-market.aamsellem.workers.dev/icons/<app-name>.png`
    - Categories: `AI`
    - Developer: `aamsellem`
+   - Website/sourceCode: `https://github.com/aamsellem/orales-one-market`
+   - License URL: use `ggml-org` (NOT `ggerganov`) for llama.cpp
 
 5. **templates/deployment.yaml**: Contains:
    - **ConfigMap**: model URL, file name, all tunable parameters (if needed)
    - **InitContainer for permissions**: ALWAYS add an initContainer that runs `chmod -R 777 <volume-mount>` for hostPath volumes. Non-root containers cannot write to hostPath dirs created by K8s. Do NOT use `chown` with hardcoded UIDs — container user UID varies by image.
    - **InitContainer for model download** (if needed): downloads model on first run (wget/curl), caches to persistent volume
+   - **InitContainer for extra binaries** (if needed): Use `docker.io/alpine:3.20` to download static binaries (e.g., ffmpeg from johnvansickle.com) into an emptyDir shared volume. Do NOT install packages in the main container (OPA blocks `runAsUser: 0` with untrusted registries). Do NOT use scratch-based images (no shell). Static binaries avoid glibc incompatibilities.
    - **Main container**: the inference server with all optimized args
    - **Probes**: startup (long timeout for model loading + download), liveness
    - **Resources**: CPU/memory limits matching OlaresManifest
    - **GPU annotation**: `applications.app.bytetrade.io/gpu-inject: "true"`
    - **Volume**: hostPath to `{{ .Values.userspace.appData }}/<subdir>`
+   - **OPA security constraints**: Olares has an OPA webhook that blocks `runAsUser: 0` + untrusted registries (ghcr.io, quay.io). Trusted: `docker.io/`, `beclab/`. Use trusted images for initContainers that need root.
 
 6. **values.yaml**: Minimal (Olares injects `userspace`, `domain`, etc.)
 
@@ -85,13 +89,22 @@ Use `llamacppqwen35a3bone/` as the template for all new apps. Read it to underst
 ```
 --n-gpu-layers 99 --threads 16
 --cache-type-k q8_0 --cache-type-v q8_0
---batch-size 512 --ubatch-size 512
+--batch-size 2048 --ubatch-size 1024
 --parallel 1 --mlock --swa-full
 --flash-attn auto --op-offload
+--jinja --no-context-shift
 ```
 Env: `GGML_CUDA_GRAPH_OPT=1`
 
 ### Docker images (pinned)
-- llama.cpp: `ghcr.io/ggml-org/llama.cpp:server-cuda-b<N>` or custom `aamsellem/llamacpp-one:b<N>`
+- llama.cpp: `ghcr.io/ggml-org/llama.cpp:server-cuda-b<N>` — ALWAYS verify the tag exists on ghcr.io before deploying (not every build gets a Docker image). Current known good: **b8284**.
 - vLLM: `vllm/vllm-openai:v<version>`
 - KTransformers: `approachingai/ktransformers:latest` (use serve env)
+
+### Important: verify Docker image exists before deploying
+```bash
+TOKEN=$(curl -s "https://ghcr.io/token?scope=repository:ggml-org/llama.cpp:pull" | jq -r '.token')
+curl -s -o /dev/null -w "%{http_code}" "https://ghcr.io/v2/ggml-org/llama.cpp/manifests/server-cuda-b<N>" \
+  -H "Authorization: Bearer $TOKEN" -H "Accept: application/vnd.oci.image.index.v1+json"
+# 200 = exists, 404 = does not exist
+```
