@@ -36,7 +36,14 @@ function handleInfo(url: URL): Response {
     data: {
       apps: catalog.summaries,
       recommends: {},
-      pages: {},
+      pages: {
+        AI: {
+          category: 'AI',
+          content: JSON.stringify([{ type: 'Default Topic', id: 'Newest' }]),
+          source: 0,
+          updated_at: now,
+        },
+      },
       topics: {},
       topic_lists: {},
       tops: [],
