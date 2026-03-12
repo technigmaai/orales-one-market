@@ -12,8 +12,8 @@ Every app here is hand-tuned for this exact hardware. No generic configs — jus
 
 | App | Model | Speed | Details |
 |-----|-------|-------|---------|
-| **Qwen3.5 35B-A3B** | 35B params, 3B active (MoE) | **128+ t/s** | Unsloth UD-Q4_K_XL, llama.cpp b8284, flash attention, CUDA graph opt |
-| **GLM-4.7-Flash** | 30B params, 3B active (MoE) | — | Same optimized stack, MLA attention |
+| **Qwen3.5 35B-A3B** | 35B params, 3B active (MoE) | **129 t/s** | Unsloth UD-Q4_K_XL, llama.cpp b8234, flash attention, CUDA graph opt |
+| **GLM-4.7-Flash** | 30B params, 3B active (MoE) | **131 t/s** | Same optimized stack, MLA attention |
 
 Full-size MoE models running entirely on GPU at speeds that rival much smaller dense models.
 
