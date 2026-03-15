@@ -12,16 +12,19 @@ Every app here is hand-tuned for this exact hardware. No generic configs — jus
 
 | App | Model | Speed | Details |
 |-----|-------|-------|---------|
-| **Qwen3.5 35B-A3B** | 35B params, 3B active (MoE) | **129 t/s** | Unsloth UD-Q4_K_XL, llama.cpp b8234, flash attention, CUDA graph opt |
-| **GLM-4.7-Flash** | 30B params, 3B active (MoE) | **131 t/s** | Same optimized stack, MLA attention |
+| **Nemotron 3 Nano 30B-A3B** | 30B params, 3B active (MoE) | **184 t/s** | Unsloth UD-Q4_K_XL, llama.cpp b8334 |
+| **Qwen3.5 35B-A3B** | 35B params, 3B active (MoE) | **129 t/s** | Unsloth UD-Q4_K_XL, llama.cpp b8334 |
+| **Qwen3.5 35B-A3B Vision** | 35B params, 3B active + mmproj | **131 t/s** | UD-Q4_K_XL + mmproj F16, multimodal |
+| **Qwen3.5 27B** | 27B dense | Experimental | vLLM, NVFP4, speculative decoding |
 
 Full-size MoE models running entirely on GPU at speeds that rival much smaller dense models.
 
-### Voice & Audio
+### Creative
 
 | App | Model | Features |
 |-----|-------|----------|
 | **Qwen3-TTS 1.7B** | Text-to-speech | 9 premium voices, zero-shot voice cloning from 3s of audio, 10 languages |
+| **ComfyUI** | Image generation | Full ComfyUI node editor, cluster mode for Olares One |
 
 ## Quick Start
 
