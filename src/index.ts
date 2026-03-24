@@ -29,6 +29,10 @@ function handleHash(url: URL): Response {
 function handleInfo(url: URL): Response {
   const version = url.searchParams.get('version') || '1.12.3';
   const now = new Date().toISOString();
+
+  // Build app ID list for topic_lists (comma-separated)
+  const appIds = Object.keys(catalog.summaries).join(',');
+
   return json({
     version,
     hash: catalog.hash,
@@ -39,33 +43,43 @@ function handleInfo(url: URL): Response {
       pages: {
         AI: {
           category: 'AI',
-          content: JSON.stringify([{ type: 'Default Topic', id: 'Newest' }]),
-          source: 0,
-          updated_at: now,
+          content: JSON.stringify([
+            { type: 'Topic', id: 'Featured apps in AI' },
+            { type: 'Default Topic', id: 'Newest' },
+          ]),
         },
       },
       topics: {},
-      topic_lists: {},
+      topic_lists: {
+        'Featured apps in AI': {
+          name: 'Featured apps in AI',
+          type: 'Category',
+          content: appIds,
+          title: { 'en-US': 'Featured apps in AI', 'zh-CN': 'AI精选应用' },
+        },
+      },
       tops: [],
       latest: catalog.latest,
       tags: {
         AI: {
+          _id: 'ai_custom_source',
           name: 'AI',
           title: { 'en-US': 'AI', 'zh-CN': 'AI' },
           icon: 'https://app.cdn.olares.com/icons/market/sidebar/neurology.svg',
           sort: 7,
           source: 0,
           updated_at: now,
+          createdAt: '2025-11-07T05:14:01.765Z',
         },
       },
     },
     stats: {
       appstore_data: {
         apps: Object.keys(catalog.summaries).length,
-        pages: 0,
+        pages: 1,
         recommends: 0,
-        tags: 0,
-        topic_lists: 0,
+        tags: 1,
+        topic_lists: 1,
         topics: 0,
       },
       last_updated: now,

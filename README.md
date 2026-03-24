@@ -12,6 +12,19 @@ Every app here is hand-tuned for this exact hardware. No generic configs — jus
 
 | App | Model | Speed | Details |
 |-----|-------|-------|---------|
+| llamacppnemotron30a3bone | Nemotron 3 Nano 30B-A3B | **184 t/s** | UD-Q4_K_XL, llama.cpp b8334 |
+| llamacppqwen35a3bone | Qwen3.5 35B-A3B | **129 t/s** | UD-Q4_K_XL, llama.cpp b8334 |
+| qwen35a3bvisionone | Qwen3.5 35B-A3B Vision | **131 t/s** | UD-Q4_K_XL + mmproj F16, multimodal |
+| vllmqwen3527bone | Qwen3.5 27B | Experimental | vLLM, NVFP4, speculative decoding |
+
+### Voice
+
+| App | Model | Features |
+|-----|-------|----------|
+| qwen3ttstone | Qwen3-TTS 1.7B | 9 voices, zero-shot voice cloning, 10 languages |
+
+| App | Model | Speed | Details |
+|-----|-------|-------|---------|
 | **Nemotron 3 Nano 30B-A3B** | 30B params, 3B active (MoE) | **184 t/s** | Unsloth UD-Q4_K_XL, llama.cpp b8334 |
 | **Qwen3.5 35B-A3B** | 35B params, 3B active (MoE) | **129 t/s** | Unsloth UD-Q4_K_XL, llama.cpp b8334 |
 | **Qwen3.5 35B-A3B Vision** | 35B params, 3B active + mmproj | **131 t/s** | UD-Q4_K_XL + mmproj F16, multimodal |
