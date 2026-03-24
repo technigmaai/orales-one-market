@@ -1,5 +1,5 @@
 {
-  "hash": "dfe97f1cd6d7b7d5e69232227f05d829",
+  "hash": "1871d6b4afce2d58f93fd3a69dda4b91",
   "summaries": {
     "33102786": {
       "id": "33102786",
@@ -12,7 +12,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T20:44:48.773Z"
+      "updated_at": "2026-03-24T22:18:20.356Z"
     },
     "8a7e4366": {
       "id": "8a7e4366",
@@ -25,7 +25,33 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T20:44:48.770Z"
+      "updated_at": "2026-03-24T22:18:20.353Z"
+    },
+    "cf587666": {
+      "id": "cf587666",
+      "name": "exl3qwen35a3bone",
+      "version": "1.0.13",
+      "category": "AI",
+      "description": "Qwen3.5 35B-A3B EXL3 4bpw via TabbyAPI + ExLlamaV3 — optimized for Olares One",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35a3bone.png",
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "source": 1,
+      "updated_at": "2026-03-24T22:18:20.354Z"
+    },
+    "c1ca229f": {
+      "id": "c1ca229f",
+      "name": "llamacppglm47flash",
+      "version": "1.0.6",
+      "category": "AI",
+      "description": "GLM-4.7-Flash 30B-A3B via llama.cpp — optimized for Olares One",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppglm47flash.png",
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "source": 1,
+      "updated_at": "2026-03-24T22:18:20.355Z"
     },
     "491be3cd": {
       "id": "491be3cd",
@@ -38,7 +64,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T20:44:48.772Z"
+      "updated_at": "2026-03-24T22:18:20.355Z"
     },
     "4ef430dd": {
       "id": "4ef430dd",
@@ -51,7 +77,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T20:44:48.773Z"
+      "updated_at": "2026-03-24T22:18:20.356Z"
     },
     "fa4ef911": {
       "id": "fa4ef911",
@@ -64,7 +90,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T20:44:48.774Z"
+      "updated_at": "2026-03-24T22:18:20.357Z"
     },
     "2c5c39c9": {
       "id": "2c5c39c9",
@@ -77,7 +103,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T20:44:48.774Z"
+      "updated_at": "2026-03-24T22:18:20.357Z"
     },
     "ed18683c": {
       "id": "ed18683c",
@@ -90,7 +116,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T20:44:48.775Z"
+      "updated_at": "2026-03-24T22:18:20.358Z"
     },
     "49c5b493": {
       "id": "49c5b493",
@@ -103,7 +129,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T20:44:48.775Z"
+      "updated_at": "2026-03-24T22:18:20.358Z"
     },
     "285e9d99": {
       "id": "285e9d99",
@@ -116,7 +142,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T20:44:48.775Z"
+      "updated_at": "2026-03-24T22:18:20.358Z"
     }
   },
   "details": {
@@ -216,14 +242,14 @@
           "appName": "llamacppqwen35iq4one",
           "version": "1.0.2",
           "versionName": "1.0.2",
-          "mergedAt": "2026-03-24T20:44:48.773Z",
+          "mergedAt": "2026-03-24T22:18:20.356Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T20:44:48.773Z"
+      "updated_at": "2026-03-24T22:18:20.356Z"
     },
     "8a7e4366": {
       "id": "8a7e4366",
@@ -321,14 +347,224 @@
           "appName": "devstralsmallone",
           "version": "1.0.2",
           "versionName": "1.0.2",
-          "mergedAt": "2026-03-24T20:44:48.771Z",
+          "mergedAt": "2026-03-24T22:18:20.354Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T20:44:48.771Z"
+      "updated_at": "2026-03-24T22:18:20.354Z"
+    },
+    "cf587666": {
+      "id": "cf587666",
+      "name": "exl3qwen35a3bone",
+      "cfgType": "app",
+      "chartName": "exl3qwen35a3bone-1.0.13.tgz",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35a3bone.png",
+      "description": "Qwen3.5 35B-A3B EXL3 4bpw via TabbyAPI + ExLlamaV3 — optimized for Olares One",
+      "appID": "cf587666",
+      "title": "Qwen3.5 35B EXL3 One",
+      "version": "1.0.13",
+      "categories": [
+        "AI"
+      ],
+      "versionName": "1.0.13",
+      "fullDescription": "Qwen3.5 35B-A3B (MoE, 3B active) served via TabbyAPI + ExLlamaV3 — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nEXL3 4.09bpw quantization by turboderp (18.24GB model, ~5.7GB free for KV cache).\nExLlamaV3 custom Marlin-inspired GEMM kernels, native sm_120 Blackwell support.\nDownloads the EXL3 model on first launch (~18GB) and caches it.\nExposes an OpenAI-compatible API (v1/chat/completions).\n",
+      "upgradeDescription": "",
+      "promoteImage": null,
+      "promoteVideo": "",
+      "subCategory": "",
+      "locale": [
+        "en-US"
+      ],
+      "developer": "aamsellem",
+      "requiredMemory": "25769803776",
+      "requiredDisk": "32212254720",
+      "supportClient": {},
+      "supportArch": [
+        "amd64"
+      ],
+      "requiredGPU": "1073741824",
+      "requiredCPU": "4",
+      "rating": 0,
+      "target": "",
+      "permission": {
+        "appData": true
+      },
+      "entrances": [
+        {
+          "name": "exl3qwen35a3bone",
+          "host": "exl3qwen35a3bone",
+          "port": 8080,
+          "title": "Qwen 35B EXL3 One",
+          "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35a3bone.png",
+          "authLevel": "internal",
+          "invisible": false,
+          "openMethod": "window",
+          "disablePreload": false
+        }
+      ],
+      "middleware": null,
+      "options": {
+        "apiTimeout": 0,
+        "dependencies": [
+          {
+            "name": "olares",
+            "version": ">=1.12.3-0",
+            "type": "system"
+          }
+        ]
+      },
+      "submitter": "aamsellem",
+      "doc": "",
+      "website": "https://github.com/aamsellem/orales-one-market",
+      "featuredImage": "",
+      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "license": [
+        {
+          "text": "MIT",
+          "url": "https://github.com/turboderp-org/exllamav3/blob/master/LICENSE"
+        }
+      ],
+      "legal": null,
+      "i18n": {
+        "en-US": {
+          "metadata": {
+            "title": "Qwen3.5 35B EXL3 One",
+            "description": "Qwen3.5 35B-A3B EXL3 4bpw via TabbyAPI + ExLlamaV3 — optimized for Olares One"
+          },
+          "entrances": null,
+          "spec": {
+            "fullDescription": "Qwen3.5 35B-A3B (MoE, 3B active) served via TabbyAPI + ExLlamaV3 — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nEXL3 4.09bpw quantization by turboderp (18.24GB model, ~5.7GB free for KV cache).\nExLlamaV3 custom Marlin-inspired GEMM kernels, native sm_120 Blackwell support.\nDownloads the EXL3 model on first launch (~18GB) and caches it.\nExposes an OpenAI-compatible API (v1/chat/completions).\n",
+            "upgradeDescription": ""
+          }
+        }
+      },
+      "namespace": "",
+      "onlyAdmin": false,
+      "lastCommitHash": "",
+      "createTime": 0,
+      "updateTime": 0,
+      "count": null,
+      "versionHistory": [
+        {
+          "appName": "exl3qwen35a3bone",
+          "version": "1.0.13",
+          "versionName": "1.0.13",
+          "mergedAt": "2026-03-24T22:18:20.354Z",
+          "upgradeDescription": ""
+        }
+      ],
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "updated_at": "2026-03-24T22:18:20.354Z"
+    },
+    "c1ca229f": {
+      "id": "c1ca229f",
+      "name": "llamacppglm47flash",
+      "cfgType": "app",
+      "chartName": "llamacppglm47flash-1.0.6.tgz",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppglm47flash.png",
+      "description": "GLM-4.7-Flash 30B-A3B via llama.cpp — optimized for Olares One",
+      "appID": "c1ca229f",
+      "title": "GLM-4.7-Flash (Olares One)",
+      "version": "1.0.6",
+      "categories": [
+        "AI"
+      ],
+      "versionName": "1.0.6",
+      "fullDescription": "GLM-4.7-Flash (MoE, 30B total / 3B active) served via llama.cpp — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nUnsloth Dynamic Q4_K_XL quantization (17.5GB, important layers upcasted to 8/16-bit).\nAll layers on GPU, flash attention, CUDA graph optimization, and Jinja chat templates.\nllama.cpp b8234 with DeepSeek-V2 MLA attention support.\nDownloads the GGUF model on first launch (~17.5GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
+      "upgradeDescription": "",
+      "promoteImage": null,
+      "promoteVideo": "",
+      "subCategory": "",
+      "locale": [
+        "en-US"
+      ],
+      "developer": "aamsellem",
+      "requiredMemory": "21474836480",
+      "requiredDisk": "26843545600",
+      "supportClient": {},
+      "supportArch": [
+        "amd64"
+      ],
+      "requiredGPU": "1073741824",
+      "requiredCPU": "4",
+      "rating": 0,
+      "target": "",
+      "permission": {
+        "appData": true
+      },
+      "entrances": [
+        {
+          "name": "llamacppglm47flash",
+          "host": "llamacppglm47flash",
+          "port": 8080,
+          "title": "GLM-47-Flash One",
+          "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppglm47flash.png",
+          "authLevel": "internal",
+          "invisible": false,
+          "openMethod": "window",
+          "disablePreload": false
+        }
+      ],
+      "middleware": null,
+      "options": {
+        "apiTimeout": 0,
+        "dependencies": [
+          {
+            "name": "olares",
+            "version": ">=1.12.3-0",
+            "type": "system"
+          }
+        ]
+      },
+      "submitter": "aamsellem",
+      "doc": "",
+      "website": "https://github.com/aamsellem/orales-one-market",
+      "featuredImage": "",
+      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "license": [
+        {
+          "text": "MIT",
+          "url": "https://github.com/THUDM/GLM-4/blob/main/LICENSE"
+        }
+      ],
+      "legal": null,
+      "i18n": {
+        "en-US": {
+          "metadata": {
+            "title": "GLM-4.7-Flash (Olares One)",
+            "description": "GLM-4.7-Flash 30B-A3B via llama.cpp — optimized for Olares One"
+          },
+          "entrances": null,
+          "spec": {
+            "fullDescription": "GLM-4.7-Flash (MoE, 30B total / 3B active) served via llama.cpp — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nUnsloth Dynamic Q4_K_XL quantization (17.5GB, important layers upcasted to 8/16-bit).\nAll layers on GPU, flash attention, CUDA graph optimization, and Jinja chat templates.\nllama.cpp b8234 with DeepSeek-V2 MLA attention support.\nDownloads the GGUF model on first launch (~17.5GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
+            "upgradeDescription": ""
+          }
+        }
+      },
+      "namespace": "",
+      "onlyAdmin": false,
+      "lastCommitHash": "",
+      "createTime": 0,
+      "updateTime": 0,
+      "count": null,
+      "versionHistory": [
+        {
+          "appName": "llamacppglm47flash",
+          "version": "1.0.6",
+          "versionName": "1.0.6",
+          "mergedAt": "2026-03-24T22:18:20.355Z",
+          "upgradeDescription": ""
+        }
+      ],
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "updated_at": "2026-03-24T22:18:20.355Z"
     },
     "491be3cd": {
       "id": "491be3cd",
@@ -426,14 +662,14 @@
           "appName": "llamacppnemotron30a3bone",
           "version": "1.0.4",
           "versionName": "1.0.4",
-          "mergedAt": "2026-03-24T20:44:48.772Z",
+          "mergedAt": "2026-03-24T22:18:20.355Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T20:44:48.772Z"
+      "updated_at": "2026-03-24T22:18:20.355Z"
     },
     "4ef430dd": {
       "id": "4ef430dd",
@@ -531,14 +767,14 @@
           "appName": "llamacppqwen35a3bone",
           "version": "1.0.23",
           "versionName": "1.0.23",
-          "mergedAt": "2026-03-24T20:44:48.773Z",
+          "mergedAt": "2026-03-24T22:18:20.356Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T20:44:48.773Z"
+      "updated_at": "2026-03-24T22:18:20.356Z"
     },
     "fa4ef911": {
       "id": "fa4ef911",
@@ -636,14 +872,14 @@
           "appName": "nemotron3nano4bone",
           "version": "1.0.1",
           "versionName": "1.0.1",
-          "mergedAt": "2026-03-24T20:44:48.774Z",
+          "mergedAt": "2026-03-24T22:18:20.357Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T20:44:48.774Z"
+      "updated_at": "2026-03-24T22:18:20.357Z"
     },
     "2c5c39c9": {
       "id": "2c5c39c9",
@@ -741,14 +977,14 @@
           "appName": "qwen35a3bvisionone",
           "version": "1.0.4",
           "versionName": "1.0.4",
-          "mergedAt": "2026-03-24T20:44:48.774Z",
+          "mergedAt": "2026-03-24T22:18:20.357Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T20:44:48.774Z"
+      "updated_at": "2026-03-24T22:18:20.357Z"
     },
     "ed18683c": {
       "id": "ed18683c",
@@ -846,14 +1082,14 @@
           "appName": "qwen35iq4visionone",
           "version": "1.0.2",
           "versionName": "1.0.2",
-          "mergedAt": "2026-03-24T20:44:48.775Z",
+          "mergedAt": "2026-03-24T22:18:20.358Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T20:44:48.775Z"
+      "updated_at": "2026-03-24T22:18:20.358Z"
     },
     "49c5b493": {
       "id": "49c5b493",
@@ -951,14 +1187,14 @@
           "appName": "qwen3ttstone",
           "version": "1.0.7",
           "versionName": "1.0.7",
-          "mergedAt": "2026-03-24T20:44:48.775Z",
+          "mergedAt": "2026-03-24T22:18:20.358Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T20:44:48.775Z"
+      "updated_at": "2026-03-24T22:18:20.358Z"
     },
     "285e9d99": {
       "id": "285e9d99",
@@ -1056,19 +1292,21 @@
           "appName": "vllmqwen3527bone",
           "version": "1.0.1",
           "versionName": "1.0.1",
-          "mergedAt": "2026-03-24T20:44:48.775Z",
+          "mergedAt": "2026-03-24T22:18:20.358Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T20:44:48.775Z"
+      "updated_at": "2026-03-24T22:18:20.358Z"
     }
   },
   "latest": [
     "llamacppqwen35iq4one",
     "devstralsmallone",
+    "exl3qwen35a3bone",
+    "llamacppglm47flash",
     "llamacppnemotron30a3bone",
     "llamacppqwen35a3bone",
     "nemotron3nano4bone",
