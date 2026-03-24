@@ -8,10 +8,20 @@ A single Cloudflare Worker that serves the full Market Source API — app catalo
 
 ## Apps
 
-| App | Model | Backend | Quant | Performance |
-|-----|-------|---------|-------|-------------|
-| llamacppnemotron30a3bone | Nemotron 3 Nano 30B-A3B | llama.cpp b8334 | UD-Q4_K_XL | **184 t/s** |
-| llamacppqwen35a3bone | Qwen3.5 35B-A3B | llama.cpp b8234 | UD-Q4_K_XL | **128.75 t/s** |
+### LLM Inference
+
+| App | Model | Speed | Details |
+|-----|-------|-------|---------|
+| llamacppnemotron30a3bone | Nemotron 3 Nano 30B-A3B | **184 t/s** | UD-Q4_K_XL, llama.cpp b8334 |
+| llamacppqwen35a3bone | Qwen3.5 35B-A3B | **129 t/s** | UD-Q4_K_XL, llama.cpp b8334 |
+| qwen35a3bvisionone | Qwen3.5 35B-A3B Vision | **131 t/s** | UD-Q4_K_XL + mmproj F16, multimodal |
+| vllmqwen3527bone | Qwen3.5 27B | Experimental | vLLM, NVFP4, speculative decoding |
+
+### Voice
+
+| App | Model | Features |
+|-----|-------|----------|
+| qwen3ttstone | Qwen3-TTS 1.7B | 9 voices, zero-shot voice cloning, 10 languages |
 
 ## Setup
 

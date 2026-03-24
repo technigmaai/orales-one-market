@@ -97,9 +97,9 @@ The build script:
 
 | ID | Name | Version | Backend | Notes |
 |----|------|---------|---------|-------|
-| `4ef430dd` | llamacppqwen35a3bone | 1.0.19 | llama.cpp b8334 | Unsloth UD-Q4_K_XL, 128.75 t/s |
-| `2c5c39c9` | qwen35a3bvisionone | 1.0.0 | llama.cpp b8334 | UD-Q4_K_XL + mmproj F16, vision, 131.03 t/s, 16K ctx |
-| `74a77a19` | vllmqwen35a3bone | 1.0.0 | vLLM K=64 | Sehyo NVFP4 + MTP=5 speculative decoding, experimental |
+| `4ef430dd` | llamacppqwen35a3bone | 1.0.21 | llama.cpp b8334 | Unsloth UD-Q4_K_XL, 128.75 t/s, developer role fix |
+| `2c5c39c9` | qwen35a3bvisionone | 1.0.2 | llama.cpp b8334 | UD-Q4_K_XL + mmproj F16, vision, 131.03 t/s, 16K ctx |
+| `(new)` | devstralsmallone | 1.0.0 | llama.cpp b8334 | Devstral Small 24B, UD-Q5_K_XL, coding agent, 53.6% SWE-Bench |
 
 Only Olares One optimized apps belong here. Generic apps stay in `orales-market`.
 
