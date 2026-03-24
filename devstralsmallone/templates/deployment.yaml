@@ -2,13 +2,13 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: llamacpp-nemotron-env
+  name: devstral-env
   namespace: "{{ .Release.Namespace }}"
 data:
-  MODEL_URL: "https://huggingface.co/unsloth/Nemotron-3-Nano-30B-A3B-GGUF/resolve/main/Nemotron-3-Nano-30B-A3B-UD-Q4_K_XL.gguf"
-  MODEL_FILE: "Nemotron-3-Nano-30B-A3B-UD-Q4_K_XL.gguf"
-  MODEL_ALIAS: "nemotron-3-nano-30b-a3b"
-  CONTEXT_SIZE: "16384"
+  MODEL_URL: "https://huggingface.co/unsloth/Devstral-Small-2507-GGUF/resolve/main/Devstral-Small-2507-UD-Q5_K_XL.gguf"
+  MODEL_FILE: "Devstral-Small-2507-UD-Q5_K_XL.gguf"
+  MODEL_ALIAS: "devstral-small"
+  CONTEXT_SIZE: "32768"
   N_GPU_LAYERS: "99"
   THREADS: "16"
 ---
@@ -17,8 +17,8 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    io.kompose.service: llamacppnemotron30a3bone
-  name: llamacppnemotron30a3bone
+    io.kompose.service: devstralsmallone
+  name: devstralsmallone
   namespace: "{{ .Release.Namespace }}"
   annotations:
     applications.app.bytetrade.io/gpu-inject: "true"
@@ -26,7 +26,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      io.kompose.service: llamacppnemotron30a3bone
+      io.kompose.service: devstralsmallone
   strategy:
     type: Recreate
   template:
@@ -34,7 +34,7 @@ spec:
       creationTimestamp: null
       labels:
         io.kompose.network/chrome-default: "true"
-        io.kompose.service: llamacppnemotron30a3bone
+        io.kompose.service: devstralsmallone
     spec:
       initContainers:
         - name: model-downloader
@@ -56,7 +56,7 @@ spec:
               fi
           envFrom:
             - configMapRef:
-                name: llamacpp-nemotron-env
+                name: devstral-env
           resources:
             limits:
               cpu: "2"
@@ -91,9 +91,9 @@ spec:
             - "--cache-type-v"
             - "q8_0"
             - "--batch-size"
-            - "512"
+            - "2048"
             - "--ubatch-size"
-            - "512"
+            - "1024"
             - "--parallel"
             - "1"
             - "--mlock"
@@ -101,7 +101,6 @@ spec:
             - "auto"
             - "--op-offload"
             - "--jinja"
-            - "--special"
             - "--slot-save-path"
             - "/cache"
             - "--no-context-shift"
@@ -110,7 +109,7 @@ spec:
               value: "1"
           envFrom:
             - configMapRef:
-                name: llamacpp-nemotron-env
+                name: devstral-env
           ports:
             - containerPort: 8080
           livenessProbe:
@@ -158,8 +157,8 @@ kind: Service
 metadata:
   creationTimestamp: null
   labels:
-    io.kompose.service: llamacppnemotron30a3bone
-  name: llamacppnemotron30a3bone
+    io.kompose.service: devstralsmallone
+  name: devstralsmallone
   namespace: "{{ .Release.Namespace }}"
 spec:
   ports:
@@ -167,6 +166,6 @@ spec:
       port: 8080
       targetPort: 8080
   selector:
-    io.kompose.service: llamacppnemotron30a3bone
+    io.kompose.service: devstralsmallone
 status:
   loadBalancer: {}

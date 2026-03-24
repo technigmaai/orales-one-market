@@ -8,7 +8,7 @@ metadata:
   description: "Nemotron 3 Nano 30B-A3B via llama.cpp — optimized for Olares One"
   appid: llamacppnemotron30a3bone
   title: Nemotron 30B-A3B Olares One
-  version: '1.0.2'
+  version: '1.0.4'
   categories:
     - AI
 entrances:
@@ -20,7 +20,7 @@ entrances:
     openMethod: window
     authLevel: internal
 spec:
-  versionName: '1.0.2'
+  versionName: '1.0.3'
   fullDescription: |
     Nemotron 3 Nano 30B-A3B (Hybrid Mamba-Transformer MoE, 3.5B active) served via llama.cpp — optimized for Olares One.
     RTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.

@@ -3,32 +3,33 @@ olaresManifest.version: '0.10.0'
 olaresManifest.type: app
 apiVersion: 'v2'
 metadata:
-  name: llamacppqwen35a3bone
-  icon: https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35a3bone.png
-  description: "Qwen3.5 35B-A3B via llama.cpp — optimized for Olares One"
-  appid: llamacppqwen35a3bone
-  title: Qwen3.5 35B-A3B (Olares One)
-  version: '1.0.23'
+  name: llamacppqwen35iq4one
+  icon: https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35iq4one.png
+  description: "Qwen3.5 35B-A3B IQ4_XS via llama.cpp — long context, optimized for Olares One"
+  appid: llamacppqwen35iq4one
+  title: Qwen3.5 35B IQ4 128K One
+  version: '1.0.2'
   categories:
     - AI
 entrances:
-  - name: llamacppqwen35a3bone
+  - name: llamacppqwen35iq4one
     port: 8080
-    host: llamacppqwen35a3bone
-    title: Qwen 35B-A3B One
-    icon: https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35a3bone.png
+    host: llamacppqwen35iq4one
+    title: Qwen 35B IQ4 128K One
+    icon: https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35iq4one.png
     openMethod: window
     authLevel: internal
 spec:
-  versionName: '1.0.22'
+  versionName: '1.0.1'
   fullDescription: |
-    Qwen3.5 35B-A3B (MoE, 3B active) served via llama.cpp — optimized for Olares One.
+    Qwen3.5 35B-A3B (MoE, 3B active) served via llama.cpp — long context optimized for Olares One.
     RTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.
-    Unsloth Dynamic Q4_K_XL quantization (important layers upcasted to 8/16-bit).
-    MoE experts offloaded to CPU RAM, attention on GPU.
+    Unsloth Dynamic IQ4_XS quantization (17.5GB) — 6.5GB free for KV cache.
+    128K context window (vs 32K for the Q4_K_XL variant).
+    Compact 4-bit quant with imatrix optimization, slight quality tradeoff for much longer context.
     Flash attention, CUDA graph optimization, and op-offload enabled.
-    llama.cpp b8334 with GATED_DELTA_NET fused op for Qwen MoE.
-    Downloads the GGUF model on first launch (~22GB) and caches it.
+    llama.cpp b8369 with Gated Delta Net op.
+    Downloads the GGUF model on first launch (~17.5GB) and caches it.
     Exposes an OpenAI-compatible API on port 8080.
 
   developer: aamsellem
