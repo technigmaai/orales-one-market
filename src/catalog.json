@@ -1,5 +1,5 @@
 {
-  "hash": "1871d6b4afce2d58f93fd3a69dda4b91",
+  "hash": "2f61be1fd12c189aee4623e28bc12654",
   "summaries": {
     "33102786": {
       "id": "33102786",
@@ -12,7 +12,20 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T22:18:20.356Z"
+      "updated_at": "2026-03-26T20:42:53.924Z"
+    },
+    "f9902972": {
+      "id": "f9902972",
+      "name": "cascade230a3bone",
+      "version": "1.0.0",
+      "category": "AI",
+      "description": "Nemotron Cascade 2 30B-A3B via llama.cpp — math and code, optimized for Olares One",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "source": 1,
+      "updated_at": "2026-03-26T20:42:53.920Z"
     },
     "8a7e4366": {
       "id": "8a7e4366",
@@ -25,7 +38,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T22:18:20.353Z"
+      "updated_at": "2026-03-26T20:42:53.922Z"
     },
     "cf587666": {
       "id": "cf587666",
@@ -38,7 +51,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T22:18:20.354Z"
+      "updated_at": "2026-03-26T20:42:53.923Z"
     },
     "c1ca229f": {
       "id": "c1ca229f",
@@ -51,7 +64,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T22:18:20.355Z"
+      "updated_at": "2026-03-26T20:42:53.923Z"
     },
     "491be3cd": {
       "id": "491be3cd",
@@ -64,7 +77,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T22:18:20.355Z"
+      "updated_at": "2026-03-26T20:42:53.924Z"
     },
     "4ef430dd": {
       "id": "4ef430dd",
@@ -77,7 +90,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T22:18:20.356Z"
+      "updated_at": "2026-03-26T20:42:53.924Z"
     },
     "fa4ef911": {
       "id": "fa4ef911",
@@ -90,7 +103,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T22:18:20.357Z"
+      "updated_at": "2026-03-26T20:42:53.925Z"
     },
     "2c5c39c9": {
       "id": "2c5c39c9",
@@ -103,7 +116,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T22:18:20.357Z"
+      "updated_at": "2026-03-26T20:42:53.925Z"
     },
     "ed18683c": {
       "id": "ed18683c",
@@ -116,7 +129,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T22:18:20.358Z"
+      "updated_at": "2026-03-26T20:42:53.926Z"
     },
     "49c5b493": {
       "id": "49c5b493",
@@ -129,7 +142,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T22:18:20.358Z"
+      "updated_at": "2026-03-26T20:42:53.926Z"
     },
     "285e9d99": {
       "id": "285e9d99",
@@ -142,7 +155,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-24T22:18:20.358Z"
+      "updated_at": "2026-03-26T20:42:53.926Z"
     }
   },
   "details": {
@@ -242,14 +255,119 @@
           "appName": "llamacppqwen35iq4one",
           "version": "1.0.2",
           "versionName": "1.0.2",
-          "mergedAt": "2026-03-24T22:18:20.356Z",
+          "mergedAt": "2026-03-26T20:42:53.924Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T22:18:20.356Z"
+      "updated_at": "2026-03-26T20:42:53.924Z"
+    },
+    "f9902972": {
+      "id": "f9902972",
+      "name": "cascade230a3bone",
+      "cfgType": "app",
+      "chartName": "cascade230a3bone-1.0.0.tgz",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+      "description": "Nemotron Cascade 2 30B-A3B via llama.cpp — math and code, optimized for Olares One",
+      "appID": "f9902972",
+      "title": "Cascade 2 30B-A3B One",
+      "version": "1.0.0",
+      "categories": [
+        "AI"
+      ],
+      "versionName": "1.0.0",
+      "fullDescription": "Nemotron Cascade 2 30B-A3B (Hybrid Mamba-Transformer MoE, 3B active) served via llama.cpp — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nIQ4_XS imatrix quantization (18.1GB model, ~6GB free for KV cache).\nGold medal IMO 2025, IOI 2025, ICPC World Finals 2025.\nDominates in math, code reasoning, and instruction following.\nHybrid architecture: 23 Mamba-2 layers + 6 GQA attention layers + MoE FFN.\nDownloads the GGUF model on first launch (~18GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
+      "upgradeDescription": "",
+      "promoteImage": null,
+      "promoteVideo": "",
+      "subCategory": "",
+      "locale": [
+        "en-US"
+      ],
+      "developer": "aamsellem",
+      "requiredMemory": "25769803776",
+      "requiredDisk": "32212254720",
+      "supportClient": {},
+      "supportArch": [
+        "amd64"
+      ],
+      "requiredGPU": "1073741824",
+      "requiredCPU": "4",
+      "rating": 0,
+      "target": "",
+      "permission": {
+        "appData": true
+      },
+      "entrances": [
+        {
+          "name": "cascade230a3bone",
+          "host": "cascade230a3bone",
+          "port": 8080,
+          "title": "Cascade 2 30B One",
+          "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+          "authLevel": "internal",
+          "invisible": false,
+          "openMethod": "window",
+          "disablePreload": false
+        }
+      ],
+      "middleware": null,
+      "options": {
+        "apiTimeout": 0,
+        "dependencies": [
+          {
+            "name": "olares",
+            "version": ">=1.12.3-0",
+            "type": "system"
+          }
+        ]
+      },
+      "submitter": "aamsellem",
+      "doc": "",
+      "website": "https://github.com/aamsellem/orales-one-market",
+      "featuredImage": "",
+      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "license": [
+        {
+          "text": "NVIDIA Open Model License",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/"
+        }
+      ],
+      "legal": null,
+      "i18n": {
+        "en-US": {
+          "metadata": {
+            "title": "Cascade 2 30B-A3B One",
+            "description": "Nemotron Cascade 2 30B-A3B via llama.cpp — math and code, optimized for Olares One"
+          },
+          "entrances": null,
+          "spec": {
+            "fullDescription": "Nemotron Cascade 2 30B-A3B (Hybrid Mamba-Transformer MoE, 3B active) served via llama.cpp — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nIQ4_XS imatrix quantization (18.1GB model, ~6GB free for KV cache).\nGold medal IMO 2025, IOI 2025, ICPC World Finals 2025.\nDominates in math, code reasoning, and instruction following.\nDownloads the GGUF model on first launch (~18GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
+            "upgradeDescription": ""
+          }
+        }
+      },
+      "namespace": "",
+      "onlyAdmin": false,
+      "lastCommitHash": "",
+      "createTime": 0,
+      "updateTime": 0,
+      "count": null,
+      "versionHistory": [
+        {
+          "appName": "cascade230a3bone",
+          "version": "1.0.0",
+          "versionName": "1.0.0",
+          "mergedAt": "2026-03-26T20:42:53.921Z",
+          "upgradeDescription": ""
+        }
+      ],
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "updated_at": "2026-03-26T20:42:53.921Z"
     },
     "8a7e4366": {
       "id": "8a7e4366",
@@ -347,14 +465,14 @@
           "appName": "devstralsmallone",
           "version": "1.0.2",
           "versionName": "1.0.2",
-          "mergedAt": "2026-03-24T22:18:20.354Z",
+          "mergedAt": "2026-03-26T20:42:53.922Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T22:18:20.354Z"
+      "updated_at": "2026-03-26T20:42:53.922Z"
     },
     "cf587666": {
       "id": "cf587666",
@@ -452,14 +570,14 @@
           "appName": "exl3qwen35a3bone",
           "version": "1.0.13",
           "versionName": "1.0.13",
-          "mergedAt": "2026-03-24T22:18:20.354Z",
+          "mergedAt": "2026-03-26T20:42:53.923Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T22:18:20.354Z"
+      "updated_at": "2026-03-26T20:42:53.923Z"
     },
     "c1ca229f": {
       "id": "c1ca229f",
@@ -557,14 +675,14 @@
           "appName": "llamacppglm47flash",
           "version": "1.0.6",
           "versionName": "1.0.6",
-          "mergedAt": "2026-03-24T22:18:20.355Z",
+          "mergedAt": "2026-03-26T20:42:53.923Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T22:18:20.355Z"
+      "updated_at": "2026-03-26T20:42:53.923Z"
     },
     "491be3cd": {
       "id": "491be3cd",
@@ -662,14 +780,14 @@
           "appName": "llamacppnemotron30a3bone",
           "version": "1.0.4",
           "versionName": "1.0.4",
-          "mergedAt": "2026-03-24T22:18:20.355Z",
+          "mergedAt": "2026-03-26T20:42:53.924Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T22:18:20.355Z"
+      "updated_at": "2026-03-26T20:42:53.924Z"
     },
     "4ef430dd": {
       "id": "4ef430dd",
@@ -767,14 +885,14 @@
           "appName": "llamacppqwen35a3bone",
           "version": "1.0.23",
           "versionName": "1.0.23",
-          "mergedAt": "2026-03-24T22:18:20.356Z",
+          "mergedAt": "2026-03-26T20:42:53.924Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T22:18:20.356Z"
+      "updated_at": "2026-03-26T20:42:53.924Z"
     },
     "fa4ef911": {
       "id": "fa4ef911",
@@ -872,14 +990,14 @@
           "appName": "nemotron3nano4bone",
           "version": "1.0.1",
           "versionName": "1.0.1",
-          "mergedAt": "2026-03-24T22:18:20.357Z",
+          "mergedAt": "2026-03-26T20:42:53.925Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T22:18:20.357Z"
+      "updated_at": "2026-03-26T20:42:53.925Z"
     },
     "2c5c39c9": {
       "id": "2c5c39c9",
@@ -977,14 +1095,14 @@
           "appName": "qwen35a3bvisionone",
           "version": "1.0.4",
           "versionName": "1.0.4",
-          "mergedAt": "2026-03-24T22:18:20.357Z",
+          "mergedAt": "2026-03-26T20:42:53.925Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T22:18:20.357Z"
+      "updated_at": "2026-03-26T20:42:53.925Z"
     },
     "ed18683c": {
       "id": "ed18683c",
@@ -1082,14 +1200,14 @@
           "appName": "qwen35iq4visionone",
           "version": "1.0.2",
           "versionName": "1.0.2",
-          "mergedAt": "2026-03-24T22:18:20.358Z",
+          "mergedAt": "2026-03-26T20:42:53.926Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T22:18:20.358Z"
+      "updated_at": "2026-03-26T20:42:53.926Z"
     },
     "49c5b493": {
       "id": "49c5b493",
@@ -1187,14 +1305,14 @@
           "appName": "qwen3ttstone",
           "version": "1.0.7",
           "versionName": "1.0.7",
-          "mergedAt": "2026-03-24T22:18:20.358Z",
+          "mergedAt": "2026-03-26T20:42:53.926Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T22:18:20.358Z"
+      "updated_at": "2026-03-26T20:42:53.926Z"
     },
     "285e9d99": {
       "id": "285e9d99",
@@ -1292,18 +1410,19 @@
           "appName": "vllmqwen3527bone",
           "version": "1.0.1",
           "versionName": "1.0.1",
-          "mergedAt": "2026-03-24T22:18:20.358Z",
+          "mergedAt": "2026-03-26T20:42:53.926Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-24T22:18:20.358Z"
+      "updated_at": "2026-03-26T20:42:53.926Z"
     }
   },
   "latest": [
     "llamacppqwen35iq4one",
+    "cascade230a3bone",
     "devstralsmallone",
     "exl3qwen35a3bone",
     "llamacppglm47flash",
