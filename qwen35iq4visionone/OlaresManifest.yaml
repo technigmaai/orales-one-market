@@ -8,7 +8,7 @@ metadata:
   description: "Qwen3.5 35B-A3B Vision IQ4_XS via llama.cpp — long context, optimized for Olares One"
   appid: qwen35iq4visionone
   title: Qwen3.5 Vision IQ4 64K One
-  version: '1.0.2'
+  version: '1.0.3'
   categories:
     - AI
 entrances:
@@ -20,7 +20,9 @@ entrances:
     openMethod: window
     authLevel: internal
 spec:
-  versionName: '1.0.1'
+  versionName: '1.0.3'
+  upgradeDescription: |
+    v1.0.3: llama.cpp b8667 → b8667 (Hadamard rotation). KV cache q4_0 (with Hadamard rotation) → q4_0 (2x compression). Context 16K → 32K.
   fullDescription: |
     Qwen3.5 35B-A3B Vision (MoE, 3B active) served via llama.cpp — long context optimized for Olares One.
     Multimodal: accepts images via OpenAI-compatible vision API (image_url format).

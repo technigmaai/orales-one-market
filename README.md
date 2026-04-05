@@ -6,38 +6,50 @@ Every app here is hand-tuned for this exact hardware. No generic configs — jus
 
 > **One-click install.** Add the market source, and apps appear in your Olares Market alongside the official catalog.
 
-## Apps
+## Apps (16)
 
-### LLM Inference
+### LLM Inference (llama.cpp)
 
-| App | Model | Speed | Details |
-|-----|-------|-------|---------|
-| llamacppnemotron30a3bone | Nemotron 3 Nano 30B-A3B | **184 t/s** | UD-Q4_K_XL, llama.cpp b8334 |
-| llamacppqwen35a3bone | Qwen3.5 35B-A3B | **129 t/s** | UD-Q4_K_XL, llama.cpp b8334 |
-| qwen35a3bvisionone | Qwen3.5 35B-A3B Vision | **131 t/s** | UD-Q4_K_XL + mmproj F16, multimodal |
-| vllmqwen3527bone | Qwen3.5 27B | Experimental | vLLM, NVFP4, speculative decoding |
+All llama.cpp apps run on **b8667** with **Hadamard rotation** (TurboQuant) and **q4_0 KV cache** for 2x context vs q8_0.
 
-### Voice
+| App | Model | Speed | Context | Details |
+|-----|-------|-------|---------|---------|
+| llamacppqwen35a3bone | Qwen3.5 35B-A3B | **129 t/s** | 64K | UD-Q4_K_XL, thinking mode |
+| gemma426ba4bone | **Gemma 4 26B-A4B** | **119 t/s** | 64K | UD-Q4_K_XL + vision, LMArena 1441 |
+| llamacppnemotron30a3bone | Nemotron 3 Nano 30B-A3B | **184 t/s** | 128K | UD-Q4_K_XL, Mamba-2 hybrid |
+| cascade230a3bone | Nemotron Cascade 2 30B-A3B | — | 64K | Q4_K_S, math/code specialist |
+| qwen35a3bvisionone | Qwen3.5 35B-A3B Vision | **131 t/s** | 32K | UD-Q4_K_XL + mmproj, multimodal |
+| qwen35iq4visionone | Qwen3.5 35B-A3B Vision IQ4 | — | 32K | IQ4_XS + mmproj, vision |
+| llamacppqwen35iq4one | Qwen3.5 35B-A3B IQ4 | — | — | IQ4_XS, compact |
+| llamacppglm47flash | GLM-4.7 Flash | — | 32K | GLM-4 bilingual |
 
-| App | Model | Features |
-|-----|-------|----------|
-| qwen3ttstone | Qwen3-TTS 1.7B | 9 voices, zero-shot voice cloning, 10 languages |
+### LLM Inference (vLLM)
 
-| App | Model | Speed | Details |
-|-----|-------|-------|---------|
-| **Nemotron 3 Nano 30B-A3B** | 30B params, 3B active (MoE) | **184 t/s** | Unsloth UD-Q4_K_XL, llama.cpp b8334 |
-| **Qwen3.5 35B-A3B** | 35B params, 3B active (MoE) | **129 t/s** | Unsloth UD-Q4_K_XL, llama.cpp b8334 |
-| **Qwen3.5 35B-A3B Vision** | 35B params, 3B active + mmproj | **131 t/s** | UD-Q4_K_XL + mmproj F16, multimodal |
-| **Qwen3.5 27B** | 27B dense | Experimental | vLLM, NVFP4, speculative decoding |
+| App | Model | Details |
+|-----|-------|---------|
+| vllmqwen3527bone | Qwen3.5 27B | NVFP4, speculative decoding |
 
-Full-size MoE models running entirely on GPU at speeds that rival much smaller dense models.
+### Voice & Audio (vLLM)
+
+| App | Model | Function | Details |
+|-----|-------|----------|---------|
+| vllmvoxtral3bone | **Voxtral Mini 3B** | ASR / Audio understanding | 2.7x faster than Whisper, 3.2% WER |
+| vllmvoxtralrt4bone | **Voxtral Realtime 4B** | Streaming ASR | Real-time WebSocket, 480ms latency |
+| vllmvoxtraltts4bone | **Voxtral 4B TTS** | Text-to-Speech | 20 voices, 9 languages, 70ms latency |
 
 ### Creative
 
-| App | Model | Features |
-|-----|-------|----------|
-| **Qwen3-TTS 1.7B** | Text-to-speech | 9 premium voices, zero-shot voice cloning from 3s of audio, 10 languages |
-| **ComfyUI** | Image generation | Full ComfyUI node editor, cluster mode for Olares One |
+| App | Model | Details |
+|-----|-------|---------|
+| qwen3ttstone | Qwen3-TTS 1.7B | 9 voices, zero-shot voice clone |
+
+### Other
+
+| App | Model | Details |
+|-----|-------|---------|
+| exl3qwen35a3bone | Qwen3.5 35B-A3B | ExLlamaV3 + TabbyAPI |
+| nemotron3nano4bone | Nemotron 3 Nano 4B | Lightweight 4B model |
+| devstralsmallone | Devstral Small 24B | Coding agent |
 
 ## Quick Start
 
@@ -49,6 +61,14 @@ https://orales-one-market.aamsellem.workers.dev
 
 Apps show up within 5 minutes. Install like any other Olares app — models download automatically on first launch.
 
+## Highlights
+
+- **TurboQuant rotation** (Hadamard) on all llama.cpp apps — q4_0 KV cache with same quality as q8_0, enabling 2x context
+- **Gemma 4 26B-A4B** — Google's latest MoE with native vision, 119 t/s
+- **Voxtral family** — complete voice pipeline: ASR + streaming ASR + TTS
+- **128K context** on Nemotron (Mamba-2 hybrid = tiny KV cache)
+- **64K context** on Qwen3.5 and Gemma 4
+
 ## How It Works
 
 A single Cloudflare Worker serves the full Olares Market Source API. Each app is a Helm chart with GPU-optimized configs, packaged and deployed from this repo.
@@ -58,13 +78,6 @@ npm install
 npm run dev              # Local dev (localhost:8787)
 npm run deploy           # Deploy to Cloudflare Workers
 ```
-
-### Adding an app
-
-1. Create an app directory with `Chart.yaml`, `OlaresManifest.yaml`, and `templates/`
-2. Add an icon in `icons/<app-name>.png`
-3. Package: `helm package <app-dir> -d charts/`
-4. Deploy: `npm run deploy`
 
 ### API Endpoints
 

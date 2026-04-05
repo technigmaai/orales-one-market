@@ -8,7 +8,7 @@ metadata:
   description: "GLM-4.7-Flash 30B-A3B via llama.cpp — optimized for Olares One"
   appid: llamacppglm47flash
   title: GLM-4.7-Flash (Olares One)
-  version: '1.0.6'
+  version: '1.0.7'
   categories:
     - AI
 entrances:
@@ -20,7 +20,9 @@ entrances:
     openMethod: window
     authLevel: internal
 spec:
-  versionName: '1.0.6'
+  versionName: '1.0.7'
+  upgradeDescription: |
+    v1.0.7: llama.cpp b8234 → b8667 (compute graph rework +30-40%, Hadamard rotation). KV cache q4_0 (with Hadamard rotation) → q4_0 (2x compression).
   fullDescription: |
     GLM-4.7-Flash (MoE, 30B total / 3B active) served via llama.cpp — optimized for Olares One.
     RTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.

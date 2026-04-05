@@ -1,10 +1,10 @@
 {
-  "hash": "2f61be1fd12c189aee4623e28bc12654",
+  "hash": "713059f5e4264f68845d3dbb490a402e",
   "summaries": {
     "33102786": {
       "id": "33102786",
       "name": "llamacppqwen35iq4one",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "category": "AI",
       "description": "Qwen3.5 35B-A3B IQ4_XS via llama.cpp — long context, optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35iq4one.png",
@@ -12,12 +12,12 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-26T20:42:53.924Z"
+      "updated_at": "2026-04-05T21:35:36.045Z"
     },
     "f9902972": {
       "id": "f9902972",
       "name": "cascade230a3bone",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "category": "AI",
       "description": "Nemotron Cascade 2 30B-A3B via llama.cpp — math and code, optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
@@ -25,7 +25,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-26T20:42:53.920Z"
+      "updated_at": "2026-04-05T21:35:36.038Z"
     },
     "8a7e4366": {
       "id": "8a7e4366",
@@ -38,7 +38,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-26T20:42:53.922Z"
+      "updated_at": "2026-04-05T21:35:36.040Z"
     },
     "cf587666": {
       "id": "cf587666",
@@ -51,12 +51,25 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-26T20:42:53.923Z"
+      "updated_at": "2026-04-05T21:35:36.041Z"
+    },
+    "a4f8515c": {
+      "id": "a4f8515c",
+      "name": "gemma426ba4bone",
+      "version": "1.0.0",
+      "category": "AI",
+      "description": "Gemma 4 26B-A4B (MoE + Vision) via llama.cpp — optimized for Olares One",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "source": 1,
+      "updated_at": "2026-04-05T21:35:36.042Z"
     },
     "c1ca229f": {
       "id": "c1ca229f",
       "name": "llamacppglm47flash",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "category": "AI",
       "description": "GLM-4.7-Flash 30B-A3B via llama.cpp — optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppglm47flash.png",
@@ -64,12 +77,12 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-26T20:42:53.923Z"
+      "updated_at": "2026-04-05T21:35:36.043Z"
     },
     "491be3cd": {
       "id": "491be3cd",
       "name": "llamacppnemotron30a3bone",
-      "version": "1.0.4",
+      "version": "1.0.6",
       "category": "AI",
       "description": "Nemotron 3 Nano 30B-A3B via llama.cpp — optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
@@ -77,12 +90,12 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-26T20:42:53.924Z"
+      "updated_at": "2026-04-05T21:35:36.043Z"
     },
     "4ef430dd": {
       "id": "4ef430dd",
       "name": "llamacppqwen35a3bone",
-      "version": "1.0.23",
+      "version": "1.0.25",
       "category": "AI",
       "description": "Qwen3.5 35B-A3B via llama.cpp — optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35a3bone.png",
@@ -90,7 +103,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-26T20:42:53.924Z"
+      "updated_at": "2026-04-05T21:35:36.044Z"
     },
     "fa4ef911": {
       "id": "fa4ef911",
@@ -103,12 +116,12 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-26T20:42:53.925Z"
+      "updated_at": "2026-04-05T21:35:36.045Z"
     },
     "2c5c39c9": {
       "id": "2c5c39c9",
       "name": "qwen35a3bvisionone",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "category": "AI",
       "description": "Qwen3.5 35B-A3B Vision via llama.cpp — image + text, optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/qwen35a3bvisionone.png",
@@ -116,12 +129,12 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-26T20:42:53.925Z"
+      "updated_at": "2026-04-05T21:35:36.045Z"
     },
     "ed18683c": {
       "id": "ed18683c",
       "name": "qwen35iq4visionone",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "category": "AI",
       "description": "Qwen3.5 35B-A3B Vision IQ4_XS via llama.cpp — long context, optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/qwen35iq4visionone.png",
@@ -129,7 +142,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-26T20:42:53.926Z"
+      "updated_at": "2026-04-05T21:35:36.046Z"
     },
     "49c5b493": {
       "id": "49c5b493",
@@ -142,7 +155,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-26T20:42:53.926Z"
+      "updated_at": "2026-04-05T21:35:36.046Z"
     },
     "285e9d99": {
       "id": "285e9d99",
@@ -155,7 +168,46 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-03-26T20:42:53.926Z"
+      "updated_at": "2026-04-05T21:35:36.047Z"
+    },
+    "af406293": {
+      "id": "af406293",
+      "name": "vllmvoxtral3bone",
+      "version": "1.0.0",
+      "category": "AI",
+      "description": "Voxtral Mini 3B ASR via vLLM — audio transcription and understanding, optimized for Olares One",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "source": 1,
+      "updated_at": "2026-04-05T21:35:36.047Z"
+    },
+    "13db403f": {
+      "id": "13db403f",
+      "name": "vllmvoxtralrt4bone",
+      "version": "1.0.0",
+      "category": "AI",
+      "description": "Voxtral Realtime 4B streaming ASR via vLLM — real-time speech transcription, optimized for Olares One",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "source": 1,
+      "updated_at": "2026-04-05T21:35:36.048Z"
+    },
+    "efd72908": {
+      "id": "efd72908",
+      "name": "vllmvoxtraltts4bone",
+      "version": "1.0.0",
+      "category": "AI",
+      "description": "Voxtral 4B TTS via vLLM-Omni — text-to-speech with 20 voices, optimized for Olares One",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "source": 1,
+      "updated_at": "2026-04-05T21:35:36.048Z"
     }
   },
   "details": {
@@ -163,18 +215,18 @@
       "id": "33102786",
       "name": "llamacppqwen35iq4one",
       "cfgType": "app",
-      "chartName": "llamacppqwen35iq4one-1.0.2.tgz",
+      "chartName": "llamacppqwen35iq4one-1.0.3.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35iq4one.png",
       "description": "Qwen3.5 35B-A3B IQ4_XS via llama.cpp — long context, optimized for Olares One",
       "appID": "33102786",
       "title": "Qwen3.5 35B IQ4 128K One",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "categories": [
         "AI"
       ],
-      "versionName": "1.0.1",
+      "versionName": "1.0.3",
       "fullDescription": "Qwen3.5 35B-A3B (MoE, 3B active) served via llama.cpp — long context optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nUnsloth Dynamic IQ4_XS quantization (17.5GB) — 6.5GB free for KV cache.\n128K context window (vs 32K for the Q4_K_XL variant).\nCompact 4-bit quant with imatrix optimization, slight quality tradeoff for much longer context.\nFlash attention, CUDA graph optimization, and op-offload enabled.\nllama.cpp b8369 with Gated Delta Net op.\nDownloads the GGUF model on first launch (~17.5GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
-      "upgradeDescription": "",
+      "upgradeDescription": "v1.0.3: llama.cpp b8667 → b8667 (Hadamard rotation). KV cache q4_0 (with Hadamard rotation) → q4_0 (2x compression).\n",
       "promoteImage": null,
       "promoteVideo": "",
       "subCategory": "",
@@ -253,33 +305,33 @@
       "versionHistory": [
         {
           "appName": "llamacppqwen35iq4one",
-          "version": "1.0.2",
-          "versionName": "1.0.2",
-          "mergedAt": "2026-03-26T20:42:53.924Z",
+          "version": "1.0.3",
+          "versionName": "1.0.3",
+          "mergedAt": "2026-04-05T21:35:36.045Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-26T20:42:53.924Z"
+      "updated_at": "2026-04-05T21:35:36.045Z"
     },
     "f9902972": {
       "id": "f9902972",
       "name": "cascade230a3bone",
       "cfgType": "app",
-      "chartName": "cascade230a3bone-1.0.0.tgz",
+      "chartName": "cascade230a3bone-1.0.2.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
       "description": "Nemotron Cascade 2 30B-A3B via llama.cpp — math and code, optimized for Olares One",
       "appID": "f9902972",
       "title": "Cascade 2 30B-A3B One",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "categories": [
         "AI"
       ],
-      "versionName": "1.0.0",
-      "fullDescription": "Nemotron Cascade 2 30B-A3B (Hybrid Mamba-Transformer MoE, 3B active) served via llama.cpp — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nIQ4_XS imatrix quantization (18.1GB model, ~6GB free for KV cache).\nGold medal IMO 2025, IOI 2025, ICPC World Finals 2025.\nDominates in math, code reasoning, and instruction following.\nHybrid architecture: 23 Mamba-2 layers + 6 GQA attention layers + MoE FFN.\nDownloads the GGUF model on first launch (~18GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
-      "upgradeDescription": "",
+      "versionName": "1.0.2",
+      "fullDescription": "Nemotron Cascade 2 30B-A3B (Hybrid Mamba-Transformer MoE, 3B active) served via llama.cpp — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nQ4_K_S quantization (22.5GB model, bartowski imatrix). 64K context (only 6 attention layers = tiny KV cache).\nGold medal IMO 2025, IOI 2025, ICPC World Finals 2025.\nDominates in math, code reasoning, and instruction following.\nHybrid architecture: 23 Mamba-2 layers + 6 GQA attention layers + MoE FFN.\nDownloads the GGUF model on first launch (~22.5GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
+      "upgradeDescription": "v1.0.2: llama.cpp b8667 → b8667 (Hadamard rotation). KV cache q4_0 (with Hadamard rotation) → q4_0 (2x compression).\n",
       "promoteImage": null,
       "promoteVideo": "",
       "subCategory": "",
@@ -358,16 +410,16 @@
       "versionHistory": [
         {
           "appName": "cascade230a3bone",
-          "version": "1.0.0",
-          "versionName": "1.0.0",
-          "mergedAt": "2026-03-26T20:42:53.921Z",
+          "version": "1.0.2",
+          "versionName": "1.0.2",
+          "mergedAt": "2026-04-05T21:35:36.039Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-26T20:42:53.921Z"
+      "updated_at": "2026-04-05T21:35:36.039Z"
     },
     "8a7e4366": {
       "id": "8a7e4366",
@@ -465,14 +517,14 @@
           "appName": "devstralsmallone",
           "version": "1.0.2",
           "versionName": "1.0.2",
-          "mergedAt": "2026-03-26T20:42:53.922Z",
+          "mergedAt": "2026-04-05T21:35:36.040Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-26T20:42:53.922Z"
+      "updated_at": "2026-04-05T21:35:36.040Z"
     },
     "cf587666": {
       "id": "cf587666",
@@ -570,31 +622,136 @@
           "appName": "exl3qwen35a3bone",
           "version": "1.0.13",
           "versionName": "1.0.13",
-          "mergedAt": "2026-03-26T20:42:53.923Z",
+          "mergedAt": "2026-04-05T21:35:36.041Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-26T20:42:53.923Z"
+      "updated_at": "2026-04-05T21:35:36.041Z"
+    },
+    "a4f8515c": {
+      "id": "a4f8515c",
+      "name": "gemma426ba4bone",
+      "cfgType": "app",
+      "chartName": "gemma426ba4bone-1.0.0.tgz",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+      "description": "Gemma 4 26B-A4B (MoE + Vision) via llama.cpp — optimized for Olares One",
+      "appID": "a4f8515c",
+      "title": "Gemma 4 26B-A4B One",
+      "version": "1.0.0",
+      "categories": [
+        "AI"
+      ],
+      "versionName": "1.0.0",
+      "fullDescription": "Google Gemma 4 26B-A4B (MoE, 3.8B active, 128 experts) with native vision — served via llama.cpp, optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nUnsloth Dynamic Q4_K_XL quantization (16GB model + 1.1GB vision projector = ~17GB, ~7GB free for KV cache).\n64K context with q4_0 KV cache and Hadamard rotation.\nNative multimodal: text + image + video understanding (no separate mmproj download needed by user).\nLMArena 1441 (vs Qwen3.5-35B-A3B 1400). AIME 2026 88.3%. LiveCodeBench 77.1%.\nApache 2.0 license. Thinking mode with tool calling support.\nllama.cpp b8667 with flash attention, CUDA graph optimization, and op-offload.\nDownloads model on first launch (~17GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
+      "upgradeDescription": "",
+      "promoteImage": null,
+      "promoteVideo": "",
+      "subCategory": "",
+      "locale": [
+        "en-US"
+      ],
+      "developer": "aamsellem",
+      "requiredMemory": "25769803776",
+      "requiredDisk": "32212254720",
+      "supportClient": {},
+      "supportArch": [
+        "amd64"
+      ],
+      "requiredGPU": "1073741824",
+      "requiredCPU": "4",
+      "rating": 0,
+      "target": "",
+      "permission": {
+        "appData": true
+      },
+      "entrances": [
+        {
+          "name": "gemma426ba4bone",
+          "host": "gemma426ba4bone",
+          "port": 8080,
+          "title": "Gemma 4 26B One",
+          "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+          "authLevel": "internal",
+          "invisible": false,
+          "openMethod": "window",
+          "disablePreload": false
+        }
+      ],
+      "middleware": null,
+      "options": {
+        "apiTimeout": 0,
+        "dependencies": [
+          {
+            "name": "olares",
+            "version": ">=1.12.3-0",
+            "type": "system"
+          }
+        ]
+      },
+      "submitter": "aamsellem",
+      "doc": "",
+      "website": "https://github.com/aamsellem/orales-one-market",
+      "featuredImage": "",
+      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "license": [
+        {
+          "text": "Apache 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0"
+        }
+      ],
+      "legal": null,
+      "i18n": {
+        "en-US": {
+          "metadata": {
+            "title": "Gemma 4 26B-A4B One",
+            "description": "Gemma 4 26B-A4B (MoE + Vision) via llama.cpp — optimized for Olares One"
+          },
+          "entrances": null,
+          "spec": {
+            "fullDescription": "Google Gemma 4 26B-A4B (MoE, 3.8B active, 128 experts) with native vision — served via llama.cpp, optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nUnsloth Dynamic Q4_K_XL quantization (16GB model + 1.1GB vision projector = ~17GB, ~7GB free for KV cache).\n64K context with q4_0 KV cache and Hadamard rotation.\nNative multimodal: text + image + video understanding.\nLMArena 1441 (vs Qwen3.5-35B-A3B 1400). AIME 2026 88.3%. LiveCodeBench 77.1%.\nApache 2.0 license. Thinking mode with tool calling support.\nllama.cpp b8667 with flash attention, CUDA graph optimization, and op-offload.\nDownloads model on first launch (~17GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
+            "upgradeDescription": ""
+          }
+        }
+      },
+      "namespace": "",
+      "onlyAdmin": false,
+      "lastCommitHash": "",
+      "createTime": 0,
+      "updateTime": 0,
+      "count": null,
+      "versionHistory": [
+        {
+          "appName": "gemma426ba4bone",
+          "version": "1.0.0",
+          "versionName": "1.0.0",
+          "mergedAt": "2026-04-05T21:35:36.042Z",
+          "upgradeDescription": ""
+        }
+      ],
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "updated_at": "2026-04-05T21:35:36.042Z"
     },
     "c1ca229f": {
       "id": "c1ca229f",
       "name": "llamacppglm47flash",
       "cfgType": "app",
-      "chartName": "llamacppglm47flash-1.0.6.tgz",
+      "chartName": "llamacppglm47flash-1.0.7.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppglm47flash.png",
       "description": "GLM-4.7-Flash 30B-A3B via llama.cpp — optimized for Olares One",
       "appID": "c1ca229f",
       "title": "GLM-4.7-Flash (Olares One)",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "categories": [
         "AI"
       ],
-      "versionName": "1.0.6",
+      "versionName": "1.0.7",
       "fullDescription": "GLM-4.7-Flash (MoE, 30B total / 3B active) served via llama.cpp — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nUnsloth Dynamic Q4_K_XL quantization (17.5GB, important layers upcasted to 8/16-bit).\nAll layers on GPU, flash attention, CUDA graph optimization, and Jinja chat templates.\nllama.cpp b8234 with DeepSeek-V2 MLA attention support.\nDownloads the GGUF model on first launch (~17.5GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
-      "upgradeDescription": "",
+      "upgradeDescription": "v1.0.7: llama.cpp b8234 → b8667 (compute graph rework +30-40%, Hadamard rotation). KV cache q4_0 (with Hadamard rotation) → q4_0 (2x compression).\n",
       "promoteImage": null,
       "promoteVideo": "",
       "subCategory": "",
@@ -673,33 +830,33 @@
       "versionHistory": [
         {
           "appName": "llamacppglm47flash",
-          "version": "1.0.6",
-          "versionName": "1.0.6",
-          "mergedAt": "2026-03-26T20:42:53.923Z",
+          "version": "1.0.7",
+          "versionName": "1.0.7",
+          "mergedAt": "2026-04-05T21:35:36.043Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-26T20:42:53.923Z"
+      "updated_at": "2026-04-05T21:35:36.043Z"
     },
     "491be3cd": {
       "id": "491be3cd",
       "name": "llamacppnemotron30a3bone",
       "cfgType": "app",
-      "chartName": "llamacppnemotron30a3bone-1.0.4.tgz",
+      "chartName": "llamacppnemotron30a3bone-1.0.6.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
       "description": "Nemotron 3 Nano 30B-A3B via llama.cpp — optimized for Olares One",
       "appID": "491be3cd",
       "title": "Nemotron 30B-A3B Olares One",
-      "version": "1.0.4",
+      "version": "1.0.6",
       "categories": [
         "AI"
       ],
-      "versionName": "1.0.3",
-      "fullDescription": "Nemotron 3 Nano 30B-A3B (Hybrid Mamba-Transformer MoE, 3.5B active) served via llama.cpp — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nUnsloth Dynamic Q4_K_XL quantization (important layers upcasted to 8/16-bit).\nHybrid architecture: 23 Mamba-2 layers + 6 GQA attention layers + MoE FFN.\nFlash attention, CUDA graph optimization, and op-offload enabled.\nBuilt-in reasoning mode with think/no-think toggle via chat template.\nDownloads the GGUF model on first launch (~23GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
-      "upgradeDescription": "",
+      "versionName": "1.0.6",
+      "fullDescription": "Nemotron 3 Nano 30B-A3B (Hybrid Mamba-Transformer MoE, 3.5B active) served via llama.cpp — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nUnsloth Dynamic Q4_K_XL quantization (important layers upcasted to 8/16-bit).\n64K context (only 6 attention layers = tiny KV cache, Mamba-2 SSM handles the rest).\nHybrid architecture: 23 Mamba-2 layers + 6 GQA attention layers + MoE FFN.\nFlash attention, CUDA graph optimization, and op-offload enabled.\nBuilt-in reasoning mode with think/no-think toggle via chat template.\nDownloads the GGUF model on first launch (~23GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
+      "upgradeDescription": "v1.0.6: llama.cpp b8667 → b8667 (Hadamard rotation). KV cache q4_0 (with Hadamard rotation) → q4_0. Context 64K → 128K (Mamba-2 hybrid = tiny KV cache).\n",
       "promoteImage": null,
       "promoteVideo": "",
       "subCategory": "",
@@ -778,33 +935,33 @@
       "versionHistory": [
         {
           "appName": "llamacppnemotron30a3bone",
-          "version": "1.0.4",
-          "versionName": "1.0.4",
-          "mergedAt": "2026-03-26T20:42:53.924Z",
+          "version": "1.0.6",
+          "versionName": "1.0.6",
+          "mergedAt": "2026-04-05T21:35:36.043Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-26T20:42:53.924Z"
+      "updated_at": "2026-04-05T21:35:36.043Z"
     },
     "4ef430dd": {
       "id": "4ef430dd",
       "name": "llamacppqwen35a3bone",
       "cfgType": "app",
-      "chartName": "llamacppqwen35a3bone-1.0.23.tgz",
+      "chartName": "llamacppqwen35a3bone-1.0.25.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35a3bone.png",
       "description": "Qwen3.5 35B-A3B via llama.cpp — optimized for Olares One",
       "appID": "4ef430dd",
       "title": "Qwen3.5 35B-A3B (Olares One)",
-      "version": "1.0.23",
+      "version": "1.0.25",
       "categories": [
         "AI"
       ],
-      "versionName": "1.0.22",
-      "fullDescription": "Qwen3.5 35B-A3B (MoE, 3B active) served via llama.cpp — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nUnsloth Dynamic Q4_K_XL quantization (important layers upcasted to 8/16-bit).\nMoE experts offloaded to CPU RAM, attention on GPU.\nFlash attention, CUDA graph optimization, and op-offload enabled.\nllama.cpp b8334 with GATED_DELTA_NET fused op for Qwen MoE.\nDownloads the GGUF model on first launch (~22GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
-      "upgradeDescription": "",
+      "versionName": "1.0.25",
+      "fullDescription": "Qwen3.5 35B-A3B (MoE, 3B active) served via llama.cpp — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nUnsloth Dynamic Q4_K_XL quantization (important layers upcasted to 8/16-bit).\nllama.cpp b8667 with Hadamard rotation for better KV cache quantization.\nKV cache q4_0 (2x smaller than q8_0, same quality via rotation).\nFlash attention, CUDA graph optimization, and op-offload enabled.\nDownloads the GGUF model on first launch (~22GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
+      "upgradeDescription": "v1.0.25: llama.cpp b8496 → b8667 (Hadamard rotation for KV cache, NVFP4 MMQ kernel, Gemma 4 support). KV cache q8_0 → q4_0 (2x compression, same quality via rotation). Test build.\n",
       "promoteImage": null,
       "promoteVideo": "",
       "subCategory": "",
@@ -883,16 +1040,16 @@
       "versionHistory": [
         {
           "appName": "llamacppqwen35a3bone",
-          "version": "1.0.23",
-          "versionName": "1.0.23",
-          "mergedAt": "2026-03-26T20:42:53.924Z",
+          "version": "1.0.25",
+          "versionName": "1.0.25",
+          "mergedAt": "2026-04-05T21:35:36.044Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-26T20:42:53.924Z"
+      "updated_at": "2026-04-05T21:35:36.044Z"
     },
     "fa4ef911": {
       "id": "fa4ef911",
@@ -990,31 +1147,31 @@
           "appName": "nemotron3nano4bone",
           "version": "1.0.1",
           "versionName": "1.0.1",
-          "mergedAt": "2026-03-26T20:42:53.925Z",
+          "mergedAt": "2026-04-05T21:35:36.045Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-26T20:42:53.925Z"
+      "updated_at": "2026-04-05T21:35:36.045Z"
     },
     "2c5c39c9": {
       "id": "2c5c39c9",
       "name": "qwen35a3bvisionone",
       "cfgType": "app",
-      "chartName": "qwen35a3bvisionone-1.0.4.tgz",
+      "chartName": "qwen35a3bvisionone-1.0.5.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/qwen35a3bvisionone.png",
       "description": "Qwen3.5 35B-A3B Vision via llama.cpp — image + text, optimized for Olares One",
       "appID": "2c5c39c9",
       "title": "Qwen3.5 Vision (Olares One)",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "categories": [
         "AI"
       ],
-      "versionName": "1.0.3",
-      "fullDescription": "Qwen3.5 35B-A3B Vision (MoE, 3B active) served via llama.cpp — optimized for Olares One.\nMultimodal: accepts images via OpenAI-compatible vision API (image_url format).\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nUnsloth Dynamic Q4_K_XL quantization (22.2GB) + mmproj F16 (0.9GB).\nFlash attention, CUDA graph optimization, and op-offload enabled.\nllama.cpp b8334 with multimodal projector support.\nDownloads the GGUF model (~22GB) and mmproj (~0.9GB) on first launch.\nContext reduced to 16K to fit model + mmproj in 24GB VRAM.\nExposes an OpenAI-compatible API on port 8080.\n",
-      "upgradeDescription": "",
+      "versionName": "1.0.5",
+      "fullDescription": "Qwen3.5 35B-A3B Vision (MoE, 3B active) served via llama.cpp — optimized for Olares One.\nMultimodal: accepts images via OpenAI-compatible vision API (image_url format).\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nUnsloth Dynamic Q4_K_XL quantization (22.2GB) + mmproj F16 (0.9GB).\nFlash attention, CUDA graph optimization, and op-offload enabled.\nllama.cpp b8667 with multimodal projector support.\nDownloads the GGUF model (~22GB) and mmproj (~0.9GB) on first launch.\nContext reduced to 16K to fit model + mmproj in 24GB VRAM.\nExposes an OpenAI-compatible API on port 8080.\n",
+      "upgradeDescription": "v1.0.5: llama.cpp b8667 → b8667 (Hadamard rotation). KV cache q4_0 (with Hadamard rotation) → q4_0 (2x compression). Context 16K → 32K.\n",
       "promoteImage": null,
       "promoteVideo": "",
       "subCategory": "",
@@ -1093,33 +1250,33 @@
       "versionHistory": [
         {
           "appName": "qwen35a3bvisionone",
-          "version": "1.0.4",
-          "versionName": "1.0.4",
-          "mergedAt": "2026-03-26T20:42:53.925Z",
+          "version": "1.0.5",
+          "versionName": "1.0.5",
+          "mergedAt": "2026-04-05T21:35:36.045Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-26T20:42:53.925Z"
+      "updated_at": "2026-04-05T21:35:36.045Z"
     },
     "ed18683c": {
       "id": "ed18683c",
       "name": "qwen35iq4visionone",
       "cfgType": "app",
-      "chartName": "qwen35iq4visionone-1.0.2.tgz",
+      "chartName": "qwen35iq4visionone-1.0.3.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/qwen35iq4visionone.png",
       "description": "Qwen3.5 35B-A3B Vision IQ4_XS via llama.cpp — long context, optimized for Olares One",
       "appID": "ed18683c",
       "title": "Qwen3.5 Vision IQ4 64K One",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "categories": [
         "AI"
       ],
-      "versionName": "1.0.1",
+      "versionName": "1.0.3",
       "fullDescription": "Qwen3.5 35B-A3B Vision (MoE, 3B active) served via llama.cpp — long context optimized for Olares One.\nMultimodal: accepts images via OpenAI-compatible vision API (image_url format).\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nUnsloth Dynamic IQ4_XS quantization (17.5GB) + mmproj F16 (0.9GB) = 18.4GB total.\n64K context window (vs 16K for the Q4_K_XL vision variant).\nFlash attention, CUDA graph optimization, and op-offload enabled.\nllama.cpp b8369 with Gated Delta Net op.\nDownloads the GGUF model (~17.5GB) and mmproj (~0.9GB) on first launch.\nExposes an OpenAI-compatible API on port 8080.\n",
-      "upgradeDescription": "",
+      "upgradeDescription": "v1.0.3: llama.cpp b8667 → b8667 (Hadamard rotation). KV cache q4_0 (with Hadamard rotation) → q4_0 (2x compression). Context 16K → 32K.\n",
       "promoteImage": null,
       "promoteVideo": "",
       "subCategory": "",
@@ -1198,16 +1355,16 @@
       "versionHistory": [
         {
           "appName": "qwen35iq4visionone",
-          "version": "1.0.2",
-          "versionName": "1.0.2",
-          "mergedAt": "2026-03-26T20:42:53.926Z",
+          "version": "1.0.3",
+          "versionName": "1.0.3",
+          "mergedAt": "2026-04-05T21:35:36.046Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-26T20:42:53.926Z"
+      "updated_at": "2026-04-05T21:35:36.046Z"
     },
     "49c5b493": {
       "id": "49c5b493",
@@ -1305,14 +1462,14 @@
           "appName": "qwen3ttstone",
           "version": "1.0.7",
           "versionName": "1.0.7",
-          "mergedAt": "2026-03-26T20:42:53.926Z",
+          "mergedAt": "2026-04-05T21:35:36.046Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-26T20:42:53.926Z"
+      "updated_at": "2026-04-05T21:35:36.046Z"
     },
     "285e9d99": {
       "id": "285e9d99",
@@ -1410,14 +1567,329 @@
           "appName": "vllmqwen3527bone",
           "version": "1.0.1",
           "versionName": "1.0.1",
-          "mergedAt": "2026-03-26T20:42:53.926Z",
+          "mergedAt": "2026-04-05T21:35:36.047Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-03-26T20:42:53.926Z"
+      "updated_at": "2026-04-05T21:35:36.047Z"
+    },
+    "af406293": {
+      "id": "af406293",
+      "name": "vllmvoxtral3bone",
+      "cfgType": "app",
+      "chartName": "vllmvoxtral3bone-1.0.0.tgz",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+      "description": "Voxtral Mini 3B ASR via vLLM — audio transcription and understanding, optimized for Olares One",
+      "appID": "af406293",
+      "title": "Voxtral Mini 3B ASR One",
+      "version": "1.0.0",
+      "categories": [
+        "AI"
+      ],
+      "versionName": "1.0.0",
+      "fullDescription": "Mistral Voxtral Mini 3B (audio encoder + Ministral-3B LLM) served via vLLM — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nBF16 precision (~9.5GB VRAM). 32K context. Up to 30 min audio transcription.\n2.7x faster than Whisper Large V3. 3.2% WER English.\nOpenAI-compatible API: /v1/audio/transcriptions + /v1/chat/completions with audio input.\nApache 2.0 license.\nDownloads model on first launch (~9GB) and caches it.\nExposes an OpenAI-compatible API on port 8000.\n",
+      "upgradeDescription": "",
+      "promoteImage": null,
+      "promoteVideo": "",
+      "subCategory": "",
+      "locale": [
+        "en-US"
+      ],
+      "developer": "aamsellem",
+      "requiredMemory": "17179869184",
+      "requiredDisk": "21474836480",
+      "supportClient": {},
+      "supportArch": [
+        "amd64"
+      ],
+      "requiredGPU": "1073741824",
+      "requiredCPU": "4",
+      "rating": 0,
+      "target": "",
+      "permission": {
+        "appData": true
+      },
+      "entrances": [
+        {
+          "name": "vllmvoxtral3bone",
+          "host": "vllmvoxtral3bone",
+          "port": 8000,
+          "title": "Voxtral 3B ASR One",
+          "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+          "authLevel": "internal",
+          "invisible": false,
+          "openMethod": "window",
+          "disablePreload": false
+        }
+      ],
+      "middleware": null,
+      "options": {
+        "apiTimeout": 0,
+        "dependencies": [
+          {
+            "name": "olares",
+            "version": ">=1.12.3-0",
+            "type": "system"
+          }
+        ]
+      },
+      "submitter": "aamsellem",
+      "doc": "",
+      "website": "https://github.com/aamsellem/orales-one-market",
+      "featuredImage": "",
+      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "license": [
+        {
+          "text": "Apache 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0"
+        }
+      ],
+      "legal": null,
+      "i18n": {
+        "en-US": {
+          "metadata": {
+            "title": "Voxtral Mini 3B ASR One",
+            "description": "Voxtral Mini 3B ASR via vLLM — audio transcription and understanding, optimized for Olares One"
+          },
+          "entrances": null,
+          "spec": {
+            "fullDescription": "Mistral Voxtral Mini 3B (audio encoder + Ministral-3B LLM) served via vLLM — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nBF16 precision (~9.5GB VRAM). 32K context. Up to 30 min audio transcription.\n2.7x faster than Whisper Large V3. 3.2% WER English.\nOpenAI-compatible API: /v1/audio/transcriptions + /v1/chat/completions with audio input.\nApache 2.0 license.\nDownloads model on first launch (~9GB) and caches it.\nExposes an OpenAI-compatible API on port 8000.\n",
+            "upgradeDescription": ""
+          }
+        }
+      },
+      "namespace": "",
+      "onlyAdmin": false,
+      "lastCommitHash": "",
+      "createTime": 0,
+      "updateTime": 0,
+      "count": null,
+      "versionHistory": [
+        {
+          "appName": "vllmvoxtral3bone",
+          "version": "1.0.0",
+          "versionName": "1.0.0",
+          "mergedAt": "2026-04-05T21:35:36.047Z",
+          "upgradeDescription": ""
+        }
+      ],
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "updated_at": "2026-04-05T21:35:36.047Z"
+    },
+    "13db403f": {
+      "id": "13db403f",
+      "name": "vllmvoxtralrt4bone",
+      "cfgType": "app",
+      "chartName": "vllmvoxtralrt4bone-1.0.0.tgz",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+      "description": "Voxtral Realtime 4B streaming ASR via vLLM — real-time speech transcription, optimized for Olares One",
+      "appID": "13db403f",
+      "title": "Voxtral Realtime 4B One",
+      "version": "1.0.0",
+      "categories": [
+        "AI"
+      ],
+      "versionName": "1.0.0",
+      "fullDescription": "Mistral Voxtral Mini 4B Realtime (streaming ASR) served via vLLM — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nBF16 precision (~16GB VRAM). Streaming WebSocket endpoint /v1/realtime.\nCausal audio encoder for infinite-length real-time transcription.\nConfigurable latency (80ms-2400ms). 13 languages. 8.7% FLEURS WER.\nPIECEWISE cudagraph compilation for optimized inference.\nApache 2.0 license.\nDownloads model on first launch (~9GB) and caches it.\nExposes WebSocket /v1/realtime + OpenAI-compatible API on port 8000.\n",
+      "upgradeDescription": "",
+      "promoteImage": null,
+      "promoteVideo": "",
+      "subCategory": "",
+      "locale": [
+        "en-US"
+      ],
+      "developer": "aamsellem",
+      "requiredMemory": "25769803776",
+      "requiredDisk": "21474836480",
+      "supportClient": {},
+      "supportArch": [
+        "amd64"
+      ],
+      "requiredGPU": "1073741824",
+      "requiredCPU": "4",
+      "rating": 0,
+      "target": "",
+      "permission": {
+        "appData": true
+      },
+      "entrances": [
+        {
+          "name": "vllmvoxtralrt4bone",
+          "host": "vllmvoxtralrt4bone",
+          "port": 8000,
+          "title": "Voxtral RT 4B One",
+          "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+          "authLevel": "internal",
+          "invisible": false,
+          "openMethod": "window",
+          "disablePreload": false
+        }
+      ],
+      "middleware": null,
+      "options": {
+        "apiTimeout": 0,
+        "dependencies": [
+          {
+            "name": "olares",
+            "version": ">=1.12.3-0",
+            "type": "system"
+          }
+        ]
+      },
+      "submitter": "aamsellem",
+      "doc": "",
+      "website": "https://github.com/aamsellem/orales-one-market",
+      "featuredImage": "",
+      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "license": [
+        {
+          "text": "Apache 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0"
+        }
+      ],
+      "legal": null,
+      "i18n": {
+        "en-US": {
+          "metadata": {
+            "title": "Voxtral Realtime 4B One",
+            "description": "Voxtral Realtime 4B streaming ASR via vLLM — real-time speech transcription, optimized for Olares One"
+          },
+          "entrances": null,
+          "spec": {
+            "fullDescription": "Mistral Voxtral Mini 4B Realtime (streaming ASR) served via vLLM — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nBF16 precision (~16GB VRAM). Streaming WebSocket endpoint /v1/realtime.\nCausal audio encoder for infinite-length real-time transcription.\nConfigurable latency (80ms-2400ms). 13 languages. 8.7% FLEURS WER.\nPIECEWISE cudagraph compilation for optimized inference.\nApache 2.0 license.\nDownloads model on first launch (~9GB) and caches it.\nExposes WebSocket /v1/realtime + OpenAI-compatible API on port 8000.\n",
+            "upgradeDescription": ""
+          }
+        }
+      },
+      "namespace": "",
+      "onlyAdmin": false,
+      "lastCommitHash": "",
+      "createTime": 0,
+      "updateTime": 0,
+      "count": null,
+      "versionHistory": [
+        {
+          "appName": "vllmvoxtralrt4bone",
+          "version": "1.0.0",
+          "versionName": "1.0.0",
+          "mergedAt": "2026-04-05T21:35:36.048Z",
+          "upgradeDescription": ""
+        }
+      ],
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "updated_at": "2026-04-05T21:35:36.048Z"
+    },
+    "efd72908": {
+      "id": "efd72908",
+      "name": "vllmvoxtraltts4bone",
+      "cfgType": "app",
+      "chartName": "vllmvoxtraltts4bone-1.0.0.tgz",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+      "description": "Voxtral 4B TTS via vLLM-Omni — text-to-speech with 20 voices, optimized for Olares One",
+      "appID": "efd72908",
+      "title": "Voxtral 4B TTS One",
+      "version": "1.0.0",
+      "categories": [
+        "AI"
+      ],
+      "versionName": "1.0.0",
+      "fullDescription": "Mistral Voxtral 4B TTS served via vLLM-Omni — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nBF16 precision (~8GB VRAM). 24 kHz audio output. 70ms latency.\n20 preset voices (10 languages: EN, FR, ES, DE, IT, PT, NL, AR, HI).\nOpenAI-compatible /v1/audio/speech endpoint.\n68.4% win rate vs ElevenLabs Flash v2.5 in human preference tests.\nCC BY-NC 4.0 license (non-commercial use).\nDownloads model on first launch (~8GB) and caches it.\nExposes an OpenAI-compatible API on port 8000.\n",
+      "upgradeDescription": "",
+      "promoteImage": null,
+      "promoteVideo": "",
+      "subCategory": "",
+      "locale": [
+        "en-US"
+      ],
+      "developer": "aamsellem",
+      "requiredMemory": "17179869184",
+      "requiredDisk": "21474836480",
+      "supportClient": {},
+      "supportArch": [
+        "amd64"
+      ],
+      "requiredGPU": "1073741824",
+      "requiredCPU": "4",
+      "rating": 0,
+      "target": "",
+      "permission": {
+        "appData": true
+      },
+      "entrances": [
+        {
+          "name": "vllmvoxtraltts4bone",
+          "host": "vllmvoxtraltts4bone",
+          "port": 8000,
+          "title": "Voxtral TTS 4B One",
+          "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+          "authLevel": "internal",
+          "invisible": false,
+          "openMethod": "window",
+          "disablePreload": false
+        }
+      ],
+      "middleware": null,
+      "options": {
+        "apiTimeout": 0,
+        "dependencies": [
+          {
+            "name": "olares",
+            "version": ">=1.12.3-0",
+            "type": "system"
+          }
+        ]
+      },
+      "submitter": "aamsellem",
+      "doc": "",
+      "website": "https://github.com/aamsellem/orales-one-market",
+      "featuredImage": "",
+      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "license": [
+        {
+          "text": "CC BY-NC 4.0",
+          "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "legal": null,
+      "i18n": {
+        "en-US": {
+          "metadata": {
+            "title": "Voxtral 4B TTS One",
+            "description": "Voxtral 4B TTS via vLLM-Omni — text-to-speech with 20 voices, optimized for Olares One"
+          },
+          "entrances": null,
+          "spec": {
+            "fullDescription": "Mistral Voxtral 4B TTS served via vLLM-Omni — optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nBF16 precision (~8GB VRAM). 24 kHz audio output. 70ms latency.\n20 preset voices (10 languages: EN, FR, ES, DE, IT, PT, NL, AR, HI).\nOpenAI-compatible /v1/audio/speech endpoint.\n68.4% win rate vs ElevenLabs Flash v2.5 in human preference tests.\nCC BY-NC 4.0 license (non-commercial use).\nDownloads model on first launch (~8GB) and caches it.\nExposes an OpenAI-compatible API on port 8000.\n",
+            "upgradeDescription": ""
+          }
+        }
+      },
+      "namespace": "",
+      "onlyAdmin": false,
+      "lastCommitHash": "",
+      "createTime": 0,
+      "updateTime": 0,
+      "count": null,
+      "versionHistory": [
+        {
+          "appName": "vllmvoxtraltts4bone",
+          "version": "1.0.0",
+          "versionName": "1.0.0",
+          "mergedAt": "2026-04-05T21:35:36.048Z",
+          "upgradeDescription": ""
+        }
+      ],
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "updated_at": "2026-04-05T21:35:36.048Z"
     }
   },
   "latest": [
@@ -1425,6 +1897,7 @@
     "cascade230a3bone",
     "devstralsmallone",
     "exl3qwen35a3bone",
+    "gemma426ba4bone",
     "llamacppglm47flash",
     "llamacppnemotron30a3bone",
     "llamacppqwen35a3bone",
@@ -1432,6 +1905,9 @@
     "qwen35a3bvisionone",
     "qwen35iq4visionone",
     "qwen3ttstone",
-    "vllmqwen3527bone"
+    "vllmqwen3527bone",
+    "vllmvoxtral3bone",
+    "vllmvoxtralrt4bone",
+    "vllmvoxtraltts4bone"
   ]
 }

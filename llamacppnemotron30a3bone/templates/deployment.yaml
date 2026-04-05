@@ -8,7 +8,7 @@ data:
   MODEL_URL: "https://huggingface.co/unsloth/Nemotron-3-Nano-30B-A3B-GGUF/resolve/main/Nemotron-3-Nano-30B-A3B-UD-Q4_K_XL.gguf"
   MODEL_FILE: "Nemotron-3-Nano-30B-A3B-UD-Q4_K_XL.gguf"
   MODEL_ALIAS: "nemotron-3-nano-30b-a3b"
-  CONTEXT_SIZE: "16384"
+  CONTEXT_SIZE: "131072"
   N_GPU_LAYERS: "99"
   THREADS: "16"
 ---
@@ -69,7 +69,7 @@ spec:
               name: models
       containers:
         - name: llamacpp-server
-          image: "ghcr.io/ggml-org/llama.cpp:server-cuda13-b8496"
+          image: "ghcr.io/ggml-org/llama.cpp:server-cuda13-b8667"
           command: ["/app/llama-server"]
           args:
             - "--host"
@@ -87,13 +87,13 @@ spec:
             - "--threads"
             - "$(THREADS)"
             - "--cache-type-k"
-            - "q8_0"
+            - "q4_0"
             - "--cache-type-v"
-            - "q8_0"
+            - "q4_0"
             - "--batch-size"
-            - "512"
+            - "2048"
             - "--ubatch-size"
-            - "512"
+            - "1024"
             - "--parallel"
             - "1"
             - "--mlock"

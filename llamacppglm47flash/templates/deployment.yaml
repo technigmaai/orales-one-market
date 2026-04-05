@@ -69,7 +69,7 @@ spec:
               name: models
       containers:
         - name: llamacpp-server
-          image: "ghcr.io/ggml-org/llama.cpp:server-cuda-b8234"
+          image: "ghcr.io/ggml-org/llama.cpp:server-cuda13-b8667"
           args:
             - "--host"
             - "0.0.0.0"
@@ -86,13 +86,13 @@ spec:
             - "--threads"
             - "$(THREADS)"
             - "--cache-type-k"
-            - "q8_0"
+            - "q4_0"
             - "--cache-type-v"
-            - "q8_0"
+            - "q4_0"
             - "--batch-size"
-            - "512"
+            - "2048"
             - "--ubatch-size"
-            - "512"
+            - "1024"
             - "--parallel"
             - "1"
             - "--mlock"
