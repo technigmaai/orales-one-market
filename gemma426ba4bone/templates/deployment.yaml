@@ -117,7 +117,6 @@ spec:
             - "auto"
             - "--op-offload"
             - "--jinja"
-            - "--special"
             - "--slot-save-path"
             - "/cache"
             - "--no-context-shift"

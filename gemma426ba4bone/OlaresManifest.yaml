@@ -8,7 +8,7 @@ metadata:
   description: "Gemma 4 26B-A4B (MoE + Vision) via llama.cpp — optimized for Olares One"
   appid: gemma426ba4bone
   title: Gemma 4 26B-A4B One
-  version: '1.0.2'
+  version: '1.0.3'
   categories:
     - AI
 entrances:
@@ -49,7 +49,7 @@ spec:
   limitedDisk: 50Gi
   limitedMemory: 40Gi
   requiredMemory: 24Gi
-  requiredGpu: 1Gi
+  requiredGpu: 18Gi
   limitedGpu: 24Gi
 
   supportArch:

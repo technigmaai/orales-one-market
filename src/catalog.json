@@ -1,5 +1,5 @@
 {
-  "hash": "d43967812d13529108788563af65dbba",
+  "hash": "34aa58a1f3fc723126ee0a52ad9e0c7a",
   "summaries": {
     "33102786": {
       "id": "33102786",
@@ -12,7 +12,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-06T09:39:23.488Z"
+      "updated_at": "2026-04-06T10:05:15.062Z"
     },
     "f9902972": {
       "id": "f9902972",
@@ -25,7 +25,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-06T09:39:23.477Z"
+      "updated_at": "2026-04-06T10:05:15.057Z"
     },
     "8a7e4366": {
       "id": "8a7e4366",
@@ -38,7 +38,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-06T09:39:23.481Z"
+      "updated_at": "2026-04-06T10:05:15.059Z"
     },
     "cf587666": {
       "id": "cf587666",
@@ -51,12 +51,12 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-06T09:39:23.483Z"
+      "updated_at": "2026-04-06T10:05:15.060Z"
     },
     "a4f8515c": {
       "id": "a4f8515c",
       "name": "gemma426ba4bone",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "category": "AI",
       "description": "Gemma 4 26B-A4B (MoE + Vision) via llama.cpp — optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
@@ -64,7 +64,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-06T09:39:23.484Z"
+      "updated_at": "2026-04-06T10:05:15.060Z"
     },
     "c1ca229f": {
       "id": "c1ca229f",
@@ -77,7 +77,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-06T09:39:23.485Z"
+      "updated_at": "2026-04-06T10:05:15.061Z"
     },
     "491be3cd": {
       "id": "491be3cd",
@@ -90,7 +90,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-06T09:39:23.486Z"
+      "updated_at": "2026-04-06T10:05:15.061Z"
     },
     "4ef430dd": {
       "id": "4ef430dd",
@@ -103,7 +103,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-06T09:39:23.487Z"
+      "updated_at": "2026-04-06T10:05:15.062Z"
     },
     "fa4ef911": {
       "id": "fa4ef911",
@@ -116,7 +116,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-06T09:39:23.489Z"
+      "updated_at": "2026-04-06T10:05:15.063Z"
     },
     "2c5c39c9": {
       "id": "2c5c39c9",
@@ -129,7 +129,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-06T09:39:23.490Z"
+      "updated_at": "2026-04-06T10:05:15.063Z"
     },
     "ed18683c": {
       "id": "ed18683c",
@@ -142,7 +142,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-06T09:39:23.490Z"
+      "updated_at": "2026-04-06T10:05:15.064Z"
     },
     "49c5b493": {
       "id": "49c5b493",
@@ -155,7 +155,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-06T09:39:23.492Z"
+      "updated_at": "2026-04-06T10:05:15.064Z"
     },
     "285e9d99": {
       "id": "285e9d99",
@@ -168,12 +168,12 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-06T09:39:23.492Z"
+      "updated_at": "2026-04-06T10:05:15.065Z"
     },
     "af406293": {
       "id": "af406293",
       "name": "vllmvoxtral3bone",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "category": "AI",
       "description": "Voxtral Mini 3B ASR via vLLM — audio transcription and understanding, optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
@@ -181,12 +181,12 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-06T09:39:23.493Z"
+      "updated_at": "2026-04-06T10:05:15.066Z"
     },
     "13db403f": {
       "id": "13db403f",
       "name": "vllmvoxtralrt4bone",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "category": "AI",
       "description": "Voxtral Realtime 4B streaming ASR via vLLM — real-time speech transcription, optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
@@ -194,12 +194,12 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-06T09:39:23.494Z"
+      "updated_at": "2026-04-06T10:05:15.068Z"
     },
     "efd72908": {
       "id": "efd72908",
       "name": "vllmvoxtraltts4bone",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "category": "AI",
       "description": "Voxtral 4B TTS via vLLM-Omni — text-to-speech with 20 voices, optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
@@ -207,7 +207,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-06T09:39:23.494Z"
+      "updated_at": "2026-04-06T10:05:15.068Z"
     }
   },
   "details": {
@@ -307,14 +307,14 @@
           "appName": "llamacppqwen35iq4one",
           "version": "1.0.5",
           "versionName": "1.0.5",
-          "mergedAt": "2026-04-06T09:39:23.488Z",
+          "mergedAt": "2026-04-06T10:05:15.062Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-06T09:39:23.488Z"
+      "updated_at": "2026-04-06T10:05:15.062Z"
     },
     "f9902972": {
       "id": "f9902972",
@@ -412,14 +412,14 @@
           "appName": "cascade230a3bone",
           "version": "1.0.4",
           "versionName": "1.0.4",
-          "mergedAt": "2026-04-06T09:39:23.480Z",
+          "mergedAt": "2026-04-06T10:05:15.058Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-06T09:39:23.480Z"
+      "updated_at": "2026-04-06T10:05:15.058Z"
     },
     "8a7e4366": {
       "id": "8a7e4366",
@@ -517,14 +517,14 @@
           "appName": "devstralsmallone",
           "version": "1.0.4",
           "versionName": "1.0.4",
-          "mergedAt": "2026-04-06T09:39:23.481Z",
+          "mergedAt": "2026-04-06T10:05:15.059Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-06T09:39:23.481Z"
+      "updated_at": "2026-04-06T10:05:15.059Z"
     },
     "cf587666": {
       "id": "cf587666",
@@ -622,25 +622,25 @@
           "appName": "exl3qwen35a3bone",
           "version": "1.0.15",
           "versionName": "1.0.15",
-          "mergedAt": "2026-04-06T09:39:23.483Z",
+          "mergedAt": "2026-04-06T10:05:15.060Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-06T09:39:23.483Z"
+      "updated_at": "2026-04-06T10:05:15.060Z"
     },
     "a4f8515c": {
       "id": "a4f8515c",
       "name": "gemma426ba4bone",
       "cfgType": "app",
-      "chartName": "gemma426ba4bone-1.0.2.tgz",
+      "chartName": "gemma426ba4bone-1.0.3.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
       "description": "Gemma 4 26B-A4B (MoE + Vision) via llama.cpp — optimized for Olares One",
       "appID": "a4f8515c",
       "title": "Gemma 4 26B-A4B One",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "categories": [
         "AI"
       ],
@@ -660,7 +660,7 @@
       "supportArch": [
         "amd64"
       ],
-      "requiredGPU": "1073741824",
+      "requiredGPU": "19327352832",
       "requiredCPU": "4",
       "rating": 0,
       "target": "",
@@ -725,16 +725,16 @@
       "versionHistory": [
         {
           "appName": "gemma426ba4bone",
-          "version": "1.0.2",
-          "versionName": "1.0.2",
-          "mergedAt": "2026-04-06T09:39:23.484Z",
+          "version": "1.0.3",
+          "versionName": "1.0.3",
+          "mergedAt": "2026-04-06T10:05:15.060Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-06T09:39:23.484Z"
+      "updated_at": "2026-04-06T10:05:15.060Z"
     },
     "c1ca229f": {
       "id": "c1ca229f",
@@ -832,14 +832,14 @@
           "appName": "llamacppglm47flash",
           "version": "1.0.9",
           "versionName": "1.0.9",
-          "mergedAt": "2026-04-06T09:39:23.485Z",
+          "mergedAt": "2026-04-06T10:05:15.061Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-06T09:39:23.485Z"
+      "updated_at": "2026-04-06T10:05:15.061Z"
     },
     "491be3cd": {
       "id": "491be3cd",
@@ -937,14 +937,14 @@
           "appName": "llamacppnemotron30a3bone",
           "version": "1.0.8",
           "versionName": "1.0.8",
-          "mergedAt": "2026-04-06T09:39:23.486Z",
+          "mergedAt": "2026-04-06T10:05:15.061Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-06T09:39:23.486Z"
+      "updated_at": "2026-04-06T10:05:15.061Z"
     },
     "4ef430dd": {
       "id": "4ef430dd",
@@ -1042,14 +1042,14 @@
           "appName": "llamacppqwen35a3bone",
           "version": "1.0.27",
           "versionName": "1.0.27",
-          "mergedAt": "2026-04-06T09:39:23.487Z",
+          "mergedAt": "2026-04-06T10:05:15.062Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-06T09:39:23.487Z"
+      "updated_at": "2026-04-06T10:05:15.062Z"
     },
     "fa4ef911": {
       "id": "fa4ef911",
@@ -1147,14 +1147,14 @@
           "appName": "nemotron3nano4bone",
           "version": "1.0.3",
           "versionName": "1.0.3",
-          "mergedAt": "2026-04-06T09:39:23.489Z",
+          "mergedAt": "2026-04-06T10:05:15.063Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-06T09:39:23.489Z"
+      "updated_at": "2026-04-06T10:05:15.063Z"
     },
     "2c5c39c9": {
       "id": "2c5c39c9",
@@ -1252,14 +1252,14 @@
           "appName": "qwen35a3bvisionone",
           "version": "1.0.7",
           "versionName": "1.0.7",
-          "mergedAt": "2026-04-06T09:39:23.490Z",
+          "mergedAt": "2026-04-06T10:05:15.063Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-06T09:39:23.490Z"
+      "updated_at": "2026-04-06T10:05:15.063Z"
     },
     "ed18683c": {
       "id": "ed18683c",
@@ -1357,14 +1357,14 @@
           "appName": "qwen35iq4visionone",
           "version": "1.0.5",
           "versionName": "1.0.5",
-          "mergedAt": "2026-04-06T09:39:23.490Z",
+          "mergedAt": "2026-04-06T10:05:15.064Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-06T09:39:23.490Z"
+      "updated_at": "2026-04-06T10:05:15.064Z"
     },
     "49c5b493": {
       "id": "49c5b493",
@@ -1462,14 +1462,14 @@
           "appName": "qwen3ttstone",
           "version": "1.0.9",
           "versionName": "1.0.9",
-          "mergedAt": "2026-04-06T09:39:23.492Z",
+          "mergedAt": "2026-04-06T10:05:15.064Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-06T09:39:23.492Z"
+      "updated_at": "2026-04-06T10:05:15.064Z"
     },
     "285e9d99": {
       "id": "285e9d99",
@@ -1567,25 +1567,25 @@
           "appName": "vllmqwen3527bone",
           "version": "1.0.3",
           "versionName": "1.0.3",
-          "mergedAt": "2026-04-06T09:39:23.492Z",
+          "mergedAt": "2026-04-06T10:05:15.065Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-06T09:39:23.492Z"
+      "updated_at": "2026-04-06T10:05:15.065Z"
     },
     "af406293": {
       "id": "af406293",
       "name": "vllmvoxtral3bone",
       "cfgType": "app",
-      "chartName": "vllmvoxtral3bone-1.0.2.tgz",
+      "chartName": "vllmvoxtral3bone-1.0.3.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
       "description": "Voxtral Mini 3B ASR via vLLM — audio transcription and understanding, optimized for Olares One",
       "appID": "af406293",
       "title": "Voxtral Mini 3B ASR One",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "categories": [
         "AI"
       ],
@@ -1605,7 +1605,7 @@
       "supportArch": [
         "amd64"
       ],
-      "requiredGPU": "1073741824",
+      "requiredGPU": "10737418240",
       "requiredCPU": "4",
       "rating": 0,
       "target": "",
@@ -1670,27 +1670,27 @@
       "versionHistory": [
         {
           "appName": "vllmvoxtral3bone",
-          "version": "1.0.2",
-          "versionName": "1.0.2",
-          "mergedAt": "2026-04-06T09:39:23.493Z",
+          "version": "1.0.3",
+          "versionName": "1.0.3",
+          "mergedAt": "2026-04-06T10:05:15.066Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-06T09:39:23.493Z"
+      "updated_at": "2026-04-06T10:05:15.066Z"
     },
     "13db403f": {
       "id": "13db403f",
       "name": "vllmvoxtralrt4bone",
       "cfgType": "app",
-      "chartName": "vllmvoxtralrt4bone-1.0.2.tgz",
+      "chartName": "vllmvoxtralrt4bone-1.0.3.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
       "description": "Voxtral Realtime 4B streaming ASR via vLLM — real-time speech transcription, optimized for Olares One",
       "appID": "13db403f",
       "title": "Voxtral Realtime 4B One",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "categories": [
         "AI"
       ],
@@ -1710,7 +1710,7 @@
       "supportArch": [
         "amd64"
       ],
-      "requiredGPU": "1073741824",
+      "requiredGPU": "17179869184",
       "requiredCPU": "4",
       "rating": 0,
       "target": "",
@@ -1775,27 +1775,27 @@
       "versionHistory": [
         {
           "appName": "vllmvoxtralrt4bone",
-          "version": "1.0.2",
-          "versionName": "1.0.2",
-          "mergedAt": "2026-04-06T09:39:23.494Z",
+          "version": "1.0.3",
+          "versionName": "1.0.3",
+          "mergedAt": "2026-04-06T10:05:15.068Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-06T09:39:23.494Z"
+      "updated_at": "2026-04-06T10:05:15.068Z"
     },
     "efd72908": {
       "id": "efd72908",
       "name": "vllmvoxtraltts4bone",
       "cfgType": "app",
-      "chartName": "vllmvoxtraltts4bone-1.0.7.tgz",
+      "chartName": "vllmvoxtraltts4bone-1.0.8.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
       "description": "Voxtral 4B TTS via vLLM-Omni — text-to-speech with 20 voices, optimized for Olares One",
       "appID": "efd72908",
       "title": "Voxtral 4B TTS One",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "categories": [
         "AI"
       ],
@@ -1815,7 +1815,7 @@
       "supportArch": [
         "amd64"
       ],
-      "requiredGPU": "1073741824",
+      "requiredGPU": "21474836480",
       "requiredCPU": "4",
       "rating": 0,
       "target": "",
@@ -1880,16 +1880,16 @@
       "versionHistory": [
         {
           "appName": "vllmvoxtraltts4bone",
-          "version": "1.0.7",
-          "versionName": "1.0.7",
-          "mergedAt": "2026-04-06T09:39:23.494Z",
+          "version": "1.0.8",
+          "versionName": "1.0.8",
+          "mergedAt": "2026-04-06T10:05:15.068Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-06T09:39:23.494Z"
+      "updated_at": "2026-04-06T10:05:15.068Z"
     }
   },
   "latest": [

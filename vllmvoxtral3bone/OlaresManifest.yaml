@@ -8,7 +8,7 @@ metadata:
   description: "Voxtral Mini 3B ASR via vLLM — audio transcription and understanding, optimized for Olares One"
   appid: vllmvoxtral3bone
   title: Voxtral Mini 3B ASR One
-  version: '1.0.2'
+  version: '1.0.3'
   categories:
     - AI
 entrances:
@@ -47,7 +47,7 @@ spec:
   limitedDisk: 30Gi
   limitedMemory: 40Gi
   requiredMemory: 16Gi
-  requiredGpu: 1Gi
+  requiredGpu: 10Gi
   limitedGpu: 24Gi
 
   supportArch:

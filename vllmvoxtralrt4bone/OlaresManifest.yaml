@@ -8,7 +8,7 @@ metadata:
   description: "Voxtral Realtime 4B streaming ASR via vLLM — real-time speech transcription, optimized for Olares One"
   appid: vllmvoxtralrt4bone
   title: Voxtral Realtime 4B One
-  version: '1.0.2'
+  version: '1.0.3'
   categories:
     - AI
 entrances:
@@ -48,7 +48,7 @@ spec:
   limitedDisk: 30Gi
   limitedMemory: 40Gi
   requiredMemory: 24Gi
-  requiredGpu: 1Gi
+  requiredGpu: 16Gi
   limitedGpu: 24Gi
 
   supportArch:
