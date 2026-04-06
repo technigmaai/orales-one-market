@@ -4,11 +4,11 @@ olaresManifest.type: app
 apiVersion: 'v2'
 metadata:
   name: vllmvoxtralrt4bone
-  icon: https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png
+  icon: https://orales-one-market.aamsellem.workers.dev/icons/vllmvoxtralrt4bone.png
   description: "Voxtral Realtime 4B streaming ASR via vLLM — real-time speech transcription, optimized for Olares One"
   appid: vllmvoxtralrt4bone
   title: Voxtral Realtime 4B One
-  version: '1.0.3'
+  version: '1.0.4'
   categories:
     - AI
 entrances:
@@ -16,7 +16,7 @@ entrances:
     port: 8000
     host: vllmvoxtralrt4bone
     title: Voxtral RT 4B One
-    icon: https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png
+    icon: https://orales-one-market.aamsellem.workers.dev/icons/vllmvoxtralrt4bone.png
     openMethod: window
     authLevel: internal
 spec:
