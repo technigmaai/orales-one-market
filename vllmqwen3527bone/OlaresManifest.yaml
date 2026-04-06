@@ -8,7 +8,7 @@ metadata:
   description: "Qwen3.5 27B NVFP4 via vLLM — optimized for Olares One"
   appid: vllmqwen3527bone
   title: Qwen3.5 27B NVFP4 vLLM One
-  version: '1.0.1'
+  version: '1.0.3'
   categories:
     - AI
 entrances:

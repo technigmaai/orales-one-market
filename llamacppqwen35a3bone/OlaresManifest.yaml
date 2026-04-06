@@ -8,7 +8,7 @@ metadata:
   description: "Qwen3.5 35B-A3B via llama.cpp — optimized for Olares One"
   appid: llamacppqwen35a3bone
   title: Qwen3.5 35B-A3B (Olares One)
-  version: '1.0.25'
+  version: '1.0.27'
   categories:
     - AI
 entrances:

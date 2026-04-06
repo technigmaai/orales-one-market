@@ -8,7 +8,7 @@ metadata:
   description: "Gemma 4 26B-A4B (MoE + Vision) via llama.cpp — optimized for Olares One"
   appid: gemma426ba4bone
   title: Gemma 4 26B-A4B One
-  version: '1.0.0'
+  version: '1.0.2'
   categories:
     - AI
 entrances:

@@ -8,7 +8,7 @@ metadata:
   description: "Devstral Small 2507 via llama.cpp — coding agent optimized for Olares One"
   appid: devstralsmallone
   title: Devstral Small Code One
-  version: '1.0.2'
+  version: '1.0.4'
   categories:
     - AI
 entrances:

@@ -46,19 +46,28 @@ spec:
             - "8000"
             - "--tokenizer-mode"
             - "mistral"
+            - "--config-format"
+            - "mistral"
+            - "--load-format"
+            - "mistral"
             - "--omni"
             - "--trust-remote-code"
-            - "--enforce-eager"
             - "--download-dir"
             - "/models"
             - "--gpu-memory-utilization"
-            - "0.90"
+            - "0.50"
+            - "--max-model-len"
+            - "512"
+            - "--max-num-seqs"
+            - "1"
           envFrom:
             - configMapRef:
                 name: vllm-voxtraltts-env
           env:
             - name: HF_HOME
               value: "/models/huggingface"
+            - name: PYTORCH_CUDA_ALLOC_CONF
+              value: "expandable_segments:True"
           ports:
             - containerPort: 8000
           livenessProbe:

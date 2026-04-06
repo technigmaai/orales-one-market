@@ -8,7 +8,7 @@ metadata:
   description: "Nemotron 3 Nano 4B Q8 via llama.cpp — fast edge AI, optimized for Olares One"
   appid: nemotron3nano4bone
   title: Nemotron 3 Nano 4B One
-  version: '1.0.1'
+  version: '1.0.3'
   categories:
     - AI
 entrances:

@@ -8,7 +8,7 @@ metadata:
   description: "Nemotron 3 Nano 30B-A3B via llama.cpp — optimized for Olares One"
   appid: llamacppnemotron30a3bone
   title: Nemotron 30B-A3B Olares One
-  version: '1.0.6'
+  version: '1.0.8'
   categories:
     - AI
 entrances:
