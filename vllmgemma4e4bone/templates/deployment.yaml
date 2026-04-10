@@ -7,8 +7,9 @@ metadata:
 data:
   MODEL_NAME: "google/gemma-4-E4B-it"
   MODEL_ALIAS: "gemma-4-e4b"
-  MAX_MODEL_LEN: "8192"
-  GPU_MEMORY_UTILIZATION: "0.45"
+  MAX_MODEL_LEN: "4096"
+  GPU_MEMORY_UTILIZATION: "0.75"
+  LIMIT_MM: '{"image": 1, "audio": 1}'
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -36,8 +37,12 @@ spec:
         - name: vllm-server
           image: "vllm/vllm-openai:gemma4"
           command:
-            - "vllm"
-            - "serve"
+            - "sh"
+            - "-c"
+            - |
+              pip install --quiet soundfile soxr audioread lazy_loader msgpack decorator pooch av resampy scipy && \
+              exec vllm serve "$@"
+            - "--"
           args:
             - "$(MODEL_NAME)"
             - "--served-model-name"
@@ -51,7 +56,7 @@ spec:
             - "--gpu-memory-utilization"
             - "$(GPU_MEMORY_UTILIZATION)"
             - "--limit-mm-per-prompt"
-            - "image=1,audio=1"
+            - "$(LIMIT_MM)"
             - "--dtype"
             - "auto"
             - "--trust-remote-code"

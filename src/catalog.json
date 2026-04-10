@@ -1,5 +1,5 @@
 {
-  "hash": "8ea68cd2a24278ccba9d554b0bc9d8b0",
+  "hash": "4dc089c6f7332baa418ca2f5d526cfbd",
   "summaries": {
     "33102786": {
       "id": "33102786",
@@ -12,7 +12,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T06:51:33.858Z"
+      "updated_at": "2026-04-10T09:05:40.745Z"
     },
     "f9902972": {
       "id": "f9902972",
@@ -25,7 +25,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T06:51:33.853Z"
+      "updated_at": "2026-04-10T09:05:40.738Z"
     },
     "8a7e4366": {
       "id": "8a7e4366",
@@ -38,7 +38,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T06:51:33.855Z"
+      "updated_at": "2026-04-10T09:05:40.740Z"
     },
     "cf587666": {
       "id": "cf587666",
@@ -51,7 +51,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T06:51:33.855Z"
+      "updated_at": "2026-04-10T09:05:40.741Z"
     },
     "a4f8515c": {
       "id": "a4f8515c",
@@ -64,7 +64,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T06:51:33.856Z"
+      "updated_at": "2026-04-10T09:05:40.742Z"
     },
     "c1ca229f": {
       "id": "c1ca229f",
@@ -77,7 +77,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T06:51:33.856Z"
+      "updated_at": "2026-04-10T09:05:40.743Z"
     },
     "491be3cd": {
       "id": "491be3cd",
@@ -90,7 +90,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T06:51:33.857Z"
+      "updated_at": "2026-04-10T09:05:40.744Z"
     },
     "4ef430dd": {
       "id": "4ef430dd",
@@ -103,7 +103,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T06:51:33.857Z"
+      "updated_at": "2026-04-10T09:05:40.744Z"
     },
     "fa4ef911": {
       "id": "fa4ef911",
@@ -116,7 +116,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T06:51:33.858Z"
+      "updated_at": "2026-04-10T09:05:40.745Z"
     },
     "2c5c39c9": {
       "id": "2c5c39c9",
@@ -129,7 +129,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T06:51:33.858Z"
+      "updated_at": "2026-04-10T09:05:40.746Z"
     },
     "ed18683c": {
       "id": "ed18683c",
@@ -142,7 +142,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T06:51:33.859Z"
+      "updated_at": "2026-04-10T09:05:40.746Z"
     },
     "49c5b493": {
       "id": "49c5b493",
@@ -155,12 +155,12 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T06:51:33.859Z"
+      "updated_at": "2026-04-10T09:05:40.747Z"
     },
     "be32d4df": {
       "id": "be32d4df",
       "name": "vllmgemma4e4bone",
-      "version": "1.0.1",
+      "version": "1.0.10",
       "category": "AI",
       "description": "Gemma 4 E4B (Vision + Audio) via vLLM — optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/vllmgemma4e4bone.png",
@@ -168,7 +168,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T06:51:33.859Z"
+      "updated_at": "2026-04-10T09:05:40.747Z"
     },
     "285e9d99": {
       "id": "285e9d99",
@@ -181,7 +181,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T06:51:33.860Z"
+      "updated_at": "2026-04-10T09:05:40.747Z"
     },
     "af406293": {
       "id": "af406293",
@@ -194,7 +194,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T06:51:33.860Z"
+      "updated_at": "2026-04-10T09:05:40.748Z"
     },
     "13db403f": {
       "id": "13db403f",
@@ -207,7 +207,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T06:51:33.860Z"
+      "updated_at": "2026-04-10T09:05:40.748Z"
     },
     "efd72908": {
       "id": "efd72908",
@@ -220,7 +220,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T06:51:33.861Z"
+      "updated_at": "2026-04-10T09:05:40.749Z"
     }
   },
   "details": {
@@ -320,14 +320,14 @@
           "appName": "llamacppqwen35iq4one",
           "version": "1.0.6",
           "versionName": "1.0.6",
-          "mergedAt": "2026-04-10T06:51:33.858Z",
+          "mergedAt": "2026-04-10T09:05:40.745Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T06:51:33.858Z"
+      "updated_at": "2026-04-10T09:05:40.745Z"
     },
     "f9902972": {
       "id": "f9902972",
@@ -425,14 +425,14 @@
           "appName": "cascade230a3bone",
           "version": "1.0.5",
           "versionName": "1.0.5",
-          "mergedAt": "2026-04-10T06:51:33.854Z",
+          "mergedAt": "2026-04-10T09:05:40.739Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T06:51:33.854Z"
+      "updated_at": "2026-04-10T09:05:40.739Z"
     },
     "8a7e4366": {
       "id": "8a7e4366",
@@ -530,14 +530,14 @@
           "appName": "devstralsmallone",
           "version": "1.0.4",
           "versionName": "1.0.4",
-          "mergedAt": "2026-04-10T06:51:33.855Z",
+          "mergedAt": "2026-04-10T09:05:40.740Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T06:51:33.855Z"
+      "updated_at": "2026-04-10T09:05:40.740Z"
     },
     "cf587666": {
       "id": "cf587666",
@@ -635,14 +635,14 @@
           "appName": "exl3qwen35a3bone",
           "version": "1.0.15",
           "versionName": "1.0.15",
-          "mergedAt": "2026-04-10T06:51:33.855Z",
+          "mergedAt": "2026-04-10T09:05:40.741Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T06:51:33.855Z"
+      "updated_at": "2026-04-10T09:05:40.741Z"
     },
     "a4f8515c": {
       "id": "a4f8515c",
@@ -740,14 +740,14 @@
           "appName": "gemma426ba4bone",
           "version": "1.0.7",
           "versionName": "1.0.7",
-          "mergedAt": "2026-04-10T06:51:33.856Z",
+          "mergedAt": "2026-04-10T09:05:40.742Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T06:51:33.856Z"
+      "updated_at": "2026-04-10T09:05:40.742Z"
     },
     "c1ca229f": {
       "id": "c1ca229f",
@@ -845,14 +845,14 @@
           "appName": "llamacppglm47flash",
           "version": "1.0.10",
           "versionName": "1.0.10",
-          "mergedAt": "2026-04-10T06:51:33.857Z",
+          "mergedAt": "2026-04-10T09:05:40.743Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T06:51:33.857Z"
+      "updated_at": "2026-04-10T09:05:40.743Z"
     },
     "491be3cd": {
       "id": "491be3cd",
@@ -950,14 +950,14 @@
           "appName": "llamacppnemotron30a3bone",
           "version": "1.0.9",
           "versionName": "1.0.9",
-          "mergedAt": "2026-04-10T06:51:33.857Z",
+          "mergedAt": "2026-04-10T09:05:40.744Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T06:51:33.857Z"
+      "updated_at": "2026-04-10T09:05:40.744Z"
     },
     "4ef430dd": {
       "id": "4ef430dd",
@@ -1055,14 +1055,14 @@
           "appName": "llamacppqwen35a3bone",
           "version": "1.0.28",
           "versionName": "1.0.28",
-          "mergedAt": "2026-04-10T06:51:33.857Z",
+          "mergedAt": "2026-04-10T09:05:40.744Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T06:51:33.857Z"
+      "updated_at": "2026-04-10T09:05:40.744Z"
     },
     "fa4ef911": {
       "id": "fa4ef911",
@@ -1160,14 +1160,14 @@
           "appName": "nemotron3nano4bone",
           "version": "1.0.3",
           "versionName": "1.0.3",
-          "mergedAt": "2026-04-10T06:51:33.858Z",
+          "mergedAt": "2026-04-10T09:05:40.745Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T06:51:33.858Z"
+      "updated_at": "2026-04-10T09:05:40.745Z"
     },
     "2c5c39c9": {
       "id": "2c5c39c9",
@@ -1265,14 +1265,14 @@
           "appName": "qwen35a3bvisionone",
           "version": "1.0.8",
           "versionName": "1.0.8",
-          "mergedAt": "2026-04-10T06:51:33.858Z",
+          "mergedAt": "2026-04-10T09:05:40.746Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T06:51:33.858Z"
+      "updated_at": "2026-04-10T09:05:40.746Z"
     },
     "ed18683c": {
       "id": "ed18683c",
@@ -1370,14 +1370,14 @@
           "appName": "qwen35iq4visionone",
           "version": "1.0.6",
           "versionName": "1.0.6",
-          "mergedAt": "2026-04-10T06:51:33.859Z",
+          "mergedAt": "2026-04-10T09:05:40.746Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T06:51:33.859Z"
+      "updated_at": "2026-04-10T09:05:40.746Z"
     },
     "49c5b493": {
       "id": "49c5b493",
@@ -1475,25 +1475,25 @@
           "appName": "qwen3ttstone",
           "version": "1.0.9",
           "versionName": "1.0.9",
-          "mergedAt": "2026-04-10T06:51:33.859Z",
+          "mergedAt": "2026-04-10T09:05:40.747Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T06:51:33.859Z"
+      "updated_at": "2026-04-10T09:05:40.747Z"
     },
     "be32d4df": {
       "id": "be32d4df",
       "name": "vllmgemma4e4bone",
       "cfgType": "app",
-      "chartName": "vllmgemma4e4bone-1.0.1.tgz",
+      "chartName": "vllmgemma4e4bone-1.0.10.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/vllmgemma4e4bone.png",
       "description": "Gemma 4 E4B (Vision + Audio) via vLLM — optimized for Olares One",
       "appID": "be32d4df",
       "title": "Gemma 4 E4B Voice One",
-      "version": "1.0.1",
+      "version": "1.0.10",
       "categories": [
         "AI"
       ],
@@ -1578,16 +1578,16 @@
       "versionHistory": [
         {
           "appName": "vllmgemma4e4bone",
-          "version": "1.0.1",
-          "versionName": "1.0.1",
-          "mergedAt": "2026-04-10T06:51:33.859Z",
+          "version": "1.0.10",
+          "versionName": "1.0.10",
+          "mergedAt": "2026-04-10T09:05:40.747Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T06:51:33.859Z"
+      "updated_at": "2026-04-10T09:05:40.747Z"
     },
     "285e9d99": {
       "id": "285e9d99",
@@ -1685,14 +1685,14 @@
           "appName": "vllmqwen3527bone",
           "version": "1.0.3",
           "versionName": "1.0.3",
-          "mergedAt": "2026-04-10T06:51:33.860Z",
+          "mergedAt": "2026-04-10T09:05:40.747Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T06:51:33.860Z"
+      "updated_at": "2026-04-10T09:05:40.747Z"
     },
     "af406293": {
       "id": "af406293",
@@ -1790,14 +1790,14 @@
           "appName": "vllmvoxtral3bone",
           "version": "1.0.7",
           "versionName": "1.0.7",
-          "mergedAt": "2026-04-10T06:51:33.860Z",
+          "mergedAt": "2026-04-10T09:05:40.748Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T06:51:33.860Z"
+      "updated_at": "2026-04-10T09:05:40.748Z"
     },
     "13db403f": {
       "id": "13db403f",
@@ -1895,14 +1895,14 @@
           "appName": "vllmvoxtralrt4bone",
           "version": "1.0.8",
           "versionName": "1.0.8",
-          "mergedAt": "2026-04-10T06:51:33.860Z",
+          "mergedAt": "2026-04-10T09:05:40.748Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T06:51:33.860Z"
+      "updated_at": "2026-04-10T09:05:40.748Z"
     },
     "efd72908": {
       "id": "efd72908",
@@ -2000,18 +2000,17 @@
           "appName": "vllmvoxtraltts4bone",
           "version": "1.0.12",
           "versionName": "1.0.12",
-          "mergedAt": "2026-04-10T06:51:33.861Z",
+          "mergedAt": "2026-04-10T09:05:40.749Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T06:51:33.861Z"
+      "updated_at": "2026-04-10T09:05:40.749Z"
     }
   },
   "latest": [
-    "vllmgemma4e4bone",
     "nemotron3nano4bone",
     "vllmqwen3527bone",
     "devstralsmallone",
@@ -2025,6 +2024,7 @@
     "llamacppnemotron30a3bone",
     "qwen3ttstone",
     "llamacppglm47flash",
+    "vllmgemma4e4bone",
     "vllmvoxtraltts4bone",
     "exl3qwen35a3bone",
     "llamacppqwen35a3bone"

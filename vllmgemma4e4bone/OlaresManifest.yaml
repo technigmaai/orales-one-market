@@ -8,7 +8,7 @@ metadata:
   description: "Gemma 4 E4B (Vision + Audio) via vLLM — optimized for Olares One"
   appid: vllmgemma4e4bone
   title: Gemma 4 E4B Voice One
-  version: '1.0.1'
+  version: '1.0.10'
   categories:
     - AI
 entrances:
