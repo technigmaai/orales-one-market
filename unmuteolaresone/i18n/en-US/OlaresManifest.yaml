@@ -1,0 +1,8 @@
+metadata:
+  description: "Unmute Voice Pipeline — French voice-to-voice (Kyutai STT + Gemma 4 + Kyutai TTS) for Olares One"
+  title: Unmute Voice Pipeline One
+spec:
+  fullDescription: |
+    Complete French voice-to-voice pipeline. Speak in French, get an AI response spoken back.
+    Kyutai STT 1B + Gemma 4 E2B + Kyutai TTS 1.6B. Total ~12GB VRAM.
+    First launch compiles moshi-server (~10 min), subsequent starts are instant.

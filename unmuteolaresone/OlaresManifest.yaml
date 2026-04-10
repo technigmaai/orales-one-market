@@ -1,0 +1,62 @@
+---
+olaresManifest.version: '0.10.0'
+olaresManifest.type: app
+apiVersion: 'v2'
+metadata:
+  name: unmuteolaresone
+  icon: https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png
+  description: "Unmute Voice Pipeline — French voice-to-voice (Kyutai STT + Gemma 4 + Kyutai TTS) for Olares One"
+  appid: unmuteolaresone
+  title: Unmute Voice Pipeline One
+  version: '1.0.4'
+  categories:
+    - AI
+entrances:
+  - name: unmuteolaresone
+    port: 8000
+    host: unmuteolaresone
+    title: Unmute Voice One
+    icon: https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png
+    openMethod: window
+    authLevel: internal
+spec:
+  versionName: '1.0.0'
+  fullDescription: |
+    Complete French voice-to-voice pipeline powered by Kyutai (French AI lab) + Google Gemma 4.
+    Speak in French, get an AI response spoken back — all running locally on Olares One.
+    Kyutai STT 1B (streaming speech-to-text, French native, 500ms latency).
+    Gemma 4 E2B (ultra-fast 2.3B LLM brain via llama.cpp, must be installed separately).
+    Kyutai TTS 1.6B (streaming text-to-speech, French native, 220ms latency).
+    Total VRAM ~12GB — leaves 12GB free on 24GB GPU.
+    First launch compiles moshi-server from Rust (~10 min), subsequent starts are instant.
+    Web UI for voice conversation via browser microphone.
+
+  developer: aamsellem
+  website: https://github.com/aamsellem/orales-one-market
+  sourceCode: https://github.com/aamsellem/orales-one-market
+  submitter: aamsellem
+  locale:
+    - en-US
+  license:
+    - text: CC-BY 4.0 (Kyutai) + Apache 2.0 (Gemma)
+      url: https://creativecommons.org/licenses/by/4.0/
+
+  limitedCpu: 16
+  requiredCpu: 4
+  requiredDisk: 30Gi
+  limitedDisk: 50Gi
+  limitedMemory: 40Gi
+  requiredMemory: 4Gi
+  requiredGpu: 1Gi
+  limitedGpu: 24Gi
+
+  supportArch:
+    - amd64
+permission:
+  appData: true
+options:
+  apiTimeout: 0
+  dependencies:
+    - name: olares
+      version: '>=1.12.3-0'
+      type: system

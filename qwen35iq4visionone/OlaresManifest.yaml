@@ -8,7 +8,7 @@ metadata:
   description: "Qwen3.5 35B-A3B Vision IQ4_XS via llama.cpp — long context, optimized for Olares One"
   appid: qwen35iq4visionone
   title: Qwen3.5 Vision IQ4 64K One
-  version: '1.0.6'
+  version: '1.0.7'
   categories:
     - AI
 entrances:

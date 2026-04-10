@@ -1,0 +1,6 @@
+apiVersion: v2
+appVersion: '1.0.4'
+description: Unmute Voice Pipeline (Kyutai STT + TTS + Gemma 4 E2B) — French voice-to-voice for Olares One
+name: unmuteolaresone
+type: application
+version: '1.0.4'

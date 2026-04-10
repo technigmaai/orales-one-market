@@ -8,7 +8,7 @@ metadata:
   description: "GLM-4.7-Flash 30B-A3B via llama.cpp — optimized for Olares One"
   appid: llamacppglm47flash
   title: GLM-4.7-Flash (Olares One)
-  version: '1.0.10'
+  version: '1.0.11'
   categories:
     - AI
 entrances:

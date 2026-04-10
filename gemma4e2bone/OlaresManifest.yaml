@@ -3,34 +3,32 @@ olaresManifest.version: '0.10.0'
 olaresManifest.type: app
 apiVersion: 'v2'
 metadata:
-  name: gemma426ba4bone
+  name: gemma4e2bone
   icon: https://orales-one-market.aamsellem.workers.dev/icons/gemma426ba4bone.png
-  description: "Gemma 4 26B-A4B (MoE + Vision) via llama.cpp — optimized for Olares One"
-  appid: gemma426ba4bone
-  title: Gemma 4 26B-A4B One
-  version: '1.0.8'
+  description: "Gemma 4 E2B (ultra-fast 2.3B) via llama.cpp — voice pipeline brain for Olares One"
+  appid: gemma4e2bone
+  title: Gemma 4 E2B Voice Brain One
+  version: '1.0.1'
   categories:
     - AI
 entrances:
-  - name: gemma426ba4bone
+  - name: gemma4e2bone
     port: 8080
-    host: gemma426ba4bone
-    title: Gemma 4 26B One
+    host: gemma4e2bone
+    title: Gemma 4 E2B One
     icon: https://orales-one-market.aamsellem.workers.dev/icons/gemma426ba4bone.png
     openMethod: window
     authLevel: internal
 spec:
   versionName: '1.0.0'
   fullDescription: |
-    Google Gemma 4 26B-A4B (MoE, 3.8B active, 128 experts) with native vision — served via llama.cpp, optimized for Olares One.
+    Google Gemma 4 E2B (5.1B params, 2.3B effective) served via llama.cpp — ultra-fast voice pipeline brain for Olares One.
     RTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.
-    Unsloth Dynamic Q4_K_XL quantization (16GB model + 1.1GB vision projector = ~17GB, ~7GB free for KV cache).
-    64K context with q4_0 KV cache and Hadamard rotation.
-    Native multimodal: text + image + video understanding (no separate mmproj download needed by user).
-    LMArena 1441 (vs Qwen3.5-35B-A3B 1400). AIME 2026 88.3%. LiveCodeBench 77.1%.
-    Apache 2.0 license. Thinking mode with tool calling support.
-    llama.cpp b8667 with flash attention, CUDA graph optimization, and op-offload.
-    Downloads model on first launch (~17GB) and caches it.
+    Q8_0 quantization (4.7GB model, near-lossless quality). 8K context.
+    Designed to run alongside Kyutai STT + TTS for a complete French voice pipeline (~12GB total).
+    q4_0 KV cache with Hadamard rotation. llama.cpp b8720.
+    Apache 2.0 license.
+    Downloads model on first launch (~4.7GB) and caches it.
     Exposes an OpenAI-compatible API on port 8080.
 
   developer: aamsellem
@@ -45,8 +43,8 @@ spec:
 
   limitedCpu: 16
   requiredCpu: 4
-  requiredDisk: 30Gi
-  limitedDisk: 50Gi
+  requiredDisk: 15Gi
+  limitedDisk: 20Gi
   limitedMemory: 40Gi
   requiredMemory: 4Gi
   requiredGpu: 1Gi

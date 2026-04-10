@@ -3,4 +3,4 @@ appVersion: '1.0.28'
 description: Qwen3.5 35B-A3B served via llama.cpp — optimized for Olares One
 name: llamacppqwen35a3bone
 type: application
-version: '1.0.28'
+version: '1.0.29'

@@ -1,10 +1,10 @@
 {
-  "hash": "4dc089c6f7332baa418ca2f5d526cfbd",
+  "hash": "1ba091c2a7a192ae3f32b49c13ffd227",
   "summaries": {
     "33102786": {
       "id": "33102786",
       "name": "llamacppqwen35iq4one",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "category": "AI",
       "description": "Qwen3.5 35B-A3B IQ4_XS via llama.cpp — long context, optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35iq4one.png",
@@ -12,12 +12,12 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T09:05:40.745Z"
+      "updated_at": "2026-04-10T21:40:26.436Z"
     },
     "f9902972": {
       "id": "f9902972",
       "name": "cascade230a3bone",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "category": "AI",
       "description": "Nemotron Cascade 2 30B-A3B via llama.cpp — math and code, optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
@@ -25,12 +25,12 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T09:05:40.738Z"
+      "updated_at": "2026-04-10T21:40:26.429Z"
     },
     "8a7e4366": {
       "id": "8a7e4366",
       "name": "devstralsmallone",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "category": "AI",
       "description": "Devstral Small 2507 via llama.cpp — coding agent optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/devstralsmallone.png",
@@ -38,7 +38,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T09:05:40.740Z"
+      "updated_at": "2026-04-10T21:40:26.431Z"
     },
     "cf587666": {
       "id": "cf587666",
@@ -51,12 +51,12 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T09:05:40.741Z"
+      "updated_at": "2026-04-10T21:40:26.433Z"
     },
     "a4f8515c": {
       "id": "a4f8515c",
       "name": "gemma426ba4bone",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "category": "AI",
       "description": "Gemma 4 26B-A4B (MoE + Vision) via llama.cpp — optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/gemma426ba4bone.png",
@@ -64,12 +64,25 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T09:05:40.742Z"
+      "updated_at": "2026-04-10T21:40:26.434Z"
+    },
+    "65b82978": {
+      "id": "65b82978",
+      "name": "gemma4e2bone",
+      "version": "1.0.1",
+      "category": "AI",
+      "description": "Gemma 4 E2B (ultra-fast 2.3B) via llama.cpp — voice pipeline brain for Olares One",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/gemma426ba4bone.png",
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "source": 1,
+      "updated_at": "2026-04-10T21:40:26.434Z"
     },
     "c1ca229f": {
       "id": "c1ca229f",
       "name": "llamacppglm47flash",
-      "version": "1.0.10",
+      "version": "1.0.11",
       "category": "AI",
       "description": "GLM-4.7-Flash 30B-A3B via llama.cpp — optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppglm47flash.png",
@@ -77,12 +90,12 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T09:05:40.743Z"
+      "updated_at": "2026-04-10T21:40:26.435Z"
     },
     "491be3cd": {
       "id": "491be3cd",
       "name": "llamacppnemotron30a3bone",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "category": "AI",
       "description": "Nemotron 3 Nano 30B-A3B via llama.cpp — optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
@@ -90,12 +103,12 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T09:05:40.744Z"
+      "updated_at": "2026-04-10T21:40:26.435Z"
     },
     "4ef430dd": {
       "id": "4ef430dd",
       "name": "llamacppqwen35a3bone",
-      "version": "1.0.28",
+      "version": "1.0.29",
       "category": "AI",
       "description": "Qwen3.5 35B-A3B via llama.cpp — optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35a3bone.png",
@@ -103,12 +116,12 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T09:05:40.744Z"
+      "updated_at": "2026-04-10T21:40:26.436Z"
     },
     "fa4ef911": {
       "id": "fa4ef911",
       "name": "nemotron3nano4bone",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "category": "AI",
       "description": "Nemotron 3 Nano 4B Q8 via llama.cpp — fast edge AI, optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/nemotron3nano4bone.png",
@@ -116,12 +129,12 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T09:05:40.745Z"
+      "updated_at": "2026-04-10T21:40:26.436Z"
     },
     "2c5c39c9": {
       "id": "2c5c39c9",
       "name": "qwen35a3bvisionone",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "category": "AI",
       "description": "Qwen3.5 35B-A3B Vision via llama.cpp — image + text, optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/qwen35a3bvisionone.png",
@@ -129,12 +142,12 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T09:05:40.746Z"
+      "updated_at": "2026-04-10T21:40:26.437Z"
     },
     "ed18683c": {
       "id": "ed18683c",
       "name": "qwen35iq4visionone",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "category": "AI",
       "description": "Qwen3.5 35B-A3B Vision IQ4_XS via llama.cpp — long context, optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/qwen35iq4visionone.png",
@@ -142,7 +155,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T09:05:40.746Z"
+      "updated_at": "2026-04-10T21:40:26.437Z"
     },
     "49c5b493": {
       "id": "49c5b493",
@@ -155,7 +168,20 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T09:05:40.747Z"
+      "updated_at": "2026-04-10T21:40:26.438Z"
+    },
+    "d52ed59a": {
+      "id": "d52ed59a",
+      "name": "unmuteolaresone",
+      "version": "1.0.4",
+      "category": "AI",
+      "description": "Unmute Voice Pipeline — French voice-to-voice (Kyutai STT + Gemma 4 + Kyutai TTS) for Olares One",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "source": 1,
+      "updated_at": "2026-04-10T21:40:26.439Z"
     },
     "be32d4df": {
       "id": "be32d4df",
@@ -168,7 +194,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T09:05:40.747Z"
+      "updated_at": "2026-04-10T21:40:26.440Z"
     },
     "285e9d99": {
       "id": "285e9d99",
@@ -181,7 +207,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T09:05:40.747Z"
+      "updated_at": "2026-04-10T21:40:26.441Z"
     },
     "af406293": {
       "id": "af406293",
@@ -194,7 +220,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T09:05:40.748Z"
+      "updated_at": "2026-04-10T21:40:26.441Z"
     },
     "13db403f": {
       "id": "13db403f",
@@ -207,7 +233,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T09:05:40.748Z"
+      "updated_at": "2026-04-10T21:40:26.443Z"
     },
     "efd72908": {
       "id": "efd72908",
@@ -220,7 +246,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T09:05:40.749Z"
+      "updated_at": "2026-04-10T21:40:26.444Z"
     }
   },
   "details": {
@@ -228,12 +254,12 @@
       "id": "33102786",
       "name": "llamacppqwen35iq4one",
       "cfgType": "app",
-      "chartName": "llamacppqwen35iq4one-1.0.6.tgz",
+      "chartName": "llamacppqwen35iq4one-1.0.7.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35iq4one.png",
       "description": "Qwen3.5 35B-A3B IQ4_XS via llama.cpp — long context, optimized for Olares One",
       "appID": "33102786",
       "title": "Qwen3.5 35B IQ4 128K One",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "categories": [
         "AI"
       ],
@@ -318,27 +344,27 @@
       "versionHistory": [
         {
           "appName": "llamacppqwen35iq4one",
-          "version": "1.0.6",
+          "version": "1.0.7",
           "versionName": "1.0.6",
-          "mergedAt": "2026-04-10T09:05:40.745Z",
+          "mergedAt": "2026-04-10T21:40:26.436Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T09:05:40.745Z"
+      "updated_at": "2026-04-10T21:40:26.436Z"
     },
     "f9902972": {
       "id": "f9902972",
       "name": "cascade230a3bone",
       "cfgType": "app",
-      "chartName": "cascade230a3bone-1.0.5.tgz",
+      "chartName": "cascade230a3bone-1.0.6.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
       "description": "Nemotron Cascade 2 30B-A3B via llama.cpp — math and code, optimized for Olares One",
       "appID": "f9902972",
       "title": "Cascade 2 30B-A3B One",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "categories": [
         "AI"
       ],
@@ -423,27 +449,27 @@
       "versionHistory": [
         {
           "appName": "cascade230a3bone",
-          "version": "1.0.5",
+          "version": "1.0.6",
           "versionName": "1.0.5",
-          "mergedAt": "2026-04-10T09:05:40.739Z",
+          "mergedAt": "2026-04-10T21:40:26.431Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T09:05:40.739Z"
+      "updated_at": "2026-04-10T21:40:26.431Z"
     },
     "8a7e4366": {
       "id": "8a7e4366",
       "name": "devstralsmallone",
       "cfgType": "app",
-      "chartName": "devstralsmallone-1.0.4.tgz",
+      "chartName": "devstralsmallone-1.0.5.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/devstralsmallone.png",
       "description": "Devstral Small 2507 via llama.cpp — coding agent optimized for Olares One",
       "appID": "8a7e4366",
       "title": "Devstral Small Code One",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "categories": [
         "AI"
       ],
@@ -528,16 +554,16 @@
       "versionHistory": [
         {
           "appName": "devstralsmallone",
-          "version": "1.0.4",
+          "version": "1.0.5",
           "versionName": "1.0.4",
-          "mergedAt": "2026-04-10T09:05:40.740Z",
+          "mergedAt": "2026-04-10T21:40:26.432Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T09:05:40.740Z"
+      "updated_at": "2026-04-10T21:40:26.432Z"
     },
     "cf587666": {
       "id": "cf587666",
@@ -635,25 +661,25 @@
           "appName": "exl3qwen35a3bone",
           "version": "1.0.15",
           "versionName": "1.0.15",
-          "mergedAt": "2026-04-10T09:05:40.741Z",
+          "mergedAt": "2026-04-10T21:40:26.433Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T09:05:40.741Z"
+      "updated_at": "2026-04-10T21:40:26.433Z"
     },
     "a4f8515c": {
       "id": "a4f8515c",
       "name": "gemma426ba4bone",
       "cfgType": "app",
-      "chartName": "gemma426ba4bone-1.0.7.tgz",
+      "chartName": "gemma426ba4bone-1.0.8.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/gemma426ba4bone.png",
       "description": "Gemma 4 26B-A4B (MoE + Vision) via llama.cpp — optimized for Olares One",
       "appID": "a4f8515c",
       "title": "Gemma 4 26B-A4B One",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "categories": [
         "AI"
       ],
@@ -738,27 +764,132 @@
       "versionHistory": [
         {
           "appName": "gemma426ba4bone",
-          "version": "1.0.7",
+          "version": "1.0.8",
           "versionName": "1.0.7",
-          "mergedAt": "2026-04-10T09:05:40.742Z",
+          "mergedAt": "2026-04-10T21:40:26.434Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T09:05:40.742Z"
+      "updated_at": "2026-04-10T21:40:26.434Z"
+    },
+    "65b82978": {
+      "id": "65b82978",
+      "name": "gemma4e2bone",
+      "cfgType": "app",
+      "chartName": "gemma4e2bone-1.0.1.tgz",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/gemma426ba4bone.png",
+      "description": "Gemma 4 E2B (ultra-fast 2.3B) via llama.cpp — voice pipeline brain for Olares One",
+      "appID": "65b82978",
+      "title": "Gemma 4 E2B Voice Brain One",
+      "version": "1.0.1",
+      "categories": [
+        "AI"
+      ],
+      "versionName": "1.0.0",
+      "fullDescription": "Google Gemma 4 E2B (5.1B params, 2.3B effective) served via llama.cpp — ultra-fast voice pipeline brain for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nQ8_0 quantization (4.7GB model, near-lossless quality). 8K context.\nDesigned to run alongside Kyutai STT + TTS for a complete French voice pipeline (~12GB total).\nq4_0 KV cache with Hadamard rotation. llama.cpp b8720.\nApache 2.0 license.\nDownloads model on first launch (~4.7GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
+      "upgradeDescription": "",
+      "promoteImage": null,
+      "promoteVideo": "",
+      "subCategory": "",
+      "locale": [
+        "en-US"
+      ],
+      "developer": "aamsellem",
+      "requiredMemory": "4294967296",
+      "requiredDisk": "16106127360",
+      "supportClient": {},
+      "supportArch": [
+        "amd64"
+      ],
+      "requiredGPU": "1073741824",
+      "requiredCPU": "4",
+      "rating": 0,
+      "target": "",
+      "permission": {
+        "appData": true
+      },
+      "entrances": [
+        {
+          "name": "gemma4e2bone",
+          "host": "gemma4e2bone",
+          "port": 8080,
+          "title": "Gemma 4 E2B One",
+          "icon": "https://orales-one-market.aamsellem.workers.dev/icons/gemma426ba4bone.png",
+          "authLevel": "internal",
+          "invisible": false,
+          "openMethod": "window",
+          "disablePreload": false
+        }
+      ],
+      "middleware": null,
+      "options": {
+        "apiTimeout": 0,
+        "dependencies": [
+          {
+            "name": "olares",
+            "version": ">=1.12.3-0",
+            "type": "system"
+          }
+        ]
+      },
+      "submitter": "aamsellem",
+      "doc": "",
+      "website": "https://github.com/aamsellem/orales-one-market",
+      "featuredImage": "",
+      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "license": [
+        {
+          "text": "Apache 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0"
+        }
+      ],
+      "legal": null,
+      "i18n": {
+        "en-US": {
+          "metadata": {
+            "title": "Gemma 4 E2B Voice Brain One",
+            "description": "Gemma 4 E2B (ultra-fast 2.3B) via llama.cpp — voice pipeline brain for Olares One"
+          },
+          "entrances": null,
+          "spec": {
+            "fullDescription": "Google Gemma 4 E2B (5.1B params, 2.3B effective) — ultra-fast voice pipeline brain.\nQ8_0 quantization (4.7GB, near-lossless). Designed for Kyutai STT+TTS voice pipeline.\n~12GB total with STT+TTS, leaving 12GB free on 24GB GPU.\nOpenAI-compatible API on port 8080.\n",
+            "upgradeDescription": ""
+          }
+        }
+      },
+      "namespace": "",
+      "onlyAdmin": false,
+      "lastCommitHash": "",
+      "createTime": 0,
+      "updateTime": 0,
+      "count": null,
+      "versionHistory": [
+        {
+          "appName": "gemma4e2bone",
+          "version": "1.0.1",
+          "versionName": "1.0.0",
+          "mergedAt": "2026-04-10T21:40:26.434Z",
+          "upgradeDescription": ""
+        }
+      ],
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "updated_at": "2026-04-10T21:40:26.434Z"
     },
     "c1ca229f": {
       "id": "c1ca229f",
       "name": "llamacppglm47flash",
       "cfgType": "app",
-      "chartName": "llamacppglm47flash-1.0.10.tgz",
+      "chartName": "llamacppglm47flash-1.0.11.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppglm47flash.png",
       "description": "GLM-4.7-Flash 30B-A3B via llama.cpp — optimized for Olares One",
       "appID": "c1ca229f",
       "title": "GLM-4.7-Flash (Olares One)",
-      "version": "1.0.10",
+      "version": "1.0.11",
       "categories": [
         "AI"
       ],
@@ -843,27 +974,27 @@
       "versionHistory": [
         {
           "appName": "llamacppglm47flash",
-          "version": "1.0.10",
+          "version": "1.0.11",
           "versionName": "1.0.10",
-          "mergedAt": "2026-04-10T09:05:40.743Z",
+          "mergedAt": "2026-04-10T21:40:26.435Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T09:05:40.743Z"
+      "updated_at": "2026-04-10T21:40:26.435Z"
     },
     "491be3cd": {
       "id": "491be3cd",
       "name": "llamacppnemotron30a3bone",
       "cfgType": "app",
-      "chartName": "llamacppnemotron30a3bone-1.0.9.tgz",
+      "chartName": "llamacppnemotron30a3bone-1.0.10.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
       "description": "Nemotron 3 Nano 30B-A3B via llama.cpp — optimized for Olares One",
       "appID": "491be3cd",
       "title": "Nemotron 30B-A3B Olares One",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "categories": [
         "AI"
       ],
@@ -948,27 +1079,27 @@
       "versionHistory": [
         {
           "appName": "llamacppnemotron30a3bone",
-          "version": "1.0.9",
+          "version": "1.0.10",
           "versionName": "1.0.9",
-          "mergedAt": "2026-04-10T09:05:40.744Z",
+          "mergedAt": "2026-04-10T21:40:26.435Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T09:05:40.744Z"
+      "updated_at": "2026-04-10T21:40:26.435Z"
     },
     "4ef430dd": {
       "id": "4ef430dd",
       "name": "llamacppqwen35a3bone",
       "cfgType": "app",
-      "chartName": "llamacppqwen35a3bone-1.0.28.tgz",
+      "chartName": "llamacppqwen35a3bone-1.0.29.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppqwen35a3bone.png",
       "description": "Qwen3.5 35B-A3B via llama.cpp — optimized for Olares One",
       "appID": "4ef430dd",
       "title": "Qwen3.5 35B-A3B (Olares One)",
-      "version": "1.0.28",
+      "version": "1.0.29",
       "categories": [
         "AI"
       ],
@@ -1053,27 +1184,27 @@
       "versionHistory": [
         {
           "appName": "llamacppqwen35a3bone",
-          "version": "1.0.28",
+          "version": "1.0.29",
           "versionName": "1.0.28",
-          "mergedAt": "2026-04-10T09:05:40.744Z",
+          "mergedAt": "2026-04-10T21:40:26.436Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T09:05:40.744Z"
+      "updated_at": "2026-04-10T21:40:26.436Z"
     },
     "fa4ef911": {
       "id": "fa4ef911",
       "name": "nemotron3nano4bone",
       "cfgType": "app",
-      "chartName": "nemotron3nano4bone-1.0.3.tgz",
+      "chartName": "nemotron3nano4bone-1.0.4.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/nemotron3nano4bone.png",
       "description": "Nemotron 3 Nano 4B Q8 via llama.cpp — fast edge AI, optimized for Olares One",
       "appID": "fa4ef911",
       "title": "Nemotron 3 Nano 4B One",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "categories": [
         "AI"
       ],
@@ -1158,27 +1289,27 @@
       "versionHistory": [
         {
           "appName": "nemotron3nano4bone",
-          "version": "1.0.3",
+          "version": "1.0.4",
           "versionName": "1.0.3",
-          "mergedAt": "2026-04-10T09:05:40.745Z",
+          "mergedAt": "2026-04-10T21:40:26.436Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T09:05:40.745Z"
+      "updated_at": "2026-04-10T21:40:26.436Z"
     },
     "2c5c39c9": {
       "id": "2c5c39c9",
       "name": "qwen35a3bvisionone",
       "cfgType": "app",
-      "chartName": "qwen35a3bvisionone-1.0.8.tgz",
+      "chartName": "qwen35a3bvisionone-1.0.9.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/qwen35a3bvisionone.png",
       "description": "Qwen3.5 35B-A3B Vision via llama.cpp — image + text, optimized for Olares One",
       "appID": "2c5c39c9",
       "title": "Qwen3.5 Vision (Olares One)",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "categories": [
         "AI"
       ],
@@ -1263,27 +1394,27 @@
       "versionHistory": [
         {
           "appName": "qwen35a3bvisionone",
-          "version": "1.0.8",
+          "version": "1.0.9",
           "versionName": "1.0.8",
-          "mergedAt": "2026-04-10T09:05:40.746Z",
+          "mergedAt": "2026-04-10T21:40:26.437Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T09:05:40.746Z"
+      "updated_at": "2026-04-10T21:40:26.437Z"
     },
     "ed18683c": {
       "id": "ed18683c",
       "name": "qwen35iq4visionone",
       "cfgType": "app",
-      "chartName": "qwen35iq4visionone-1.0.6.tgz",
+      "chartName": "qwen35iq4visionone-1.0.7.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/qwen35iq4visionone.png",
       "description": "Qwen3.5 35B-A3B Vision IQ4_XS via llama.cpp — long context, optimized for Olares One",
       "appID": "ed18683c",
       "title": "Qwen3.5 Vision IQ4 64K One",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "categories": [
         "AI"
       ],
@@ -1368,16 +1499,16 @@
       "versionHistory": [
         {
           "appName": "qwen35iq4visionone",
-          "version": "1.0.6",
+          "version": "1.0.7",
           "versionName": "1.0.6",
-          "mergedAt": "2026-04-10T09:05:40.746Z",
+          "mergedAt": "2026-04-10T21:40:26.438Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T09:05:40.746Z"
+      "updated_at": "2026-04-10T21:40:26.438Z"
     },
     "49c5b493": {
       "id": "49c5b493",
@@ -1475,14 +1606,119 @@
           "appName": "qwen3ttstone",
           "version": "1.0.9",
           "versionName": "1.0.9",
-          "mergedAt": "2026-04-10T09:05:40.747Z",
+          "mergedAt": "2026-04-10T21:40:26.438Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T09:05:40.747Z"
+      "updated_at": "2026-04-10T21:40:26.438Z"
+    },
+    "d52ed59a": {
+      "id": "d52ed59a",
+      "name": "unmuteolaresone",
+      "cfgType": "app",
+      "chartName": "unmuteolaresone-1.0.4.tgz",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+      "description": "Unmute Voice Pipeline — French voice-to-voice (Kyutai STT + Gemma 4 + Kyutai TTS) for Olares One",
+      "appID": "d52ed59a",
+      "title": "Unmute Voice Pipeline One",
+      "version": "1.0.4",
+      "categories": [
+        "AI"
+      ],
+      "versionName": "1.0.0",
+      "fullDescription": "Complete French voice-to-voice pipeline powered by Kyutai (French AI lab) + Google Gemma 4.\nSpeak in French, get an AI response spoken back — all running locally on Olares One.\nKyutai STT 1B (streaming speech-to-text, French native, 500ms latency).\nGemma 4 E2B (ultra-fast 2.3B LLM brain via llama.cpp, must be installed separately).\nKyutai TTS 1.6B (streaming text-to-speech, French native, 220ms latency).\nTotal VRAM ~12GB — leaves 12GB free on 24GB GPU.\nFirst launch compiles moshi-server from Rust (~10 min), subsequent starts are instant.\nWeb UI for voice conversation via browser microphone.\n",
+      "upgradeDescription": "",
+      "promoteImage": null,
+      "promoteVideo": "",
+      "subCategory": "",
+      "locale": [
+        "en-US"
+      ],
+      "developer": "aamsellem",
+      "requiredMemory": "4294967296",
+      "requiredDisk": "32212254720",
+      "supportClient": {},
+      "supportArch": [
+        "amd64"
+      ],
+      "requiredGPU": "1073741824",
+      "requiredCPU": "4",
+      "rating": 0,
+      "target": "",
+      "permission": {
+        "appData": true
+      },
+      "entrances": [
+        {
+          "name": "unmuteolaresone",
+          "host": "unmuteolaresone",
+          "port": 8000,
+          "title": "Unmute Voice One",
+          "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+          "authLevel": "internal",
+          "invisible": false,
+          "openMethod": "window",
+          "disablePreload": false
+        }
+      ],
+      "middleware": null,
+      "options": {
+        "apiTimeout": 0,
+        "dependencies": [
+          {
+            "name": "olares",
+            "version": ">=1.12.3-0",
+            "type": "system"
+          }
+        ]
+      },
+      "submitter": "aamsellem",
+      "doc": "",
+      "website": "https://github.com/aamsellem/orales-one-market",
+      "featuredImage": "",
+      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "license": [
+        {
+          "text": "CC-BY 4.0 (Kyutai) + Apache 2.0 (Gemma)",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "legal": null,
+      "i18n": {
+        "en-US": {
+          "metadata": {
+            "title": "Unmute Voice Pipeline One",
+            "description": "Unmute Voice Pipeline — French voice-to-voice (Kyutai STT + Gemma 4 + Kyutai TTS) for Olares One"
+          },
+          "entrances": null,
+          "spec": {
+            "fullDescription": "Complete French voice-to-voice pipeline. Speak in French, get an AI response spoken back.\nKyutai STT 1B + Gemma 4 E2B + Kyutai TTS 1.6B. Total ~12GB VRAM.\nFirst launch compiles moshi-server (~10 min), subsequent starts are instant.\n",
+            "upgradeDescription": ""
+          }
+        }
+      },
+      "namespace": "",
+      "onlyAdmin": false,
+      "lastCommitHash": "",
+      "createTime": 0,
+      "updateTime": 0,
+      "count": null,
+      "versionHistory": [
+        {
+          "appName": "unmuteolaresone",
+          "version": "1.0.4",
+          "versionName": "1.0.4",
+          "mergedAt": "2026-04-10T21:40:26.439Z",
+          "upgradeDescription": ""
+        }
+      ],
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "updated_at": "2026-04-10T21:40:26.439Z"
     },
     "be32d4df": {
       "id": "be32d4df",
@@ -1580,14 +1816,14 @@
           "appName": "vllmgemma4e4bone",
           "version": "1.0.10",
           "versionName": "1.0.10",
-          "mergedAt": "2026-04-10T09:05:40.747Z",
+          "mergedAt": "2026-04-10T21:40:26.440Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T09:05:40.747Z"
+      "updated_at": "2026-04-10T21:40:26.440Z"
     },
     "285e9d99": {
       "id": "285e9d99",
@@ -1685,14 +1921,14 @@
           "appName": "vllmqwen3527bone",
           "version": "1.0.3",
           "versionName": "1.0.3",
-          "mergedAt": "2026-04-10T09:05:40.747Z",
+          "mergedAt": "2026-04-10T21:40:26.441Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T09:05:40.747Z"
+      "updated_at": "2026-04-10T21:40:26.441Z"
     },
     "af406293": {
       "id": "af406293",
@@ -1790,14 +2026,14 @@
           "appName": "vllmvoxtral3bone",
           "version": "1.0.7",
           "versionName": "1.0.7",
-          "mergedAt": "2026-04-10T09:05:40.748Z",
+          "mergedAt": "2026-04-10T21:40:26.441Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T09:05:40.748Z"
+      "updated_at": "2026-04-10T21:40:26.441Z"
     },
     "13db403f": {
       "id": "13db403f",
@@ -1895,14 +2131,14 @@
           "appName": "vllmvoxtralrt4bone",
           "version": "1.0.8",
           "versionName": "1.0.8",
-          "mergedAt": "2026-04-10T09:05:40.748Z",
+          "mergedAt": "2026-04-10T21:40:26.443Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T09:05:40.748Z"
+      "updated_at": "2026-04-10T21:40:26.443Z"
     },
     "efd72908": {
       "id": "efd72908",
@@ -2000,31 +2236,33 @@
           "appName": "vllmvoxtraltts4bone",
           "version": "1.0.12",
           "versionName": "1.0.12",
-          "mergedAt": "2026-04-10T09:05:40.749Z",
+          "mergedAt": "2026-04-10T21:40:26.444Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T09:05:40.749Z"
+      "updated_at": "2026-04-10T21:40:26.444Z"
     }
   },
   "latest": [
-    "nemotron3nano4bone",
+    "gemma4e2bone",
     "vllmqwen3527bone",
+    "nemotron3nano4bone",
+    "unmuteolaresone",
     "devstralsmallone",
     "cascade230a3bone",
     "llamacppqwen35iq4one",
     "qwen35iq4visionone",
-    "gemma426ba4bone",
     "vllmvoxtral3bone",
-    "qwen35a3bvisionone",
+    "gemma426ba4bone",
     "vllmvoxtralrt4bone",
-    "llamacppnemotron30a3bone",
+    "qwen35a3bvisionone",
     "qwen3ttstone",
-    "llamacppglm47flash",
+    "llamacppnemotron30a3bone",
     "vllmgemma4e4bone",
+    "llamacppglm47flash",
     "vllmvoxtraltts4bone",
     "exl3qwen35a3bone",
     "llamacppqwen35a3bone"
