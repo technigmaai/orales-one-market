@@ -138,7 +138,7 @@ Apps may exist in both repos with different configurations (quantization, GPU la
 
 ### Best configuration (128.75 t/s — Qwen3.5-35B-A3B)
 
-Image: `ghcr.io/ggml-org/llama.cpp:server-cuda-b8234` (pinned, includes GATED_DELTA_NET fused op)
+Image: `ghcr.io/ggml-org/llama.cpp:server-cuda13-b8740` (pinned, includes GATED_DELTA_NET fused op + CUDA fused multiply for MoE)
 Model: `unsloth/Qwen3.5-35B-A3B-GGUF` → `Qwen3.5-35B-A3B-UD-Q4_K_XL.gguf` (22.2GB)
 
 ```
@@ -212,10 +212,10 @@ UD-Q4_K_XL at 16K context with q8_0 KV cache fits comfortably.
 
 ### Docker image tags (llama.cpp)
 
-- Format: `ghcr.io/ggml-org/llama.cpp:server-cuda-b{N}`
+- Format: `ghcr.io/ggml-org/llama.cpp:server-cuda13-b{N}`
 - Always pin to a specific build number, don't use `server-cuda` (rolling latest).
 - CUDA variants: `server-cuda`, `server-cuda12`, `server-cuda13`
-- b8234 (March 8, 2026) includes: GATED_DELTA_NET fused op, less CUDA syncs, SSM conv shared mem.
+- b8740 (April 10, 2026) includes: CUDA fused multiply for MoE, GATED_DELTA_NET fused op, Hadamard rotation (TurboQuant), less CUDA syncs, SSM conv shared mem.
 
 ### GGUF sources
 

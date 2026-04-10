@@ -8,7 +8,7 @@ data:
   MODEL_NAME: "mistralai/Voxtral-Mini-4B-Realtime-2602"
   MODEL_ALIAS: "voxtral-realtime-4b"
   MAX_MODEL_LEN: "65536"
-  GPU_MEMORY_UTILIZATION: "0.90"
+  GPU_MEMORY_UTILIZATION: "0.45"
 ---
 apiVersion: apps/v1
 kind: Deployment

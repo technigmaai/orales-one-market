@@ -8,7 +8,7 @@ data:
   MODEL_NAME: "mistralai/Voxtral-Mini-3B-2507"
   MODEL_ALIAS: "voxtral-mini-3b"
   MAX_MODEL_LEN: "32768"
-  GPU_MEMORY_UTILIZATION: "0.90"
+  GPU_MEMORY_UTILIZATION: "0.45"
 ---
 apiVersion: apps/v1
 kind: Deployment

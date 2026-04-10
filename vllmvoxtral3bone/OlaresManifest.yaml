@@ -8,7 +8,7 @@ metadata:
   description: "Voxtral Mini 3B ASR via vLLM — audio transcription and understanding, optimized for Olares One"
   appid: vllmvoxtral3bone
   title: Voxtral Mini 3B ASR One
-  version: '1.0.7'
+  version: '1.0.8'
   categories:
     - AI
 entrances:
@@ -18,7 +18,7 @@ entrances:
     title: Voxtral 3B ASR One
     icon: https://orales-one-market.aamsellem.workers.dev/icons/vllmvoxtral3bone.png
     openMethod: window
-    authLevel: internal
+    authLevel: public
 spec:
   versionName: '1.0.0'
   fullDescription: |
