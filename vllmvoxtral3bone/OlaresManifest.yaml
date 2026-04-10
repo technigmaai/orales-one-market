@@ -18,7 +18,7 @@ entrances:
     title: Voxtral 3B ASR One
     icon: https://orales-one-market.aamsellem.workers.dev/icons/vllmvoxtral3bone.png
     openMethod: window
-    authLevel: public
+    authLevel: internal
 spec:
   versionName: '1.0.0'
   fullDescription: |

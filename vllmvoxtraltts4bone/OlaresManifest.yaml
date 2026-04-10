@@ -18,7 +18,7 @@ entrances:
     title: Voxtral TTS 4B One
     icon: https://orales-one-market.aamsellem.workers.dev/icons/vllmvoxtraltts4bone.png
     openMethod: window
-    authLevel: public
+    authLevel: internal
 spec:
   versionName: '1.0.0'
   fullDescription: |
