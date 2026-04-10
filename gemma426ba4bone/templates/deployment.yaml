@@ -83,7 +83,7 @@ spec:
               name: models
       containers:
         - name: llamacpp-server
-          image: "ghcr.io/ggml-org/llama.cpp:server-cuda13-b8667"
+          image: "ghcr.io/ggml-org/llama.cpp:server-cuda13-b8720"
           command: ["/app/llama-server"]
           args:
             - "--host"
@@ -152,7 +152,7 @@ spec:
               memory: 40Gi
             requests:
               cpu: 4000m
-              memory: 24Gi
+              memory: 4Gi
           volumeMounts:
             - mountPath: "/models"
               name: models

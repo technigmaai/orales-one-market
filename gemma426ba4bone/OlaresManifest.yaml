@@ -4,11 +4,11 @@ olaresManifest.type: app
 apiVersion: 'v2'
 metadata:
   name: gemma426ba4bone
-  icon: https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png
+  icon: https://orales-one-market.aamsellem.workers.dev/icons/gemma426ba4bone.png
   description: "Gemma 4 26B-A4B (MoE + Vision) via llama.cpp — optimized for Olares One"
   appid: gemma426ba4bone
   title: Gemma 4 26B-A4B One
-  version: '1.0.3'
+  version: '1.0.7'
   categories:
     - AI
 entrances:
@@ -16,7 +16,7 @@ entrances:
     port: 8080
     host: gemma426ba4bone
     title: Gemma 4 26B One
-    icon: https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png
+    icon: https://orales-one-market.aamsellem.workers.dev/icons/gemma426ba4bone.png
     openMethod: window
     authLevel: internal
 spec:
@@ -48,8 +48,8 @@ spec:
   requiredDisk: 30Gi
   limitedDisk: 50Gi
   limitedMemory: 40Gi
-  requiredMemory: 24Gi
-  requiredGpu: 18Gi
+  requiredMemory: 4Gi
+  requiredGpu: 1Gi
   limitedGpu: 24Gi
 
   supportArch:

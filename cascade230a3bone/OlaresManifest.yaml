@@ -8,7 +8,7 @@ metadata:
   description: "Nemotron Cascade 2 30B-A3B via llama.cpp — math and code, optimized for Olares One"
   appid: cascade230a3bone
   title: Cascade 2 30B-A3B One
-  version: '1.0.4'
+  version: '1.0.5'
   categories:
     - AI
 entrances:

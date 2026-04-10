@@ -8,7 +8,7 @@ metadata:
   description: "Qwen3.5 35B-A3B Vision via llama.cpp — image + text, optimized for Olares One"
   appid: qwen35a3bvisionone
   title: Qwen3.5 Vision (Olares One)
-  version: '1.0.7'
+  version: '1.0.8'
   categories:
     - AI
 entrances:

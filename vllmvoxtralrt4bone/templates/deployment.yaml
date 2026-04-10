@@ -36,8 +36,12 @@ spec:
         - name: vllm-server
           image: "vllm/vllm-openai:v0.19.0-cu130"
           command:
-            - "vllm"
-            - "serve"
+            - "sh"
+            - "-c"
+            - |
+              pip install --quiet 'mistral-common[soundfile]' soxr librosa soundfile && \
+              exec vllm serve "$@"
+            - "--"
           args:
             - "$(MODEL_NAME)"
             - "--served-model-name"
@@ -91,7 +95,7 @@ spec:
               memory: 40Gi
             requests:
               cpu: 4000m
-              memory: 24Gi
+              memory: 4Gi
           volumeMounts:
             - mountPath: "/models"
               name: models

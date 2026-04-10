@@ -286,6 +286,17 @@ for (const [id, app] of Object.entries(apps)) {
   latest.push(app.summary.name);
 }
 
+// Sort latest: newest apps first (by version, higher = newer)
+latest.sort((a, b) => {
+  const va = apps[Object.keys(apps).find(k => apps[k].summary.name === a)]?.summary?.version || '0';
+  const vb = apps[Object.keys(apps).find(k => apps[k].summary.name === b)]?.summary?.version || '0';
+  // Apps at v1.0.0 are newest (just created), higher patch = more updates
+  const pa = va.split('.').map(Number);
+  const pb = vb.split('.').map(Number);
+  // Lower version = newer app (v1.0.0 just created vs v1.0.27 old)
+  return (pa[0]*10000+pa[1]*100+pa[2]) - (pb[0]*10000+pb[1]*100+pb[2]);
+});
+
 // Deterministic hash based on app content only (no timestamps)
 const catalogPayload = JSON.stringify({ summaries, details, latest });
 const hash = crypto.createHash('md5').update(catalogPayload).digest('hex');

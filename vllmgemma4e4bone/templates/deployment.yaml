@@ -2,20 +2,20 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: vllm-voxtral3b-env
+  name: vllm-gemma4e4b-env
   namespace: "{{ .Release.Namespace }}"
 data:
-  MODEL_NAME: "mistralai/Voxtral-Mini-3B-2507"
-  MODEL_ALIAS: "voxtral-mini-3b"
-  MAX_MODEL_LEN: "32768"
-  GPU_MEMORY_UTILIZATION: "0.90"
+  MODEL_NAME: "google/gemma-4-E4B-it"
+  MODEL_ALIAS: "gemma-4-e4b"
+  MAX_MODEL_LEN: "8192"
+  GPU_MEMORY_UTILIZATION: "0.45"
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    io.kompose.service: vllmvoxtral3bone
-  name: vllmvoxtral3bone
+    io.kompose.service: vllmgemma4e4bone
+  name: vllmgemma4e4bone
   namespace: "{{ .Release.Namespace }}"
   annotations:
     applications.app.bytetrade.io/gpu-inject: "true"
@@ -23,18 +23,18 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      io.kompose.service: vllmvoxtral3bone
+      io.kompose.service: vllmgemma4e4bone
   strategy:
     type: Recreate
   template:
     metadata:
       labels:
         io.kompose.network/chrome-default: "true"
-        io.kompose.service: vllmvoxtral3bone
+        io.kompose.service: vllmgemma4e4bone
     spec:
       containers:
         - name: vllm-server
-          image: "vllm/vllm-openai:v0.19.0-cu130"
+          image: "vllm/vllm-openai:gemma4"
           command:
             - "vllm"
             - "serve"
@@ -50,20 +50,17 @@ spec:
             - "$(MAX_MODEL_LEN)"
             - "--gpu-memory-utilization"
             - "$(GPU_MEMORY_UTILIZATION)"
-            - "--tokenizer-mode"
-            - "mistral"
-            - "--config-format"
-            - "mistral"
-            - "--load-format"
-            - "mistral"
+            - "--limit-mm-per-prompt"
+            - "image=1,audio=1"
             - "--dtype"
             - "auto"
             - "--trust-remote-code"
             - "--download-dir"
             - "/models"
+            - "--enable-prefix-caching"
           envFrom:
             - configMapRef:
-                name: vllm-voxtral3b-env
+                name: vllm-gemma4e4b-env
           env:
             - name: HF_HOME
               value: "/models/huggingface"
@@ -86,7 +83,7 @@ spec:
             initialDelaySeconds: 60
             timeoutSeconds: 10
             periodSeconds: 15
-            failureThreshold: 40
+            failureThreshold: 60
           resources:
             limits:
               cpu: "16"
@@ -108,8 +105,8 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    io.kompose.service: vllmvoxtral3bone
-  name: vllmvoxtral3bone
+    io.kompose.service: vllmgemma4e4bone
+  name: vllmgemma4e4bone
   namespace: "{{ .Release.Namespace }}"
 spec:
   ports:
@@ -117,4 +114,4 @@ spec:
       port: 8000
       targetPort: 8000
   selector:
-    io.kompose.service: vllmvoxtral3bone
+    io.kompose.service: vllmgemma4e4bone
