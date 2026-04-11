@@ -1,5 +1,5 @@
 {
-  "hash": "63f9dc16e006251adfa070f89d18d386",
+  "hash": "21f7ed0b6f43257d80d0340057132bcc",
   "summaries": {
     "33102786": {
       "id": "33102786",
@@ -12,7 +12,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T22:03:29.134Z"
+      "updated_at": "2026-04-11T07:11:25.505Z"
     },
     "f9902972": {
       "id": "f9902972",
@@ -25,7 +25,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T22:03:29.105Z"
+      "updated_at": "2026-04-11T07:11:25.500Z"
     },
     "8a7e4366": {
       "id": "8a7e4366",
@@ -38,7 +38,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T22:03:29.114Z"
+      "updated_at": "2026-04-11T07:11:25.502Z"
     },
     "cf587666": {
       "id": "cf587666",
@@ -51,7 +51,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T22:03:29.118Z"
+      "updated_at": "2026-04-11T07:11:25.502Z"
     },
     "a4f8515c": {
       "id": "a4f8515c",
@@ -64,7 +64,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T22:03:29.119Z"
+      "updated_at": "2026-04-11T07:11:25.503Z"
     },
     "65b82978": {
       "id": "65b82978",
@@ -77,7 +77,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T22:03:29.125Z"
+      "updated_at": "2026-04-11T07:11:25.504Z"
     },
     "c1ca229f": {
       "id": "c1ca229f",
@@ -90,7 +90,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T22:03:29.129Z"
+      "updated_at": "2026-04-11T07:11:25.504Z"
     },
     "491be3cd": {
       "id": "491be3cd",
@@ -103,7 +103,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T22:03:29.132Z"
+      "updated_at": "2026-04-11T07:11:25.504Z"
     },
     "4ef430dd": {
       "id": "4ef430dd",
@@ -116,7 +116,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T22:03:29.133Z"
+      "updated_at": "2026-04-11T07:11:25.505Z"
     },
     "fa4ef911": {
       "id": "fa4ef911",
@@ -129,7 +129,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T22:03:29.135Z"
+      "updated_at": "2026-04-11T07:11:25.506Z"
     },
     "2c5c39c9": {
       "id": "2c5c39c9",
@@ -142,7 +142,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T22:03:29.136Z"
+      "updated_at": "2026-04-11T07:11:25.506Z"
     },
     "ed18683c": {
       "id": "ed18683c",
@@ -155,7 +155,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T22:03:29.137Z"
+      "updated_at": "2026-04-11T07:11:25.506Z"
     },
     "49c5b493": {
       "id": "49c5b493",
@@ -168,20 +168,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T22:03:29.138Z"
-    },
-    "d52ed59a": {
-      "id": "d52ed59a",
-      "name": "unmuteolaresone",
-      "version": "1.0.5",
-      "category": "AI",
-      "description": "Unmute Voice Pipeline — French voice-to-voice (Kyutai STT + Gemma 4 + Kyutai TTS) for Olares One",
-      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
-      "screenshots": null,
-      "tags": null,
-      "metadata": null,
-      "source": 1,
-      "updated_at": "2026-04-10T22:03:29.141Z"
+      "updated_at": "2026-04-11T07:11:25.507Z"
     },
     "be32d4df": {
       "id": "be32d4df",
@@ -194,7 +181,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T22:03:29.143Z"
+      "updated_at": "2026-04-11T07:11:25.507Z"
     },
     "285e9d99": {
       "id": "285e9d99",
@@ -207,7 +194,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T22:03:29.144Z"
+      "updated_at": "2026-04-11T07:11:25.507Z"
     },
     "af406293": {
       "id": "af406293",
@@ -220,7 +207,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T22:03:29.145Z"
+      "updated_at": "2026-04-11T07:11:25.508Z"
     },
     "13db403f": {
       "id": "13db403f",
@@ -233,7 +220,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T22:03:29.148Z"
+      "updated_at": "2026-04-11T07:11:25.508Z"
     },
     "efd72908": {
       "id": "efd72908",
@@ -246,7 +233,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-10T22:03:29.151Z"
+      "updated_at": "2026-04-11T07:11:25.508Z"
     }
   },
   "details": {
@@ -346,14 +333,14 @@
           "appName": "llamacppqwen35iq4one",
           "version": "1.0.7",
           "versionName": "1.0.6",
-          "mergedAt": "2026-04-10T22:03:29.134Z",
+          "mergedAt": "2026-04-11T07:11:25.505Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T22:03:29.134Z"
+      "updated_at": "2026-04-11T07:11:25.505Z"
     },
     "f9902972": {
       "id": "f9902972",
@@ -451,14 +438,14 @@
           "appName": "cascade230a3bone",
           "version": "1.0.6",
           "versionName": "1.0.5",
-          "mergedAt": "2026-04-10T22:03:29.110Z",
+          "mergedAt": "2026-04-11T07:11:25.501Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T22:03:29.110Z"
+      "updated_at": "2026-04-11T07:11:25.501Z"
     },
     "8a7e4366": {
       "id": "8a7e4366",
@@ -556,14 +543,14 @@
           "appName": "devstralsmallone",
           "version": "1.0.6",
           "versionName": "1.0.4",
-          "mergedAt": "2026-04-10T22:03:29.115Z",
+          "mergedAt": "2026-04-11T07:11:25.502Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T22:03:29.115Z"
+      "updated_at": "2026-04-11T07:11:25.502Z"
     },
     "cf587666": {
       "id": "cf587666",
@@ -661,14 +648,14 @@
           "appName": "exl3qwen35a3bone",
           "version": "1.0.15",
           "versionName": "1.0.15",
-          "mergedAt": "2026-04-10T22:03:29.118Z",
+          "mergedAt": "2026-04-11T07:11:25.502Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T22:03:29.118Z"
+      "updated_at": "2026-04-11T07:11:25.502Z"
     },
     "a4f8515c": {
       "id": "a4f8515c",
@@ -766,14 +753,14 @@
           "appName": "gemma426ba4bone",
           "version": "1.0.8",
           "versionName": "1.0.7",
-          "mergedAt": "2026-04-10T22:03:29.120Z",
+          "mergedAt": "2026-04-11T07:11:25.503Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T22:03:29.120Z"
+      "updated_at": "2026-04-11T07:11:25.503Z"
     },
     "65b82978": {
       "id": "65b82978",
@@ -871,14 +858,14 @@
           "appName": "gemma4e2bone",
           "version": "1.0.1",
           "versionName": "1.0.0",
-          "mergedAt": "2026-04-10T22:03:29.125Z",
+          "mergedAt": "2026-04-11T07:11:25.504Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T22:03:29.125Z"
+      "updated_at": "2026-04-11T07:11:25.504Z"
     },
     "c1ca229f": {
       "id": "c1ca229f",
@@ -976,14 +963,14 @@
           "appName": "llamacppglm47flash",
           "version": "1.0.11",
           "versionName": "1.0.10",
-          "mergedAt": "2026-04-10T22:03:29.129Z",
+          "mergedAt": "2026-04-11T07:11:25.504Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T22:03:29.129Z"
+      "updated_at": "2026-04-11T07:11:25.504Z"
     },
     "491be3cd": {
       "id": "491be3cd",
@@ -1081,14 +1068,14 @@
           "appName": "llamacppnemotron30a3bone",
           "version": "1.0.10",
           "versionName": "1.0.9",
-          "mergedAt": "2026-04-10T22:03:29.132Z",
+          "mergedAt": "2026-04-11T07:11:25.504Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T22:03:29.132Z"
+      "updated_at": "2026-04-11T07:11:25.504Z"
     },
     "4ef430dd": {
       "id": "4ef430dd",
@@ -1186,14 +1173,14 @@
           "appName": "llamacppqwen35a3bone",
           "version": "1.0.29",
           "versionName": "1.0.28",
-          "mergedAt": "2026-04-10T22:03:29.133Z",
+          "mergedAt": "2026-04-11T07:11:25.505Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T22:03:29.133Z"
+      "updated_at": "2026-04-11T07:11:25.505Z"
     },
     "fa4ef911": {
       "id": "fa4ef911",
@@ -1291,14 +1278,14 @@
           "appName": "nemotron3nano4bone",
           "version": "1.0.5",
           "versionName": "1.0.3",
-          "mergedAt": "2026-04-10T22:03:29.135Z",
+          "mergedAt": "2026-04-11T07:11:25.506Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T22:03:29.135Z"
+      "updated_at": "2026-04-11T07:11:25.506Z"
     },
     "2c5c39c9": {
       "id": "2c5c39c9",
@@ -1396,14 +1383,14 @@
           "appName": "qwen35a3bvisionone",
           "version": "1.0.9",
           "versionName": "1.0.8",
-          "mergedAt": "2026-04-10T22:03:29.136Z",
+          "mergedAt": "2026-04-11T07:11:25.506Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T22:03:29.136Z"
+      "updated_at": "2026-04-11T07:11:25.506Z"
     },
     "ed18683c": {
       "id": "ed18683c",
@@ -1501,14 +1488,14 @@
           "appName": "qwen35iq4visionone",
           "version": "1.0.7",
           "versionName": "1.0.6",
-          "mergedAt": "2026-04-10T22:03:29.137Z",
+          "mergedAt": "2026-04-11T07:11:25.506Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T22:03:29.137Z"
+      "updated_at": "2026-04-11T07:11:25.506Z"
     },
     "49c5b493": {
       "id": "49c5b493",
@@ -1606,119 +1593,14 @@
           "appName": "qwen3ttstone",
           "version": "1.0.9",
           "versionName": "1.0.9",
-          "mergedAt": "2026-04-10T22:03:29.138Z",
+          "mergedAt": "2026-04-11T07:11:25.507Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T22:03:29.138Z"
-    },
-    "d52ed59a": {
-      "id": "d52ed59a",
-      "name": "unmuteolaresone",
-      "cfgType": "app",
-      "chartName": "unmuteolaresone-1.0.5.tgz",
-      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
-      "description": "Unmute Voice Pipeline — French voice-to-voice (Kyutai STT + Gemma 4 + Kyutai TTS) for Olares One",
-      "appID": "d52ed59a",
-      "title": "Unmute Voice Pipeline One",
-      "version": "1.0.5",
-      "categories": [
-        "AI"
-      ],
-      "versionName": "1.0.0",
-      "fullDescription": "Complete French voice-to-voice pipeline powered by Kyutai (French AI lab) + Google Gemma 4.\nSpeak in French, get an AI response spoken back — all running locally on Olares One.\nKyutai STT 1B (streaming speech-to-text, French native, 500ms latency).\nGemma 4 E2B (ultra-fast 2.3B LLM brain via llama.cpp, must be installed separately).\nKyutai TTS 1.6B (streaming text-to-speech, French native, 220ms latency).\nTotal VRAM ~12GB — leaves 12GB free on 24GB GPU.\nFirst launch compiles moshi-server from Rust (~10 min), subsequent starts are instant.\nWeb UI for voice conversation via browser microphone.\n",
-      "upgradeDescription": "",
-      "promoteImage": null,
-      "promoteVideo": "",
-      "subCategory": "",
-      "locale": [
-        "en-US"
-      ],
-      "developer": "aamsellem",
-      "requiredMemory": "4294967296",
-      "requiredDisk": "32212254720",
-      "supportClient": {},
-      "supportArch": [
-        "amd64"
-      ],
-      "requiredGPU": "1073741824",
-      "requiredCPU": "4",
-      "rating": 0,
-      "target": "",
-      "permission": {
-        "appData": true
-      },
-      "entrances": [
-        {
-          "name": "unmuteolaresone",
-          "host": "unmuteolaresone",
-          "port": 8000,
-          "title": "Unmute Voice One",
-          "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
-          "authLevel": "internal",
-          "invisible": false,
-          "openMethod": "window",
-          "disablePreload": false
-        }
-      ],
-      "middleware": null,
-      "options": {
-        "apiTimeout": 0,
-        "dependencies": [
-          {
-            "name": "olares",
-            "version": ">=1.12.3-0",
-            "type": "system"
-          }
-        ]
-      },
-      "submitter": "aamsellem",
-      "doc": "",
-      "website": "https://github.com/aamsellem/orales-one-market",
-      "featuredImage": "",
-      "sourceCode": "https://github.com/aamsellem/orales-one-market",
-      "license": [
-        {
-          "text": "CC-BY 4.0 (Kyutai) + Apache 2.0 (Gemma)",
-          "url": "https://creativecommons.org/licenses/by/4.0/"
-        }
-      ],
-      "legal": null,
-      "i18n": {
-        "en-US": {
-          "metadata": {
-            "title": "Unmute Voice Pipeline One",
-            "description": "Unmute Voice Pipeline — French voice-to-voice (Kyutai STT + Gemma 4 + Kyutai TTS) for Olares One"
-          },
-          "entrances": null,
-          "spec": {
-            "fullDescription": "Complete French voice-to-voice pipeline. Speak in French, get an AI response spoken back.\nKyutai STT 1B + Gemma 4 E2B + Kyutai TTS 1.6B. Total ~12GB VRAM.\nFirst launch compiles moshi-server (~10 min), subsequent starts are instant.\n",
-            "upgradeDescription": ""
-          }
-        }
-      },
-      "namespace": "",
-      "onlyAdmin": false,
-      "lastCommitHash": "",
-      "createTime": 0,
-      "updateTime": 0,
-      "count": null,
-      "versionHistory": [
-        {
-          "appName": "unmuteolaresone",
-          "version": "1.0.5",
-          "versionName": "1.0.5",
-          "mergedAt": "2026-04-10T22:03:29.141Z",
-          "upgradeDescription": ""
-        }
-      ],
-      "screenshots": null,
-      "tags": null,
-      "metadata": null,
-      "updated_at": "2026-04-10T22:03:29.141Z"
+      "updated_at": "2026-04-11T07:11:25.507Z"
     },
     "be32d4df": {
       "id": "be32d4df",
@@ -1816,14 +1698,14 @@
           "appName": "vllmgemma4e4bone",
           "version": "1.0.10",
           "versionName": "1.0.10",
-          "mergedAt": "2026-04-10T22:03:29.143Z",
+          "mergedAt": "2026-04-11T07:11:25.507Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T22:03:29.143Z"
+      "updated_at": "2026-04-11T07:11:25.507Z"
     },
     "285e9d99": {
       "id": "285e9d99",
@@ -1921,14 +1803,14 @@
           "appName": "vllmqwen3527bone",
           "version": "1.0.3",
           "versionName": "1.0.3",
-          "mergedAt": "2026-04-10T22:03:29.144Z",
+          "mergedAt": "2026-04-11T07:11:25.507Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T22:03:29.144Z"
+      "updated_at": "2026-04-11T07:11:25.507Z"
     },
     "af406293": {
       "id": "af406293",
@@ -2026,14 +1908,14 @@
           "appName": "vllmvoxtral3bone",
           "version": "1.0.8",
           "versionName": "1.0.7",
-          "mergedAt": "2026-04-10T22:03:29.145Z",
+          "mergedAt": "2026-04-11T07:11:25.508Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T22:03:29.145Z"
+      "updated_at": "2026-04-11T07:11:25.508Z"
     },
     "13db403f": {
       "id": "13db403f",
@@ -2131,14 +2013,14 @@
           "appName": "vllmvoxtralrt4bone",
           "version": "1.0.9",
           "versionName": "1.0.8",
-          "mergedAt": "2026-04-10T22:03:29.148Z",
+          "mergedAt": "2026-04-11T07:11:25.508Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T22:03:29.148Z"
+      "updated_at": "2026-04-11T07:11:25.508Z"
     },
     "efd72908": {
       "id": "efd72908",
@@ -2236,21 +2118,20 @@
           "appName": "vllmvoxtraltts4bone",
           "version": "1.0.13",
           "versionName": "1.0.12",
-          "mergedAt": "2026-04-10T22:03:29.151Z",
+          "mergedAt": "2026-04-11T07:11:25.508Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-10T22:03:29.151Z"
+      "updated_at": "2026-04-11T07:11:25.508Z"
     }
   },
   "latest": [
     "gemma4e2bone",
     "vllmqwen3527bone",
     "nemotron3nano4bone",
-    "unmuteolaresone",
     "cascade230a3bone",
     "devstralsmallone",
     "llamacppqwen35iq4one",
