@@ -10,7 +10,7 @@ Full deployment workflow for the Olares One Market Cloudflare Worker.
    - Verify Chart.yaml `version` matches OlaresManifest.yaml `metadata.version`
    - Verify CPU values use integer notation (e.g., `4`) not millicores (`4000m`)
    - Verify all required spec fields: developer, requiredCpu, requiredMemory, requiredDisk, requiredGpu, supportArch
-   - Verify `website` and `sourceCode` point to `https://github.com/aamsellem/orales-one-market` (NOT orales-market)
+   - Verify `website` and `sourceCode` point to `https://github.com/aamsellem/olares-one-market` (NOT orales-market)
    - Verify Docker image tags exist on their registries (especially ghcr.io tags — not every build gets published)
 
 2. **Package Helm charts**: For each app, run `helm package <app-dir> -d charts/`. Remove old versions from `charts/` if the version was bumped.

@@ -1,5 +1,5 @@
 {
-  "hash": "fd25bac8c69192300728db5cce715e44",
+  "hash": "7393127975c68cb57b3059fcd7b8fddc",
   "summaries": {
     "33102786": {
       "id": "33102786",
@@ -12,7 +12,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-11T07:29:20.442Z"
+      "updated_at": "2026-04-11T11:51:32.924Z"
     },
     "f9902972": {
       "id": "f9902972",
@@ -25,7 +25,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-11T07:29:20.417Z"
+      "updated_at": "2026-04-11T11:51:32.899Z"
     },
     "8a7e4366": {
       "id": "8a7e4366",
@@ -38,7 +38,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-11T07:29:20.424Z"
+      "updated_at": "2026-04-11T11:51:32.907Z"
     },
     "cf587666": {
       "id": "cf587666",
@@ -51,7 +51,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-11T07:29:20.431Z"
+      "updated_at": "2026-04-11T11:51:32.907Z"
     },
     "a4f8515c": {
       "id": "a4f8515c",
@@ -64,7 +64,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-11T07:29:20.433Z"
+      "updated_at": "2026-04-11T11:51:32.908Z"
     },
     "65b82978": {
       "id": "65b82978",
@@ -77,7 +77,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-11T07:29:20.435Z"
+      "updated_at": "2026-04-11T11:51:32.913Z"
     },
     "c1ca229f": {
       "id": "c1ca229f",
@@ -90,7 +90,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-11T07:29:20.438Z"
+      "updated_at": "2026-04-11T11:51:32.915Z"
     },
     "491be3cd": {
       "id": "491be3cd",
@@ -103,7 +103,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-11T07:29:20.438Z"
+      "updated_at": "2026-04-11T11:51:32.916Z"
     },
     "4ef430dd": {
       "id": "4ef430dd",
@@ -116,7 +116,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-11T07:29:20.440Z"
+      "updated_at": "2026-04-11T11:51:32.921Z"
     },
     "fa4ef911": {
       "id": "fa4ef911",
@@ -129,20 +129,20 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-11T07:29:20.444Z"
+      "updated_at": "2026-04-11T11:51:32.924Z"
     },
     "e74eca98": {
       "id": "e74eca98",
       "name": "omnivoiceone",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "category": "AI",
       "description": "OmniVoice TTS (646 languages, voice cloning, 0.6B) — optimized for Olares One",
-      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/omnivoiceone.png",
       "screenshots": null,
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-11T07:29:20.446Z"
+      "updated_at": "2026-04-11T11:51:32.929Z"
     },
     "2c5c39c9": {
       "id": "2c5c39c9",
@@ -155,7 +155,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-11T07:29:20.447Z"
+      "updated_at": "2026-04-11T11:51:32.930Z"
     },
     "ed18683c": {
       "id": "ed18683c",
@@ -168,7 +168,20 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-11T07:29:20.449Z"
+      "updated_at": "2026-04-11T11:51:32.932Z"
+    },
+    "da30d532": {
+      "id": "da30d532",
+      "name": "qwen3coder30a3bone",
+      "version": "1.0.0",
+      "category": "AI",
+      "description": "Qwen3 Coder 30B-A3B via llama.cpp — coding agent optimized for Olares One",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/qwen3coder30a3bone.png",
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "source": 1,
+      "updated_at": "2026-04-11T11:51:32.932Z"
     },
     "49c5b493": {
       "id": "49c5b493",
@@ -181,12 +194,12 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-11T07:29:20.450Z"
+      "updated_at": "2026-04-11T11:51:32.936Z"
     },
     "be32d4df": {
       "id": "be32d4df",
       "name": "vllmgemma4e4bone",
-      "version": "1.0.10",
+      "version": "1.0.11",
       "category": "AI",
       "description": "Gemma 4 E4B (Vision + Audio) via vLLM — optimized for Olares One",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/vllmgemma4e4bone.png",
@@ -194,7 +207,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-11T07:29:20.456Z"
+      "updated_at": "2026-04-11T11:51:32.939Z"
     },
     "285e9d99": {
       "id": "285e9d99",
@@ -207,7 +220,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-11T07:29:20.456Z"
+      "updated_at": "2026-04-11T11:51:32.940Z"
     },
     "af406293": {
       "id": "af406293",
@@ -220,7 +233,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-11T07:29:20.457Z"
+      "updated_at": "2026-04-11T11:51:32.942Z"
     },
     "13db403f": {
       "id": "13db403f",
@@ -233,7 +246,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-11T07:29:20.458Z"
+      "updated_at": "2026-04-11T11:51:32.943Z"
     },
     "efd72908": {
       "id": "efd72908",
@@ -246,7 +259,7 @@
       "tags": null,
       "metadata": null,
       "source": 1,
-      "updated_at": "2026-04-11T07:29:20.458Z"
+      "updated_at": "2026-04-11T11:51:32.944Z"
     }
   },
   "details": {
@@ -312,9 +325,9 @@
       },
       "submitter": "aamsellem",
       "doc": "",
-      "website": "https://github.com/aamsellem/orales-one-market",
+      "website": "https://github.com/aamsellem/olares-one-market",
       "featuredImage": "",
-      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "sourceCode": "https://github.com/aamsellem/olares-one-market",
       "license": [
         {
           "text": "MIT",
@@ -346,14 +359,14 @@
           "appName": "llamacppqwen35iq4one",
           "version": "1.0.7",
           "versionName": "1.0.6",
-          "mergedAt": "2026-04-11T07:29:20.442Z",
+          "mergedAt": "2026-04-11T11:51:32.924Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-11T07:29:20.442Z"
+      "updated_at": "2026-04-11T11:51:32.924Z"
     },
     "f9902972": {
       "id": "f9902972",
@@ -417,9 +430,9 @@
       },
       "submitter": "aamsellem",
       "doc": "",
-      "website": "https://github.com/aamsellem/orales-one-market",
+      "website": "https://github.com/aamsellem/olares-one-market",
       "featuredImage": "",
-      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "sourceCode": "https://github.com/aamsellem/olares-one-market",
       "license": [
         {
           "text": "NVIDIA Open Model License",
@@ -451,14 +464,14 @@
           "appName": "cascade230a3bone",
           "version": "1.0.6",
           "versionName": "1.0.5",
-          "mergedAt": "2026-04-11T07:29:20.420Z",
+          "mergedAt": "2026-04-11T11:51:32.904Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-11T07:29:20.420Z"
+      "updated_at": "2026-04-11T11:51:32.904Z"
     },
     "8a7e4366": {
       "id": "8a7e4366",
@@ -522,9 +535,9 @@
       },
       "submitter": "aamsellem",
       "doc": "",
-      "website": "https://github.com/aamsellem/orales-one-market",
+      "website": "https://github.com/aamsellem/olares-one-market",
       "featuredImage": "",
-      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "sourceCode": "https://github.com/aamsellem/olares-one-market",
       "license": [
         {
           "text": "Apache-2.0",
@@ -556,14 +569,14 @@
           "appName": "devstralsmallone",
           "version": "1.0.6",
           "versionName": "1.0.4",
-          "mergedAt": "2026-04-11T07:29:20.428Z",
+          "mergedAt": "2026-04-11T11:51:32.907Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-11T07:29:20.428Z"
+      "updated_at": "2026-04-11T11:51:32.907Z"
     },
     "cf587666": {
       "id": "cf587666",
@@ -627,9 +640,9 @@
       },
       "submitter": "aamsellem",
       "doc": "",
-      "website": "https://github.com/aamsellem/orales-one-market",
+      "website": "https://github.com/aamsellem/olares-one-market",
       "featuredImage": "",
-      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "sourceCode": "https://github.com/aamsellem/olares-one-market",
       "license": [
         {
           "text": "MIT",
@@ -661,14 +674,14 @@
           "appName": "exl3qwen35a3bone",
           "version": "1.0.15",
           "versionName": "1.0.15",
-          "mergedAt": "2026-04-11T07:29:20.431Z",
+          "mergedAt": "2026-04-11T11:51:32.908Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-11T07:29:20.431Z"
+      "updated_at": "2026-04-11T11:51:32.908Z"
     },
     "a4f8515c": {
       "id": "a4f8515c",
@@ -732,9 +745,9 @@
       },
       "submitter": "aamsellem",
       "doc": "",
-      "website": "https://github.com/aamsellem/orales-one-market",
+      "website": "https://github.com/aamsellem/olares-one-market",
       "featuredImage": "",
-      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "sourceCode": "https://github.com/aamsellem/olares-one-market",
       "license": [
         {
           "text": "Apache 2.0",
@@ -766,14 +779,14 @@
           "appName": "gemma426ba4bone",
           "version": "1.0.8",
           "versionName": "1.0.7",
-          "mergedAt": "2026-04-11T07:29:20.433Z",
+          "mergedAt": "2026-04-11T11:51:32.908Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-11T07:29:20.433Z"
+      "updated_at": "2026-04-11T11:51:32.908Z"
     },
     "65b82978": {
       "id": "65b82978",
@@ -837,9 +850,9 @@
       },
       "submitter": "aamsellem",
       "doc": "",
-      "website": "https://github.com/aamsellem/orales-one-market",
+      "website": "https://github.com/aamsellem/olares-one-market",
       "featuredImage": "",
-      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "sourceCode": "https://github.com/aamsellem/olares-one-market",
       "license": [
         {
           "text": "Apache 2.0",
@@ -871,14 +884,14 @@
           "appName": "gemma4e2bone",
           "version": "1.0.1",
           "versionName": "1.0.0",
-          "mergedAt": "2026-04-11T07:29:20.435Z",
+          "mergedAt": "2026-04-11T11:51:32.913Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-11T07:29:20.435Z"
+      "updated_at": "2026-04-11T11:51:32.913Z"
     },
     "c1ca229f": {
       "id": "c1ca229f",
@@ -942,9 +955,9 @@
       },
       "submitter": "aamsellem",
       "doc": "",
-      "website": "https://github.com/aamsellem/orales-one-market",
+      "website": "https://github.com/aamsellem/olares-one-market",
       "featuredImage": "",
-      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "sourceCode": "https://github.com/aamsellem/olares-one-market",
       "license": [
         {
           "text": "MIT",
@@ -976,14 +989,14 @@
           "appName": "llamacppglm47flash",
           "version": "1.0.11",
           "versionName": "1.0.10",
-          "mergedAt": "2026-04-11T07:29:20.438Z",
+          "mergedAt": "2026-04-11T11:51:32.915Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-11T07:29:20.438Z"
+      "updated_at": "2026-04-11T11:51:32.915Z"
     },
     "491be3cd": {
       "id": "491be3cd",
@@ -1047,9 +1060,9 @@
       },
       "submitter": "aamsellem",
       "doc": "",
-      "website": "https://github.com/aamsellem/orales-one-market",
+      "website": "https://github.com/aamsellem/olares-one-market",
       "featuredImage": "",
-      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "sourceCode": "https://github.com/aamsellem/olares-one-market",
       "license": [
         {
           "text": "NVIDIA Nemotron Open Model License",
@@ -1081,14 +1094,14 @@
           "appName": "llamacppnemotron30a3bone",
           "version": "1.0.10",
           "versionName": "1.0.9",
-          "mergedAt": "2026-04-11T07:29:20.438Z",
+          "mergedAt": "2026-04-11T11:51:32.919Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-11T07:29:20.438Z"
+      "updated_at": "2026-04-11T11:51:32.919Z"
     },
     "4ef430dd": {
       "id": "4ef430dd",
@@ -1152,9 +1165,9 @@
       },
       "submitter": "aamsellem",
       "doc": "",
-      "website": "https://github.com/aamsellem/orales-one-market",
+      "website": "https://github.com/aamsellem/olares-one-market",
       "featuredImage": "",
-      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "sourceCode": "https://github.com/aamsellem/olares-one-market",
       "license": [
         {
           "text": "MIT",
@@ -1186,14 +1199,14 @@
           "appName": "llamacppqwen35a3bone",
           "version": "1.0.29",
           "versionName": "1.0.28",
-          "mergedAt": "2026-04-11T07:29:20.440Z",
+          "mergedAt": "2026-04-11T11:51:32.921Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-11T07:29:20.440Z"
+      "updated_at": "2026-04-11T11:51:32.921Z"
     },
     "fa4ef911": {
       "id": "fa4ef911",
@@ -1257,9 +1270,9 @@
       },
       "submitter": "aamsellem",
       "doc": "",
-      "website": "https://github.com/aamsellem/orales-one-market",
+      "website": "https://github.com/aamsellem/olares-one-market",
       "featuredImage": "",
-      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "sourceCode": "https://github.com/aamsellem/olares-one-market",
       "license": [
         {
           "text": "NVIDIA Open Model License",
@@ -1291,25 +1304,25 @@
           "appName": "nemotron3nano4bone",
           "version": "1.0.5",
           "versionName": "1.0.3",
-          "mergedAt": "2026-04-11T07:29:20.444Z",
+          "mergedAt": "2026-04-11T11:51:32.924Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-11T07:29:20.444Z"
+      "updated_at": "2026-04-11T11:51:32.924Z"
     },
     "e74eca98": {
       "id": "e74eca98",
       "name": "omnivoiceone",
       "cfgType": "app",
-      "chartName": "omnivoiceone-1.0.0.tgz",
-      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+      "chartName": "omnivoiceone-1.0.2.tgz",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/omnivoiceone.png",
       "description": "OmniVoice TTS (646 languages, voice cloning, 0.6B) — optimized for Olares One",
       "appID": "e74eca98",
       "title": "OmniVoice TTS One",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "categories": [
         "AI"
       ],
@@ -1342,7 +1355,7 @@
           "host": "omnivoiceone",
           "port": 8000,
           "title": "OmniVoice TTS One",
-          "icon": "https://orales-one-market.aamsellem.workers.dev/icons/llamacppnemotron30a3bone.png",
+          "icon": "https://orales-one-market.aamsellem.workers.dev/icons/omnivoiceone.png",
           "authLevel": "internal",
           "invisible": false,
           "openMethod": "window",
@@ -1362,9 +1375,9 @@
       },
       "submitter": "aamsellem",
       "doc": "",
-      "website": "https://github.com/aamsellem/orales-one-market",
+      "website": "https://github.com/aamsellem/olares-one-market",
       "featuredImage": "",
-      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "sourceCode": "https://github.com/aamsellem/olares-one-market",
       "license": [
         {
           "text": "Apache 2.0",
@@ -1394,16 +1407,16 @@
       "versionHistory": [
         {
           "appName": "omnivoiceone",
-          "version": "1.0.0",
-          "versionName": "1.0.0",
-          "mergedAt": "2026-04-11T07:29:20.446Z",
+          "version": "1.0.2",
+          "versionName": "1.0.2",
+          "mergedAt": "2026-04-11T11:51:32.929Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-11T07:29:20.446Z"
+      "updated_at": "2026-04-11T11:51:32.929Z"
     },
     "2c5c39c9": {
       "id": "2c5c39c9",
@@ -1467,9 +1480,9 @@
       },
       "submitter": "aamsellem",
       "doc": "",
-      "website": "https://github.com/aamsellem/orales-one-market",
+      "website": "https://github.com/aamsellem/olares-one-market",
       "featuredImage": "",
-      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "sourceCode": "https://github.com/aamsellem/olares-one-market",
       "license": [
         {
           "text": "MIT",
@@ -1501,14 +1514,14 @@
           "appName": "qwen35a3bvisionone",
           "version": "1.0.9",
           "versionName": "1.0.8",
-          "mergedAt": "2026-04-11T07:29:20.447Z",
+          "mergedAt": "2026-04-11T11:51:32.930Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-11T07:29:20.447Z"
+      "updated_at": "2026-04-11T11:51:32.930Z"
     },
     "ed18683c": {
       "id": "ed18683c",
@@ -1572,9 +1585,9 @@
       },
       "submitter": "aamsellem",
       "doc": "",
-      "website": "https://github.com/aamsellem/orales-one-market",
+      "website": "https://github.com/aamsellem/olares-one-market",
       "featuredImage": "",
-      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "sourceCode": "https://github.com/aamsellem/olares-one-market",
       "license": [
         {
           "text": "MIT",
@@ -1606,14 +1619,119 @@
           "appName": "qwen35iq4visionone",
           "version": "1.0.7",
           "versionName": "1.0.6",
-          "mergedAt": "2026-04-11T07:29:20.449Z",
+          "mergedAt": "2026-04-11T11:51:32.932Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-11T07:29:20.449Z"
+      "updated_at": "2026-04-11T11:51:32.932Z"
+    },
+    "da30d532": {
+      "id": "da30d532",
+      "name": "qwen3coder30a3bone",
+      "cfgType": "app",
+      "chartName": "qwen3coder30a3bone-1.0.0.tgz",
+      "icon": "https://orales-one-market.aamsellem.workers.dev/icons/qwen3coder30a3bone.png",
+      "description": "Qwen3 Coder 30B-A3B via llama.cpp — coding agent optimized for Olares One",
+      "appID": "da30d532",
+      "title": "Qwen3 Coder 30B-A3B One",
+      "version": "1.0.0",
+      "categories": [
+        "AI"
+      ],
+      "versionName": "1.0.0",
+      "fullDescription": "Qwen3 Coder 30B-A3B-Instruct (MoE, 3.3B active) served via llama.cpp — coding agent optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nUnsloth Dynamic Q4_K_XL quantization (16.45GB, important layers upcasted to 8/16-bit).\nKV cache q8_0 — 7GB free VRAM allows high-quality cache with 64K context.\n50.3% SWE-bench Verified. Full tool calling support. 256K native context.\nllama.cpp b8740 with CUDA fused multiply for MoE.\nDownloads the GGUF model on first launch (~16.5GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
+      "upgradeDescription": "",
+      "promoteImage": null,
+      "promoteVideo": "",
+      "subCategory": "",
+      "locale": [
+        "en-US"
+      ],
+      "developer": "aamsellem",
+      "requiredMemory": "25769803776",
+      "requiredDisk": "32212254720",
+      "supportClient": {},
+      "supportArch": [
+        "amd64"
+      ],
+      "requiredGPU": "1073741824",
+      "requiredCPU": "4",
+      "rating": 0,
+      "target": "",
+      "permission": {
+        "appData": true
+      },
+      "entrances": [
+        {
+          "name": "qwen3coder30a3bone",
+          "host": "qwen3coder30a3bone",
+          "port": 8080,
+          "title": "Qwen3 Coder 30B One",
+          "icon": "https://orales-one-market.aamsellem.workers.dev/icons/qwen3coder30a3bone.png",
+          "authLevel": "internal",
+          "invisible": false,
+          "openMethod": "window",
+          "disablePreload": false
+        }
+      ],
+      "middleware": null,
+      "options": {
+        "apiTimeout": 0,
+        "dependencies": [
+          {
+            "name": "olares",
+            "version": ">=1.12.3-0",
+            "type": "system"
+          }
+        ]
+      },
+      "submitter": "aamsellem",
+      "doc": "",
+      "website": "https://github.com/aamsellem/olares-one-market",
+      "featuredImage": "",
+      "sourceCode": "https://github.com/aamsellem/olares-one-market",
+      "license": [
+        {
+          "text": "Apache-2.0",
+          "url": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct/blob/main/LICENSE"
+        }
+      ],
+      "legal": null,
+      "i18n": {
+        "en-US": {
+          "metadata": {
+            "title": "Qwen3 Coder 30B-A3B One",
+            "description": "Qwen3 Coder 30B-A3B via llama.cpp — coding agent optimized for Olares One"
+          },
+          "entrances": null,
+          "spec": {
+            "fullDescription": "Qwen3 Coder 30B-A3B-Instruct (MoE, 3.3B active) served via llama.cpp — coding agent optimized for Olares One.\nRTX 5090M (24GB) + 96GB DDR5 + Core Ultra 9 275HX.\nUnsloth Dynamic Q4_K_XL quantization (16.45GB, important layers upcasted to 8/16-bit).\nKV cache q8_0 — 7GB free VRAM allows high-quality cache with 64K context.\n50.3% SWE-bench Verified. Full tool calling support. 256K native context.\nllama.cpp b8740 with CUDA fused multiply for MoE.\nDownloads the GGUF model on first launch (~16.5GB) and caches it.\nExposes an OpenAI-compatible API on port 8080.\n",
+            "upgradeDescription": ""
+          }
+        }
+      },
+      "namespace": "",
+      "onlyAdmin": false,
+      "lastCommitHash": "",
+      "createTime": 0,
+      "updateTime": 0,
+      "count": null,
+      "versionHistory": [
+        {
+          "appName": "qwen3coder30a3bone",
+          "version": "1.0.0",
+          "versionName": "1.0.0",
+          "mergedAt": "2026-04-11T11:51:32.932Z",
+          "upgradeDescription": ""
+        }
+      ],
+      "screenshots": null,
+      "tags": null,
+      "metadata": null,
+      "updated_at": "2026-04-11T11:51:32.932Z"
     },
     "49c5b493": {
       "id": "49c5b493",
@@ -1711,25 +1829,25 @@
           "appName": "qwen3ttstone",
           "version": "1.0.9",
           "versionName": "1.0.9",
-          "mergedAt": "2026-04-11T07:29:20.450Z",
+          "mergedAt": "2026-04-11T11:51:32.939Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-11T07:29:20.450Z"
+      "updated_at": "2026-04-11T11:51:32.939Z"
     },
     "be32d4df": {
       "id": "be32d4df",
       "name": "vllmgemma4e4bone",
       "cfgType": "app",
-      "chartName": "vllmgemma4e4bone-1.0.10.tgz",
+      "chartName": "vllmgemma4e4bone-1.0.11.tgz",
       "icon": "https://orales-one-market.aamsellem.workers.dev/icons/vllmgemma4e4bone.png",
       "description": "Gemma 4 E4B (Vision + Audio) via vLLM — optimized for Olares One",
       "appID": "be32d4df",
       "title": "Gemma 4 E4B Voice One",
-      "version": "1.0.10",
+      "version": "1.0.11",
       "categories": [
         "AI"
       ],
@@ -1782,9 +1900,9 @@
       },
       "submitter": "aamsellem",
       "doc": "",
-      "website": "https://github.com/aamsellem/orales-one-market",
+      "website": "https://github.com/aamsellem/olares-one-market",
       "featuredImage": "",
-      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "sourceCode": "https://github.com/aamsellem/olares-one-market",
       "license": [
         {
           "text": "Apache 2.0",
@@ -1814,16 +1932,16 @@
       "versionHistory": [
         {
           "appName": "vllmgemma4e4bone",
-          "version": "1.0.10",
-          "versionName": "1.0.10",
-          "mergedAt": "2026-04-11T07:29:20.456Z",
+          "version": "1.0.11",
+          "versionName": "1.0.11",
+          "mergedAt": "2026-04-11T11:51:32.939Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-11T07:29:20.456Z"
+      "updated_at": "2026-04-11T11:51:32.939Z"
     },
     "285e9d99": {
       "id": "285e9d99",
@@ -1887,9 +2005,9 @@
       },
       "submitter": "aamsellem",
       "doc": "",
-      "website": "https://github.com/aamsellem/orales-one-market",
+      "website": "https://github.com/aamsellem/olares-one-market",
       "featuredImage": "",
-      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "sourceCode": "https://github.com/aamsellem/olares-one-market",
       "license": [
         {
           "text": "Apache-2.0",
@@ -1921,14 +2039,14 @@
           "appName": "vllmqwen3527bone",
           "version": "1.0.3",
           "versionName": "1.0.3",
-          "mergedAt": "2026-04-11T07:29:20.456Z",
+          "mergedAt": "2026-04-11T11:51:32.940Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-11T07:29:20.456Z"
+      "updated_at": "2026-04-11T11:51:32.940Z"
     },
     "af406293": {
       "id": "af406293",
@@ -1992,9 +2110,9 @@
       },
       "submitter": "aamsellem",
       "doc": "",
-      "website": "https://github.com/aamsellem/orales-one-market",
+      "website": "https://github.com/aamsellem/olares-one-market",
       "featuredImage": "",
-      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "sourceCode": "https://github.com/aamsellem/olares-one-market",
       "license": [
         {
           "text": "Apache 2.0",
@@ -2026,14 +2144,14 @@
           "appName": "vllmvoxtral3bone",
           "version": "1.0.8",
           "versionName": "1.0.7",
-          "mergedAt": "2026-04-11T07:29:20.457Z",
+          "mergedAt": "2026-04-11T11:51:32.942Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-11T07:29:20.457Z"
+      "updated_at": "2026-04-11T11:51:32.942Z"
     },
     "13db403f": {
       "id": "13db403f",
@@ -2097,9 +2215,9 @@
       },
       "submitter": "aamsellem",
       "doc": "",
-      "website": "https://github.com/aamsellem/orales-one-market",
+      "website": "https://github.com/aamsellem/olares-one-market",
       "featuredImage": "",
-      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "sourceCode": "https://github.com/aamsellem/olares-one-market",
       "license": [
         {
           "text": "Apache 2.0",
@@ -2131,14 +2249,14 @@
           "appName": "vllmvoxtralrt4bone",
           "version": "1.0.9",
           "versionName": "1.0.8",
-          "mergedAt": "2026-04-11T07:29:20.458Z",
+          "mergedAt": "2026-04-11T11:51:32.943Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-11T07:29:20.458Z"
+      "updated_at": "2026-04-11T11:51:32.943Z"
     },
     "efd72908": {
       "id": "efd72908",
@@ -2202,9 +2320,9 @@
       },
       "submitter": "aamsellem",
       "doc": "",
-      "website": "https://github.com/aamsellem/orales-one-market",
+      "website": "https://github.com/aamsellem/olares-one-market",
       "featuredImage": "",
-      "sourceCode": "https://github.com/aamsellem/orales-one-market",
+      "sourceCode": "https://github.com/aamsellem/olares-one-market",
       "license": [
         {
           "text": "CC BY-NC 4.0",
@@ -2236,19 +2354,20 @@
           "appName": "vllmvoxtraltts4bone",
           "version": "1.0.13",
           "versionName": "1.0.12",
-          "mergedAt": "2026-04-11T07:29:20.458Z",
+          "mergedAt": "2026-04-11T11:51:32.944Z",
           "upgradeDescription": ""
         }
       ],
       "screenshots": null,
       "tags": null,
       "metadata": null,
-      "updated_at": "2026-04-11T07:29:20.458Z"
+      "updated_at": "2026-04-11T11:51:32.944Z"
     }
   },
   "latest": [
-    "omnivoiceone",
+    "qwen3coder30a3bone",
     "gemma4e2bone",
+    "omnivoiceone",
     "vllmqwen3527bone",
     "nemotron3nano4bone",
     "cascade230a3bone",
@@ -2261,8 +2380,8 @@
     "qwen3ttstone",
     "vllmvoxtralrt4bone",
     "llamacppnemotron30a3bone",
-    "vllmgemma4e4bone",
     "llamacppglm47flash",
+    "vllmgemma4e4bone",
     "vllmvoxtraltts4bone",
     "exl3qwen35a3bone",
     "llamacppqwen35a3bone"

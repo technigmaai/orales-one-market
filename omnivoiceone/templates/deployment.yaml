@@ -30,6 +30,7 @@ spec:
             - |
               pip install --quiet omnivoice fastapi uvicorn python-multipart soundfile numpy
 
+              mkdir -p /app
               cat > /app/server.py << 'PYEOF'
               import io
               import os

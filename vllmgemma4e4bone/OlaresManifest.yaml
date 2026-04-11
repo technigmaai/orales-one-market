@@ -8,7 +8,7 @@ metadata:
   description: "Gemma 4 E4B (Vision + Audio) via vLLM — optimized for Olares One"
   appid: vllmgemma4e4bone
   title: Gemma 4 E4B Voice One
-  version: '1.0.10'
+  version: '1.0.11'
   categories:
     - AI
 entrances:
@@ -34,8 +34,8 @@ spec:
     Exposes an OpenAI-compatible API on port 8000.
 
   developer: aamsellem
-  website: https://github.com/aamsellem/orales-one-market
-  sourceCode: https://github.com/aamsellem/orales-one-market
+  website: https://github.com/aamsellem/olares-one-market
+  sourceCode: https://github.com/aamsellem/olares-one-market
   submitter: aamsellem
   locale:
     - en-US

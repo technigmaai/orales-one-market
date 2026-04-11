@@ -51,7 +51,7 @@ No Helm template conditionals needed — single deployment, single service.
    - Icon URL: `https://orales-one-market.aamsellem.workers.dev/icons/<app-name>.png`
    - Categories: `AI`
    - Developer: `aamsellem`
-   - Website/sourceCode: `https://github.com/aamsellem/orales-one-market`
+   - Website/sourceCode: `https://github.com/aamsellem/olares-one-market`
    - License URL: use `ggml-org` (NOT `ggerganov`) for llama.cpp
 
 5. **templates/deployment.yaml**: Contains:

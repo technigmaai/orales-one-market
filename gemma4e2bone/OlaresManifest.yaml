@@ -32,8 +32,8 @@ spec:
     Exposes an OpenAI-compatible API on port 8080.
 
   developer: aamsellem
-  website: https://github.com/aamsellem/orales-one-market
-  sourceCode: https://github.com/aamsellem/orales-one-market
+  website: https://github.com/aamsellem/olares-one-market
+  sourceCode: https://github.com/aamsellem/olares-one-market
   submitter: aamsellem
   locale:
     - en-US
